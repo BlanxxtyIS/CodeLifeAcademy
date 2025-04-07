@@ -1,0 +1,12 @@
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\bin\Debug\net9.0\CodeLifeAcademy.Application.deps.json
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\bin\Debug\net9.0\CodeLifeAcademy.Application.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\bin\Debug\net9.0\CodeLifeAcademy.Application.pdb
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.AssemblyInfoInputs.cache
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.AssemblyInfo.cs
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.csproj.CoreCompileInputs.cache
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.sourcelink.json
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\refint\CodeLifeAcademy.Application.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.pdb
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\ref\CodeLifeAcademy.Application.dll
