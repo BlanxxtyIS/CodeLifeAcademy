@@ -13,9 +13,10 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(x => x.Email).IsRequired();
         builder.Property(x => x.Username).IsRequired();
 
-        builder.HasMany(x => x.RefreshTokens)
+        builder.HasOne(x => x.RefreshToken)
                .WithOne(x => x.User)
-               .HasForeignKey(x => x.UserId);
+               .HasForeignKey<RefreshToken>(x => x.UserId)
+               .IsRequired();
 
         builder.HasMany(x => x.UserRoles)
                .WithOne(x => x.User)

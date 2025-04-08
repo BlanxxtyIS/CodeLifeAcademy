@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CodeLifeAcademy.Client",
   "resources": {
-    "hash": "sha256-JyHnqicPeuRZrD8z3W9K89iZyQgrcNpQweOo7oH4JsY=",
+    "hash": "sha256-EpvPE14wlGDb4d51ZftXk1R/tPVWSl8akSYeWIj8JeA=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "CodeLifeAcademy.Client.tnctrdm32q.wasm": "CodeLifeAcademy.Client.wasm",
-      "CodeLifeAcademy.Client.w13y2famge.pdb": "CodeLifeAcademy.Client.pdb"
+      "CodeLifeAcademy.Client.57mmwnl945.wasm": "CodeLifeAcademy.Client.wasm",
+      "CodeLifeAcademy.Client.vv5njrf93d.pdb": "CodeLifeAcademy.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -412,10 +412,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "CodeLifeAcademy.Client.tnctrdm32q.wasm": "sha256-WVQTfclXEogFQ9+sxjlPYYhxdCbCSbPTI6lYYTrkV38="
+      "CodeLifeAcademy.Client.57mmwnl945.wasm": "sha256-4YX9NXbCtE1HNzfOfhzzJ1/EhMk7EqNObOFFOL895eQ="
     },
     "pdb": {
-      "CodeLifeAcademy.Client.w13y2famge.pdb": "sha256-DL68O6nl4yyr5uJuBHF7BJ8Hvd26EvuiwV6cAtWYHe0="
+      "CodeLifeAcademy.Client.vv5njrf93d.pdb": "sha256-dROgBrZWmXuEJWTK/dxlHnCeNVZ9qlttXNp7SvigHF4="
     }
   },
   "cacheBootResources": true,

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodeLifeAcademy.Core\CodeLifeAcademy.Core.csproj" />
+  </ItemGroup>
+
 </Project>

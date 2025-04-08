@@ -12,10 +12,14 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.3" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.8.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.8.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CodeLifeAcademy.Application\CodeLifeAcademy.Application.csproj" />
     <ProjectReference Include="..\CodeLifeAcademy.Core\CodeLifeAcademy.Core.csproj" />
   </ItemGroup>
 

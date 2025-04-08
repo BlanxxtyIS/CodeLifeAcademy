@@ -49,7 +49,8 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                     b.HasIndex("Token")
                         .IsUnique();
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("RefreshTokens");
                 });
@@ -119,8 +120,8 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.RefreshToken", b =>
                 {
                     b.HasOne("CodeLifeAcademy.Core.Entities.User", "User")
-                        .WithMany("RefreshTokens")
-                        .HasForeignKey("UserId")
+                        .WithOne("RefreshToken")
+                        .HasForeignKey("CodeLifeAcademy.Core.Entities.RefreshToken", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -153,7 +154,7 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.User", b =>
                 {
-                    b.Navigation("RefreshTokens");
+                    b.Navigation("RefreshToken");
 
                     b.Navigation("UserRoles");
                 });

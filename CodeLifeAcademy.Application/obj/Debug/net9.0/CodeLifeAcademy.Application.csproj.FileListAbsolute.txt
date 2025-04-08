@@ -10,3 +10,7 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\refint\CodeLifeAcademy.Application.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.pdb
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\ref\CodeLifeAcademy.Application.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\bin\Debug\net9.0\CodeLifeAcademy.Core.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\bin\Debug\net9.0\CodeLifeAcademy.Core.pdb
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLifeAcademy.Application.csproj.AssemblyReference.cache
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Application\obj\Debug\net9.0\CodeLife.F8EC8B84.Up2Date

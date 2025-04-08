@@ -134,3 +134,15 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\tr\Mi
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\obj\Debug\net9.0\CodeLifeAcademy.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Scalar.AspNetCore.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\CodeLifeAcademy.Application.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\CodeLifeAcademy.Application.pdb
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

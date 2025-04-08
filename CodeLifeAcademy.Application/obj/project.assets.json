@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "CodeLifeAcademy.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CodeLifeAcademy.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeLifeAcademy.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CodeLifeAcademy.Core/1.0.0": {
+      "type": "project",
+      "path": "../CodeLifeAcademy.Core/CodeLifeAcademy.Core.csproj",
+      "msbuildProject": "../CodeLifeAcademy.Core/CodeLifeAcademy.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "CodeLifeAcademy.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Zver\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj": {
+              "projectPath": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

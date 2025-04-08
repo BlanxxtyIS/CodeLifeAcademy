@@ -9,7 +9,7 @@ public class User
     public string PasswordHash { get; set; } = default!;
 
     public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
-    public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
+    public RefreshToken? RefreshToken { get; set; }
 
-    public DateTime CreatedAt { get; set; } = DateTime.Now;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }

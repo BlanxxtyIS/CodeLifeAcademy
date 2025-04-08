@@ -16,3 +16,5 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Infrastructure\obj\Debug\n
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Infrastructure\obj\Debug\net9.0\CodeLifeAcademy.Infrastructure.pdb
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Infrastructure\obj\Debug\net9.0\CodeLifeAcademy.Infrastructure.genruntimeconfig.cache
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Infrastructure\obj\Debug\net9.0\ref\CodeLifeAcademy.Infrastructure.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Infrastructure\bin\Debug\net9.0\CodeLifeAcademy.Application.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Infrastructure\bin\Debug\net9.0\CodeLifeAcademy.Application.pdb
