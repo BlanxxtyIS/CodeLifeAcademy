@@ -22,6 +22,49 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Course", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Course");
+                });
+
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Lession", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("TopicId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TopicId");
+
+                    b.ToTable("Lession");
+                });
+
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.RefreshToken", b =>
                 {
                     b.Property<Guid>("Id")
@@ -90,6 +133,30 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                         });
                 });
 
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Topic", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CourseId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("Topic");
+                });
+
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -134,6 +201,17 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Lession", b =>
+                {
+                    b.HasOne("CodeLifeAcademy.Core.Entities.Topic", "Topic")
+                        .WithMany("Lessions")
+                        .HasForeignKey("TopicId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Topic");
+                });
+
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.RefreshToken", b =>
                 {
                     b.HasOne("CodeLifeAcademy.Core.Entities.User", "User")
@@ -143,6 +221,17 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Topic", b =>
+                {
+                    b.HasOne("CodeLifeAcademy.Core.Entities.Course", "Course")
+                        .WithMany("Topics")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.UserRole", b =>
@@ -164,9 +253,19 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Course", b =>
+                {
+                    b.Navigation("Topics");
+                });
+
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Role", b =>
                 {
                     b.Navigation("UserRoles");
+                });
+
+            modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Topic", b =>
+                {
+                    b.Navigation("Lessions");
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.User", b =>

@@ -167,4 +167,3 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Micro
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\CodeLifeAcademy.Client.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\CodeLifeAcademy.Client.pdb
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
