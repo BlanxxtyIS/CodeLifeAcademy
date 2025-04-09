@@ -1,7 +1,9 @@
 ﻿using CodeLifeAcademy.Application.DTOs;
 using CodeLifeAcademy.Application.Interfaces;
 using CodeLifeAcademy.Core.Entities;
+using CodeLifeAcademy.Core.Enums;
 using CodeLifeAcademy.Infrastructure.Persistence;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -30,7 +32,9 @@ public class AuthService : IAuthService
 
     public async Task<Guid?> RegisterAsync(RegisterUserDto request)
     {
-        if (await _context.Users.AnyAsync(u => u.Username == request.Username))
+        if (await _context.Users
+            .AnyAsync(u => u.Username == request.Username || 
+            u.Email == request.Email))
         {
             return null;
         }
@@ -39,6 +43,21 @@ public class AuthService : IAuthService
         {
             Username = request.Username,
             Email = request.Email
+            
+        };
+
+        var studentRole = await _context.Roles
+            .FirstOrDefaultAsync(r => r.Name == UserRoleEnum.Student.ToString());
+
+        if (studentRole == null)
+        {
+            return null;
+        }
+
+        var userRole = new UserRole
+        {
+            UserId = user.Id,
+            RoleId = studentRole.Id
         };
 
         var hashedPassword = _passwordHasher
@@ -46,15 +65,18 @@ public class AuthService : IAuthService
         user.PasswordHash = hashedPassword;
 
         _context.Users.Add(user);
+        _context.UserRoles.Add(userRole);
         await _context.SaveChangesAsync();
 
         return user.Id;
     }
 
-    public async Task<AuthResultDto?> LoginAsync(LoginUserDto request)
+    public async Task<AuthResultDto?> LoginAsync(LoginUserDto request, HttpResponse response)
     {
-        var user = await _context.Users.FirstOrDefaultAsync(
-            u => u.Username == request.Username);
+        var user = await _context.Users
+            .Include(u => u.UserRoles)
+            .ThenInclude(ur => ur.Role)
+            .FirstOrDefaultAsync(u => u.Username == request.Username);
 
         if (user is null)
         {
@@ -67,25 +89,37 @@ public class AuthService : IAuthService
             return null;
         }
 
-        return await CreateTokenResponse(user);
+        return await CreateTokenResponse(user, response);
     }
 
-    private async Task<AuthResultDto> CreateTokenResponse(User? user)
+    private async Task<AuthResultDto> CreateTokenResponse(User? user, HttpResponse response)
     {
         return new AuthResultDto
         {
-            AccesToken = CreateToken(user),
+            AccesToken = CreateToken(user, response),
             RefreshToken = await GenerateAndSaveRefreshTokenAsync(user),
             ExpiresAt = DateTime.UtcNow
         };
     }
 
-    private string CreateToken(User user)
+    private string CreateToken(User user, HttpResponse response)
     {
+        var roles = user.UserRoles.Select(ur => ur.Role.Name);
+
         var claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, user.Username),
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+        };
+
+        claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
+
+        var cookieOptions = new CookieOptions
+        {
+            HttpOnly = true,
+            Secure = true,
+            SameSite = SameSiteMode.Strict,
+            Expires = DateTime.UtcNow.AddMinutes(15)
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
@@ -99,7 +133,10 @@ public class AuthService : IAuthService
             signingCredentials: creds
         );
 
-        return new JwtSecurityTokenHandler().WriteToken(token);
+        var accessToken = new JwtSecurityTokenHandler().WriteToken(token);
+        response.Cookies.Append("accessToken", accessToken, cookieOptions);
+
+        return accessToken;
     }
 
     private async Task<string> GenerateAndSaveRefreshTokenAsync(User user)
@@ -131,7 +168,7 @@ public class AuthService : IAuthService
         return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
     }
 
-    public async Task<AuthResultDto?> RefreshToken(RefreshTokenDto request)
+    public async Task<AuthResultDto?> RefreshToken(RefreshTokenDto request, HttpResponse response)
     {
         var user = await ValidateRefreshToken(request.UserId, request.RefreshToken);
 
@@ -140,7 +177,7 @@ public class AuthService : IAuthService
             return null;
         }
 
-        return await CreateTokenResponse(user);
+        return await CreateTokenResponse(user, response);
     }
 
     private async Task<User?> ValidateRefreshToken(Guid userId, string refreshToken)

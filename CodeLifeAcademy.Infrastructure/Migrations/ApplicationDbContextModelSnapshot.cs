@@ -71,6 +71,23 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                         .IsUnique();
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("11111111-2222-1111-1111-111111111111"),
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            Id = new Guid("22222222-3333-2222-2222-222222222222"),
+                            Name = "Mentor"
+                        },
+                        new
+                        {
+                            Id = new Guid("33333333-4444-3333-3333-333333333333"),
+                            Name = "Student"
+                        });
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.User", b =>
@@ -114,7 +131,7 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("UserRole");
+                    b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.RefreshToken", b =>
