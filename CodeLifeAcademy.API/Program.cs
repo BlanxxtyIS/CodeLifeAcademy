@@ -8,6 +8,8 @@ using Scalar.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using CodeLifeAcademy.Application.Validators;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,6 +55,8 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
     options.AddPolicy("MentorOrAdmin", policy => policy.RequireRole("Admin", "Mentor"));
 });
+
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCourseValidator>();
 
 builder.Services.AddCors(options =>
 {

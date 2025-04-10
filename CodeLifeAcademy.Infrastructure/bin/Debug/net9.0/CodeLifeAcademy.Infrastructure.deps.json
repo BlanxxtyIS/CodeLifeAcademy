@@ -22,6 +22,14 @@
           "CodeLifeAcademy.Infrastructure.dll": {}
         }
       },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -728,6 +736,7 @@
       "CodeLifeAcademy.Application/1.0.0": {
         "dependencies": {
           "CodeLifeAcademy.Core": "1.0.0",
+          "FluentValidation": "11.11.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0"
         },
         "runtime": {
@@ -752,6 +761,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "98xps4VXxKM=",
+  "dgSpecHash": "A2tNJfD9f3g=",
   "success": true,
   "projectFilePath": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Zver\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Zver\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Zver\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "C:\\Users\\Zver\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",

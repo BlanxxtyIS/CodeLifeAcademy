@@ -14,6 +14,10 @@ public class ApplicationDbContext: DbContext
     public DbSet<UserRole> UserRoles => Set<UserRole>();
     public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
 
+    public DbSet<Course> Courses => Set<Course>();
+    public DbSet<Topic> Topics => Set<Topic>();
+    public DbSet<Lession> Lessions => Set<Lession>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new UserRoleConfiguration());

@@ -38,7 +38,7 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Course");
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.Lession", b =>
@@ -62,7 +62,7 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
                     b.HasIndex("TopicId");
 
-                    b.ToTable("Lession");
+                    b.ToTable("Lessions");
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.RefreshToken", b =>
@@ -154,7 +154,7 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Topic");
+                    b.ToTable("Topics");
                 });
 
             modelBuilder.Entity("CodeLifeAcademy.Core.Entities.User", b =>
