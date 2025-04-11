@@ -1,0 +1,57 @@
+﻿@typeparam TEntity
+
+@if (Items is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h3>@Title</h3>
+    <table>
+        <thead>
+            <tr>
+                @foreach (var prop in typeof(TEntity).GetProperties())
+                {
+                    <th>@prop.Name</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entity in Items)
+            {
+                <tr>
+                    @foreach (var prop in typeof(TEntity).GetProperties())
+                    {
+                        <td>@FormatValue(prop.GetValue(entity))</td>
+                    }
+                    <td>
+                    <button @onclick="Edit">Редактировать</button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public IEnumerable<TEntity>? Items { get; set; }
+
+    private string FormatValue(object? value)
+    {
+        if (value is null) return "";
+
+        if (value is IEnumerable<object> list && value is not string)
+            return string.Join(", ", list.Select(v => v?.ToString()));
+
+        return value.ToString() ?? "";
+    }
+
+    private async Task Edit() {
+        
+    }
+}

@@ -28,6 +28,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Layout/AdminLayouts/EntitiesLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0c1xFbnRpdGllc0xheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Layout/AdminLayouts/UsersLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0c1xVc2Vyc0xheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Layout/HeaderLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlckxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
