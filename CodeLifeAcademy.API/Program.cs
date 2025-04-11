@@ -10,8 +10,17 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using CodeLifeAcademy.Application.Validators;
 using FluentValidation;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog();
 
 builder.Logging.AddConsole();
 
@@ -91,6 +100,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.MapFallbackToFile("index.html");
 
+app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseMiddleware<JwtCookieMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();

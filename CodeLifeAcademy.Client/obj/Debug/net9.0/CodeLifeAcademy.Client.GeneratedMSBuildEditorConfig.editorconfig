@@ -28,16 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Layout/HeaderLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlckxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/AdminPanel/AdminPages.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFxBZG1pblBhZ2VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/_Imports.razor]

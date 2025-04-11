@@ -10,12 +10,12 @@ namespace CodeLifeAcademy.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CourseController: ControllerBase
+    public class CoursesController: ControllerBase
     {
         private readonly ApplicationDbContext _context;
         private readonly IValidator<CreateCourseDto> _createCourseValidator;
 
-        public CourseController(ApplicationDbContext context, IValidator<CreateCourseDto> createCourseValidator)
+        public CoursesController(ApplicationDbContext context, IValidator<CreateCourseDto> createCourseValidator)
         {
             _context = context;
             _createCourseValidator = createCourseValidator;
@@ -56,7 +56,7 @@ namespace CodeLifeAcademy.API.Controllers
             _context.Courses.Add(course);
             await _context.SaveChangesAsync(); 
 
-            return CreatedAtAction(nameof(CreateCourse), 
+            return CreatedAtAction(nameof(GetCourse), 
                 new { id = course.Id }, course);
         }
 

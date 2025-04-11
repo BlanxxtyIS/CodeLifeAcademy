@@ -1,0 +1,835 @@
+2025-04-11 10:43:09.814 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 10:43:10.863 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 10:43:10.865 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 10:43:11.207 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 10:43:11.209 +03:00 [INF] Hosting environment: Development
+2025-04-11 10:43:11.210 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 10:43:13.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 10:43:13.602 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 10:43:13.857 +03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\index.html'
+2025-04-11 10:43:13.860 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 10:43:13.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 200 null text/html 716.9975ms
+2025-04-11 10:43:13.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-11 10:43:14.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 10:43:13.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css - null null
+2025-04-11 10:43:13.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 10:43:14.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css - null null
+2025-04-11 10:43:14.059 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-04-11 10:43:14.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 10:43:14.089 +03:00 [INF] The file /CodeLifeAcademy.Client.styles.css was not modified
+2025-04-11 10:43:14.090 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 10:43:14.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 196.8883ms
+2025-04-11 10:43:14.091 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 10:43:14.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css - 304 null text/css 82.1049ms
+2025-04-11 10:43:14.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css - 200 707 text/css 204.2829ms
+2025-04-11 10:43:14.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 204.5527ms
+2025-04-11 10:43:14.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 96.8145ms
+2025-04-11 10:43:14.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 10:43:14.191 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:43:14.194 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:43:14.197 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 10:43:14.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 20.2339ms
+2025-04-11 10:43:14.238 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 10:43:14.261 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-8bunxx6eqm.gz'
+2025-04-11 10:43:14.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12376 application/json 26.1441ms
+2025-04-11 10:43:14.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 10:43:14.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 10:43:14.278 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:43:14.281 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:43:14.282 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:43:14.283 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:43:14.285 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 10:43:14.288 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 10:43:14.290 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 15.6069ms
+2025-04-11 10:43:14.291 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 16.914ms
+2025-04-11 10:43:14.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 345.3342ms
+2025-04-11 10:43:14.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.g1cztcj9x7.pdb - null null
+2025-04-11 10:43:14.456 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.g1cztcj9x7.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-g1cztcj9x7.gz'
+2025-04-11 10:43:14.500 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.g1cztcj9x7.pdb.gz - 200 17989 application/octet-stream 102.6098ms
+2025-04-11 10:43:15.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.a2amt64dp4.wasm - null null
+2025-04-11 10:43:15.123 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.a2amt64dp4.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-a2amt64dp4.gz'
+2025-04-11 10:43:15.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.a2amt64dp4.wasm.gz - 200 7711 application/wasm 111.1349ms
+2025-04-11 10:43:15.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 10:43:15.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 3.2841ms
+2025-04-11 10:43:15.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 10:43:15.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 6.632ms
+2025-04-11 10:43:16.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/logo.jpg - null null
+2025-04-11 10:43:16.366 +03:00 [INF] Sending file. Request path: '/images/logo.jpg'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\images\logo.jpg'
+2025-04-11 10:43:16.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/logo.jpg - 200 48405 image/jpeg 28.9516ms
+2025-04-11 10:43:24.461 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/sample-data/weather.json - null null
+2025-04-11 10:43:24.483 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/sample-data/weather.json - 404 0 null 22.7596ms
+2025-04-11 10:43:24.491 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7271/sample-data/weather.json, Response status code: 404
+2025-04-11 10:43:27.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 10:43:27.034 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 10:43:27.036 +03:00 [INF] The file /index.html was not modified
+2025-04-11 10:43:27.038 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 10:43:27.040 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 14.7671ms
+2025-04-11 10:43:27.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 10:43:27.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 10:43:27.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 10:43:27.155 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 10:43:27.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 9.9892ms
+2025-04-11 10:43:27.166 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 18.1212ms
+2025-04-11 10:43:27.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 10:43:27.189 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:43:27.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.8126ms
+2025-04-11 10:43:27.192 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:43:27.199 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 10:43:27.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 25.0701ms
+2025-04-11 10:43:27.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/favicon.png - null null
+2025-04-11 10:43:27.312 +03:00 [INF] Sending file. Request path: '/favicon.png'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\favicon.png'
+2025-04-11 10:43:27.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 10:43:27.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/favicon.png - 200 1148 image/png 27.9415ms
+2025-04-11 10:43:27.330 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 10:43:27.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 25.241ms
+2025-04-11 10:43:27.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 10:43:27.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 10:43:27.442 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:43:27.445 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:43:27.447 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:43:27.448 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:43:27.451 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 10:43:27.456 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 10:43:27.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 22.0642ms
+2025-04-11 10:43:27.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 20.7151ms
+2025-04-11 10:43:28.019 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 10:43:28.023 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 3.2252ms
+2025-04-11 10:43:28.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 10:43:28.029 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 2.4776ms
+2025-04-11 10:43:30.605 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/sample-data/weather.json - null null
+2025-04-11 10:43:30.610 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/sample-data/weather.json - 404 0 null 4.9369ms
+2025-04-11 10:43:30.614 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7271/sample-data/weather.json, Response status code: 404
+2025-04-11 10:44:22.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/navBar.jpg - null null
+2025-04-11 10:44:22.948 +03:00 [INF] Sending file. Request path: '/images/navBar.jpg'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\images\navBar.jpg'
+2025-04-11 10:44:22.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/navBar.jpg - 200 67095 image/jpeg 17.8924ms
+2025-04-11 10:44:38.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 10:44:38.082 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 10:44:38.084 +03:00 [INF] The file /index.html was not modified
+2025-04-11 10:44:38.090 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 10:44:38.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 40.5851ms
+2025-04-11 10:44:38.123 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css - null null
+2025-04-11 10:44:38.125 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 10:44:38.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 10:44:38.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 10:44:38.128 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 10:44:38.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0119ms
+2025-04-11 10:44:38.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 5.1108ms
+2025-04-11 10:44:38.148 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 10:44:38.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css - 200 707 text/css 36.5467ms
+2025-04-11 10:44:38.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 39.6861ms
+2025-04-11 10:44:38.226 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 10:44:38.229 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:44:38.230 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:44:38.231 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 10:44:38.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 11.8228ms
+2025-04-11 10:44:38.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 10:44:38.247 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 10:44:38.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 3.7725ms
+2025-04-11 10:44:38.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 10:44:38.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 10:44:38.258 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:44:38.261 +03:00 [INF] CORS policy execution failed.
+2025-04-11 10:44:38.262 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:44:38.263 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 10:44:38.265 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 10:44:38.267 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 10:44:38.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 13.8095ms
+2025-04-11 10:44:38.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 16.2932ms
+2025-04-11 10:44:38.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 10:44:38.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 3.4197ms
+2025-04-11 10:44:38.778 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 10:44:38.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 2.455ms
+2025-04-11 10:44:41.065 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 3328
+2025-04-11 10:44:41.091 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 26.0596ms
+2025-04-11 10:45:58.203 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 3852
+2025-04-11 10:45:58.209 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 6.4732ms
+2025-04-11 10:45:58.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css?__browserLink_refresh=e085fe5ce7534702a27a377d71de28ae - null null
+2025-04-11 10:45:58.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css?__browserLink_refresh=c8ed4a8ece9c4029908ae146359fc3e6 - null null
+2025-04-11 10:45:58.342 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 10:45:58.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css?__browserLink_refresh=e085fe5ce7534702a27a377d71de28ae - 499 708 text/css 27.4659ms
+2025-04-11 10:45:58.349 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 10:45:58.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/clear-browser-cache - null null
+2025-04-11 10:45:58.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css?__browserLink_refresh=c8ed4a8ece9c4029908ae146359fc3e6 - 200 708 text/css 52.3681ms
+2025-04-11 10:45:58.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/clear-browser-cache - 200 0 null 22.0746ms
+2025-04-11 10:45:58.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/clear-browser-cache - null null
+2025-04-11 10:45:58.557 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/clear-browser-cache - 200 0 null 6.5083ms
+2025-04-11 10:45:59.629 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css?nonce=1744357559627 - null null
+2025-04-11 10:45:59.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css?nonce=1744357559627 - null null
+2025-04-11 10:45:59.632 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/favicon.png?nonce=1744357559627 - null null
+2025-04-11 10:45:59.652 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 10:45:59.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css?nonce=1744357559627 - null null
+2025-04-11 10:45:59.666 +03:00 [INF] Sending file. Request path: '/favicon.png'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\favicon.png'
+2025-04-11 10:45:59.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css?nonce=1744357559627 - 200 708 text/css 44.2813ms
+2025-04-11 10:45:59.680 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-11 10:45:59.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/favicon.png?nonce=1744357559627 - 200 1148 image/png 58.7908ms
+2025-04-11 10:45:59.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/favicon.png - null null
+2025-04-11 10:45:59.711 +03:00 [INF] Sending file. Request path: '/CodeLifeAcademy.Client.styles.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\scopedcss\bundle\CodeLifeAcademy.Client.styles.css'
+2025-04-11 10:45:59.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css?nonce=1744357559627 - 200 232803 text/css 84.7038ms
+2025-04-11 10:45:59.729 +03:00 [INF] Sending file. Request path: '/favicon.png'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\favicon.png'
+2025-04-11 10:45:59.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css?nonce=1744357559627 - 200 4653 text/css 103.5598ms
+2025-04-11 10:45:59.746 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/favicon.png - 200 1148 image/png 51.3478ms
+2025-04-11 10:46:00.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css?nonce=1744357560166 - null null
+2025-04-11 10:46:00.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css?nonce=1744357560166 - null null
+2025-04-11 10:46:00.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css?nonce=1744357560167 - null null
+2025-04-11 10:46:00.177 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-11 10:46:00.179 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 10:46:00.184 +03:00 [INF] Sending file. Request path: '/CodeLifeAcademy.Client.styles.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\scopedcss\bundle\CodeLifeAcademy.Client.styles.css'
+2025-04-11 10:46:00.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css?nonce=1744357560166 - 200 232803 text/css 18.3974ms
+2025-04-11 10:46:00.193 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css?nonce=1744357560166 - 200 708 text/css 22.1722ms
+2025-04-11 10:46:00.197 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css?nonce=1744357560167 - 200 4653 text/css 26.827ms
+2025-04-11 10:46:18.763 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 3500
+2025-04-11 10:46:18.769 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 6.0721ms
+2025-04-11 10:46:23.593 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 3584
+2025-04-11 10:46:23.599 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 5.5833ms
+2025-04-11 10:48:24.838 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 4380
+2025-04-11 10:48:24.842 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 4.9636ms
+2025-04-11 10:48:44.905 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 8981
+2025-04-11 10:48:44.911 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 5.2293ms
+2025-04-11 10:48:52.071 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 9069
+2025-04-11 10:48:52.075 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 4.3319ms
+2025-04-11 10:49:35.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/sample-data/weather.json - null null
+2025-04-11 10:49:35.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/sample-data/weather.json - 404 0 null 3.9826ms
+2025-04-11 10:49:35.214 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7271/sample-data/weather.json, Response status code: 404
+2025-04-11 10:50:05.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/sample-data/weather.json - null null
+2025-04-11 10:50:05.823 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/sample-data/weather.json - 404 0 null 4.8488ms
+2025-04-11 10:50:05.827 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7271/sample-data/weather.json, Response status code: 404
+2025-04-11 11:01:39.794 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:01:40.912 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 11:01:40.919 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 11:01:41.012 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:01:41.017 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:01:41.019 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 11:01:41.644 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 11:01:42.079 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:01:42.195 +03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\index.html'
+2025-04-11 11:01:42.199 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:01:42.206 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 200 null text/html 571.3835ms
+2025-04-11 11:01:42.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css - null null
+2025-04-11 11:01:42.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css - null null
+2025-04-11 11:01:42.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-11 11:01:42.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:01:42.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:01:42.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:01:42.269 +03:00 [INF] Sending file. Request path: '/css/app.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\css\app.css'
+2025-04-11 11:01:42.279 +03:00 [INF] Sending file. Request path: '/CodeLifeAcademy.Client.styles.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\scopedcss\bundle\CodeLifeAcademy.Client.styles.css'
+2025-04-11 11:01:42.283 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-11 11:01:42.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 52.7806ms
+2025-04-11 11:01:42.287 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/CodeLifeAcademy.Client.styles.css - 200 4653 text/css 62.8636ms
+2025-04-11 11:01:42.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css - 200 708 text/css 62.6869ms
+2025-04-11 11:01:42.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css - 200 232803 text/css 65.2882ms
+2025-04-11 11:01:42.343 +03:00 [INF] Sending file. Request path: '/_framework/blazor.webassembly.js.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\7w1auh0iph-yiodnjoszm.gz'
+2025-04-11 11:01:42.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 155.4966ms
+2025-04-11 11:01:42.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 200 17994 text/javascript 186.809ms
+2025-04-11 11:01:42.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:01:42.440 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:42.442 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:42.458 +03:00 [INF] Sending file. Request path: '/_framework/dotnet.js.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\zfh6aeyzwo-nseotsck93.gz'
+2025-04-11 11:01:42.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 200 12657 text/javascript 29.3566ms
+2025-04-11 11:01:42.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:01:42.613 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-2gakvyh9q0.gz'
+2025-04-11 11:01:42.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12372 application/json 25.7058ms
+2025-04-11 11:01:42.624 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:01:42.624 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:01:42.628 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:42.634 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:42.635 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:42.637 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:42.659 +03:00 [INF] Sending file. Request path: '/_framework/dotnet.runtime.o8gq1i8bk6.js.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\7lm97g4iuu-o8gq1i8bk6.gz'
+2025-04-11 11:01:42.668 +03:00 [INF] Sending file. Request path: '/_framework/dotnet.native.hmanx9razn.js.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\5mlj1a2ajy-hmanx9razn.gz'
+2025-04-11 11:01:42.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 200 55570 text/javascript 59.5309ms
+2025-04-11 11:01:42.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.psdqfu8yh0.pdb - null null
+2025-04-11 11:01:42.690 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 200 34744 text/javascript 66.4421ms
+2025-04-11 11:01:42.745 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.psdqfu8yh0.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-psdqfu8yh0.gz'
+2025-04-11 11:01:42.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.psdqfu8yh0.pdb.gz - 200 17306 application/octet-stream 65.9734ms
+2025-04-11 11:01:42.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.b292pmek9w.wasm - null null
+2025-04-11 11:01:42.893 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.b292pmek9w.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-b292pmek9w.gz'
+2025-04-11 11:01:42.899 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.b292pmek9w.wasm.gz - 200 6638 application/wasm 131.4466ms
+2025-04-11 11:01:43.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:01:43.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 9.1776ms
+2025-04-11 11:01:43.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:01:43.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 3.9507ms
+2025-04-11 11:01:44.195 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/navBar.jpg - null null
+2025-04-11 11:01:44.202 +03:00 [INF] Sending file. Request path: '/images/navBar.jpg'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\images\navBar.jpg'
+2025-04-11 11:01:44.204 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/navBar.jpg - 200 67095 image/jpeg 9.4721ms
+2025-04-11 11:01:44.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/logo.jpg - null null
+2025-04-11 11:01:44.251 +03:00 [INF] Sending file. Request path: '/images/logo.jpg'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\images\logo.jpg'
+2025-04-11 11:01:44.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/logo.jpg - 200 48405 image/jpeg 8.5189ms
+2025-04-11 11:01:45.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/weather - null null
+2025-04-11 11:01:45.971 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:01:45.973 +03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\index.html'
+2025-04-11 11:01:45.974 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:01:45.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 200 null text/html 19.2647ms
+2025-04-11 11:01:46.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:01:46.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:01:46.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:01:46.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 4.6496ms
+2025-04-11 11:01:46.265 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:01:46.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.201ms
+2025-04-11 11:01:46.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 25.3294ms
+2025-04-11 11:01:46.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:01:46.293 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:46.295 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:46.299 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:01:46.309 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 22.8044ms
+2025-04-11 11:01:46.323 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:01:46.326 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 11:01:46.328 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 4.759ms
+2025-04-11 11:01:46.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:01:46.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:01:46.346 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:46.359 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:46.363 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:01:46.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 26.8804ms
+2025-04-11 11:01:46.358 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:46.423 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:46.427 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:01:46.432 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 90.9701ms
+2025-04-11 11:01:47.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:01:47.038 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.8037ms
+2025-04-11 11:01:47.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:01:47.051 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 6.4428ms
+2025-04-11 11:01:50.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:01:50.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:01:50.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:01:50.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 40.7143ms
+2025-04-11 11:01:50.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.1024ms
+2025-04-11 11:01:50.444 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:01:50.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 52.9951ms
+2025-04-11 11:01:50.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:01:50.658 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:50.659 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:50.661 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:01:50.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 7.852ms
+2025-04-11 11:01:50.677 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:01:50.680 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 11:01:50.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 7.9528ms
+2025-04-11 11:01:50.725 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:01:50.725 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:01:50.728 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:50.737 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:01:50.740 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:50.742 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:01:50.744 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:01:50.746 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:01:50.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 27.2684ms
+2025-04-11 11:01:50.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 30.8008ms
+2025-04-11 11:01:51.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:01:51.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.7837ms
+2025-04-11 11:01:51.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:01:51.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 2.7747ms
+2025-04-11 11:02:52.528 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:02:52.995 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 11:02:53.001 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 11:02:53.090 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:02:53.101 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:02:53.108 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 11:02:53.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:02:53.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:02:53.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:02:53.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 45.494ms
+2025-04-11 11:02:53.560 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:02:53.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 80.4625ms
+2025-04-11 11:02:53.586 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:02:53.595 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:02:53.597 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:02:53.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.3755ms
+2025-04-11 11:02:53.604 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:02:53.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 22.2334ms
+2025-04-11 11:02:53.784 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:02:53.834 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-t124x42xgu.gz'
+2025-04-11 11:02:53.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12367 application/json 53.5929ms
+2025-04-11 11:02:53.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:02:53.850 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:02:53.853 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:02:53.857 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:02:53.858 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:02:53.860 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:02:53.863 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:02:53.871 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:02:53.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 27.8876ms
+2025-04-11 11:02:53.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 25.8847ms
+2025-04-11 11:02:53.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.zrlywz3l50.pdb - null null
+2025-04-11 11:02:53.971 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.zrlywz3l50.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-zrlywz3l50.gz'
+2025-04-11 11:02:53.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.zrlywz3l50.pdb.gz - 200 17302 application/octet-stream 61.7884ms
+2025-04-11 11:02:53.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.5lubujwgam.wasm - null null
+2025-04-11 11:02:54.027 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.5lubujwgam.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-5lubujwgam.gz'
+2025-04-11 11:02:54.029 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.5lubujwgam.wasm.gz - 200 6638 application/wasm 35.0713ms
+2025-04-11 11:02:54.843 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:02:54.848 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 4.8342ms
+2025-04-11 11:02:54.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:02:54.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 5.0957ms
+2025-04-11 11:03:03.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar - null null
+2025-04-11 11:03:03.870 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:03:03.924 +03:00 [INF] Executing RedirectResult, redirecting to scalar/.
+2025-04-11 11:03:03.927 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:03:03.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar - 302 0 null 318.9837ms
+2025-04-11 11:03:03.938 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/ - null null
+2025-04-11 11:03:03.947 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:03:04.008 +03:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-04-11 11:03:04.018 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:03:04.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/ - 200 null text/html 82.5976ms
+2025-04-11 11:03:04.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - null null
+2025-04-11 11:03:04.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:03:04.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:03:04.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.js - null null
+2025-04-11 11:03:04.054 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:03:04.058 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 3.997ms
+2025-04-11 11:03:04.064 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:03:04.065 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:03:04.070 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:03:04.073 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6205ms
+2025-04-11 11:03:04.074 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:03:04.074 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:03:04.109 +03:00 [INF] Sending file with download name ''.
+2025-04-11 11:03:04.109 +03:00 [INF] Sending file with download name ''.
+2025-04-11 11:03:04.213 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:03:04.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - 200 2205 text/javascript 170.6003ms
+2025-04-11 11:03:04.342 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:03:04.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.js - 200 2828768 text/javascript 292.398ms
+2025-04-11 11:03:04.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/openapi/v1.json - null null
+2025-04-11 11:03:04.709 +03:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:03:05.106 +03:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:03:05.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/openapi/v1.json - 200 null application/json;charset=utf-8 407.2621ms
+2025-04-11 11:03:07.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/favicon.ico - null null
+2025-04-11 11:03:07.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/favicon.ico - 404 0 null 4.266ms
+2025-04-11 11:03:07.054 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7271/favicon.ico, Response status code: 404
+2025-04-11 11:03:10.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/adminPanel - null null
+2025-04-11 11:03:10.160 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:03:10.166 +03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\index.html'
+2025-04-11 11:03:10.168 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:03:10.170 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 200 null text/html 14.0214ms
+2025-04-11 11:03:10.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:03:10.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 4.0713ms
+2025-04-11 11:03:10.290 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:03:10.294 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 11:03:10.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 5.6221ms
+2025-04-11 11:03:10.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:03:10.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:03:10.309 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:03:10.315 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:03:10.313 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:03:10.320 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:03:10.322 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:03:10.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 20.3124ms
+2025-04-11 11:03:10.327 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:03:10.345 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 40.9373ms
+2025-04-11 11:03:10.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:03:10.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.959ms
+2025-04-11 11:03:10.877 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:03:10.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 3.5293ms
+2025-04-11 11:04:11.788 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:04:12.242 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 11:04:12.243 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 11:04:12.331 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:04:12.339 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:04:12.344 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 11:04:12.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 11:04:12.888 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:04:12.901 +03:00 [INF] The file /index.html was not modified
+2025-04-11 11:04:12.903 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:04:12.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 276.6995ms
+2025-04-11 11:04:12.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:04:12.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:04:12.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css - null null
+2025-04-11 11:04:12.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:04:13.001 +03:00 [INF] The file /css/app.css was not modified
+2025-04-11 11:04:13.003 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:04:13.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css - 304 null text/css 11.2635ms
+2025-04-11 11:04:13.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 26.9588ms
+2025-04-11 11:04:13.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 20.1741ms
+2025-04-11 11:04:13.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:04:13.095 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:04:13.103 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:04:13.107 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:04:13.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.9618ms
+2025-04-11 11:04:13.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 27.4033ms
+2025-04-11 11:04:13.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:04:13.231 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-4v3zii2m8i.gz'
+2025-04-11 11:04:13.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12371 application/json 48.8816ms
+2025-04-11 11:04:13.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:04:13.253 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:04:13.256 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:04:13.259 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:04:13.260 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:04:13.261 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:04:13.263 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:04:13.268 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:04:13.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 17.0724ms
+2025-04-11 11:04:13.270 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 17.8758ms
+2025-04-11 11:04:13.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.rkiq0ukqvy.pdb - null null
+2025-04-11 11:04:13.347 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.rkiq0ukqvy.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-rkiq0ukqvy.gz'
+2025-04-11 11:04:13.355 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.rkiq0ukqvy.pdb.gz - 200 17318 application/octet-stream 61.9381ms
+2025-04-11 11:04:13.386 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.1e113j74n2.wasm - null null
+2025-04-11 11:04:13.406 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.1e113j74n2.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-1e113j74n2.gz'
+2025-04-11 11:04:13.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.1e113j74n2.wasm.gz - 200 6627 application/wasm 23.0024ms
+2025-04-11 11:04:14.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:04:14.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 3.9291ms
+2025-04-11 11:04:14.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:04:14.126 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 4.0425ms
+2025-04-11 11:05:11.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar - null null
+2025-04-11 11:05:11.461 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:05:11.549 +03:00 [INF] Executing RedirectResult, redirecting to scalar/.
+2025-04-11 11:05:11.551 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:05:11.553 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar - 302 0 null 140.0459ms
+2025-04-11 11:05:11.556 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/ - null null
+2025-04-11 11:05:11.563 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:05:11.605 +03:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-04-11 11:05:11.615 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:05:11.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/ - 200 null text/html 60.5556ms
+2025-04-11 11:05:11.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - null null
+2025-04-11 11:05:11.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:05:11.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.js - null null
+2025-04-11 11:05:11.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 3.3277ms
+2025-04-11 11:05:11.666 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:05:11.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:05:11.677 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:05:11.682 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:05:11.686 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:05:11.690 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:05:11.692 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:05:11.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.0473ms
+2025-04-11 11:05:11.767 +03:00 [INF] Setting HTTP status code 304.
+2025-04-11 11:05:11.767 +03:00 [INF] Setting HTTP status code 304.
+2025-04-11 11:05:11.769 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:05:11.770 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:05:11.771 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - 304 null null 109.6214ms
+2025-04-11 11:05:11.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.js - 304 null null 106.5477ms
+2025-04-11 11:05:12.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/openapi/v1.json - null null
+2025-04-11 11:05:12.131 +03:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:05:12.384 +03:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:05:12.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/openapi/v1.json - 200 null application/json;charset=utf-8 260.2142ms
+2025-04-11 11:05:13.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:05:13.476 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 4.7923ms
+2025-04-11 11:05:13.482 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:05:13.487 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 11:05:13.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 6.7122ms
+2025-04-11 11:05:13.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:05:13.501 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:05:13.506 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:05:13.514 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:05:13.510 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:05:13.518 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:05:13.519 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:05:13.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 22.1891ms
+2025-04-11 11:05:13.526 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:05:13.541 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 40.171ms
+2025-04-11 11:05:13.969 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:05:13.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.6768ms
+2025-04-11 11:05:13.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:05:13.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 2.439ms
+2025-04-11 11:05:14.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/logo.jpg - null null
+2025-04-11 11:05:14.190 +03:00 [INF] The file /images/logo.jpg was not modified
+2025-04-11 11:05:14.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/logo.jpg - 304 null image/jpeg 4.6393ms
+2025-04-11 11:12:51.212 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:12:51.818 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 11:12:51.820 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 11:12:51.934 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:12:51.936 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:12:51.937 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 11:12:52.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 11:12:52.788 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:12:52.805 +03:00 [INF] The file /index.html was not modified
+2025-04-11 11:12:52.807 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:12:52.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 434.794ms
+2025-04-11 11:12:52.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:12:52.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:12:52.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css - null null
+2025-04-11 11:12:52.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:12:52.924 +03:00 [INF] The file /css/app.css was not modified
+2025-04-11 11:12:53.003 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 146.4417ms
+2025-04-11 11:12:53.004 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:12:53.003 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css - 304 null text/css 147.334ms
+2025-04-11 11:12:53.047 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 190.699ms
+2025-04-11 11:12:53.070 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:12:53.083 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:12:53.085 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:12:53.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.7044ms
+2025-04-11 11:12:53.091 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:12:53.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 31.6107ms
+2025-04-11 11:12:53.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:12:53.201 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-bzjz6q0p2v.gz'
+2025-04-11 11:12:53.204 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12491 application/json 65.5983ms
+2025-04-11 11:12:53.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:12:53.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:12:53.222 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:12:53.224 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:12:53.225 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:12:53.226 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:12:53.230 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:12:53.232 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:12:53.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 18.663ms
+2025-04-11 11:12:53.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 20.2283ms
+2025-04-11 11:12:53.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Core.xhkvpni7u7.pdb - null null
+2025-04-11 11:12:53.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.4024bnau1v.pdb - null null
+2025-04-11 11:12:53.317 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Core.xhkvpni7u7.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\j2cb18rykh-xhkvpni7u7.gz'
+2025-04-11 11:12:53.320 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Core.xhkvpni7u7.pdb.gz - 200 7407 application/octet-stream 44.2627ms
+2025-04-11 11:12:53.323 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.4024bnau1v.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-4024bnau1v.gz'
+2025-04-11 11:12:53.339 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.4024bnau1v.pdb.gz - 200 18169 application/octet-stream 63.897ms
+2025-04-11 11:12:53.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.vxwyriclx8.wasm - null null
+2025-04-11 11:12:53.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Core.yxbcgt8smh.wasm - null null
+2025-04-11 11:12:53.435 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.vxwyriclx8.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-vxwyriclx8.gz'
+2025-04-11 11:12:53.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.vxwyriclx8.wasm.gz - 200 7552 application/wasm 35.6978ms
+2025-04-11 11:12:53.451 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Core.yxbcgt8smh.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\m9k12dbkc8-yxbcgt8smh.gz'
+2025-04-11 11:12:53.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Core.yxbcgt8smh.wasm.gz - 200 3994 application/wasm 52.3388ms
+2025-04-11 11:12:54.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:12:54.007 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.9443ms
+2025-04-11 11:12:54.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:12:54.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 8.5861ms
+2025-04-11 11:12:54.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/navBar.jpg - null null
+2025-04-11 11:12:54.439 +03:00 [INF] The file /images/navBar.jpg was not modified
+2025-04-11 11:12:54.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/navBar.jpg - 304 null image/jpeg 4.6391ms
+2025-04-11 11:12:54.468 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/logo.jpg - null null
+2025-04-11 11:12:54.471 +03:00 [INF] The file /images/logo.jpg was not modified
+2025-04-11 11:12:54.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/logo.jpg - 304 null image/jpeg 4.1615ms
+2025-04-11 11:12:55.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses/getAllCourses - null null
+2025-04-11 11:12:55.995 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetCourse (CodeLifeAcademy.API)'
+2025-04-11 11:12:56.082 +03:00 [INF] Route matched with {action = "GetCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CodeLifeAcademy.Core.Entities.Course]] GetCourse(System.Guid) on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-04-11 11:12:57.382 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-11 11:12:57.435 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetCourse (CodeLifeAcademy.API) in 1344.0501ms
+2025-04-11 11:12:57.437 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetCourse (CodeLifeAcademy.API)'
+2025-04-11 11:12:57.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses/getAllCourses - 400 null application/problem+json; charset=utf-8 1458.9212ms
+2025-04-11 11:13:00.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js.map - null null
+2025-04-11 11:13:00.923 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.js.map - null null
+2025-04-11 11:13:00.945 +03:00 [INF] Sending file. Request path: '/_framework/dotnet.js.map.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\t5brfx62o3-qmhzxsh5gb.gz'
+2025-04-11 11:13:00.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.map.gz - 200 21064 text/plain 41.7296ms
+2025-04-11 11:13:00.955 +03:00 [INF] Sending file. Request path: '/_framework/dotnet.runtime.js.map.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\ucox5456ps-e5oadoz1kk.gz'
+2025-04-11 11:13:00.964 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.js.map.gz - 200 87745 text/plain 40.7688ms
+2025-04-11 11:13:01.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2025-04-11 11:13:01.116 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2025-04-11 11:13:01.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 589892 text/plain 85.6373ms
+2025-04-11 11:13:31.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar - null null
+2025-04-11 11:13:31.519 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:13:31.547 +03:00 [INF] Executing RedirectResult, redirecting to scalar/.
+2025-04-11 11:13:31.549 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:13:31.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar - 302 0 null 51.4951ms
+2025-04-11 11:13:31.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/ - null null
+2025-04-11 11:13:31.577 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:13:31.641 +03:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-04-11 11:13:31.659 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:13:31.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/ - 200 null text/html 91.5949ms
+2025-04-11 11:13:31.719 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - null null
+2025-04-11 11:13:31.724 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:13:31.725 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:13:31.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:13:31.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.js - null null
+2025-04-11 11:13:31.787 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 22.8336ms
+2025-04-11 11:13:31.742 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:13:31.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:13:31.794 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:13:31.823 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:13:31.826 +03:00 [INF] Setting HTTP status code 304.
+2025-04-11 11:13:31.827 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:13:31.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.3105ms
+2025-04-11 11:13:31.869 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:13:31.872 +03:00 [INF] Setting HTTP status code 304.
+2025-04-11 11:13:31.889 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - 304 null null 169.2119ms
+2025-04-11 11:13:31.891 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:13:31.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.js - 304 null null 189.021ms
+2025-04-11 11:13:32.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/openapi/v1.json - null null
+2025-04-11 11:13:32.311 +03:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:13:32.657 +03:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:13:32.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/openapi/v1.json - 200 null application/json;charset=utf-8 368.1181ms
+2025-04-11 11:14:09.103 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:14:09.519 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 11:14:09.521 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 11:14:09.651 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:14:09.653 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:14:09.653 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 11:14:10.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:14:10.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:14:10.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:14:10.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 51.2169ms
+2025-04-11 11:14:10.543 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:14:10.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 93.6604ms
+2025-04-11 11:14:10.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:14:10.583 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:14:10.587 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:14:10.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.5571ms
+2025-04-11 11:14:10.591 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:14:10.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 27.8964ms
+2025-04-11 11:14:10.623 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:14:10.666 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-pg27599uq7.gz'
+2025-04-11 11:14:10.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12487 application/json 46.2038ms
+2025-04-11 11:14:10.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:14:10.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:14:10.681 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:14:10.684 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:14:10.685 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:14:10.687 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:14:10.688 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:14:10.690 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:14:10.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 17.0194ms
+2025-04-11 11:14:10.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 19.16ms
+2025-04-11 11:14:10.738 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.ao5u5qr4f1.pdb - null null
+2025-04-11 11:14:10.847 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.ao5u5qr4f1.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-ao5u5qr4f1.gz'
+2025-04-11 11:14:10.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.ao5u5qr4f1.pdb.gz - 200 18165 application/octet-stream 117.1103ms
+2025-04-11 11:14:10.875 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.zwxa3oh601.wasm - null null
+2025-04-11 11:14:10.906 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.zwxa3oh601.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-zwxa3oh601.gz'
+2025-04-11 11:14:10.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.zwxa3oh601.wasm.gz - 200 7549 application/wasm 34.1483ms
+2025-04-11 11:14:11.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:14:11.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 3.0392ms
+2025-04-11 11:14:11.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:14:11.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 3.7329ms
+2025-04-11 11:14:12.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-04-11 11:14:13.113 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:14:13.142 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-04-11 11:14:15.017 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Title"
+FROM "Courses" AS c
+2025-04-11 11:14:15.140 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-11 11:14:15.170 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 2019.3745ms
+2025-04-11 11:14:15.172 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:14:15.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 2227.309ms
+2025-04-11 11:14:44.686 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - application/json 7637
+2025-04-11 11:14:44.715 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/_framework/blazor-hotreload - 200 0 null 29.6611ms
+2025-04-11 11:14:54.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/adminPanel - null null
+2025-04-11 11:14:54.905 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:14:54.908 +03:00 [INF] The file /index.html was not modified
+2025-04-11 11:14:54.914 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:14:54.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 867.5703ms
+2025-04-11 11:14:54.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:14:54.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:14:54.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:14:54.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 6.6094ms
+2025-04-11 11:14:54.954 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:14:54.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 46.5739ms
+2025-04-11 11:14:55.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.7367ms
+2025-04-11 11:14:55.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:14:55.094 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:14:55.108 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:14:55.121 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:14:55.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 33.7947ms
+2025-04-11 11:14:55.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:14:55.138 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-04-11 11:14:55.139 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 5.6883ms
+2025-04-11 11:14:55.154 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:14:55.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:14:55.166 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:14:55.174 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:14:55.183 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:14:55.193 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:14:55.205 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:14:55.206 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:14:55.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 56.1496ms
+2025-04-11 11:14:55.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 63.2338ms
+2025-04-11 11:14:56.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:14:56.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.6545ms
+2025-04-11 11:14:56.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:14:56.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 200 null null 10.4532ms
+2025-04-11 11:14:57.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-04-11 11:14:57.118 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:14:57.124 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-04-11 11:14:57.220 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Title"
+FROM "Courses" AS c
+2025-04-11 11:14:57.231 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-11 11:14:57.236 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 108.2155ms
+2025-04-11 11:14:57.238 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:14:57.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 127.3817ms
+2025-04-11 11:16:10.778 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar - null null
+2025-04-11 11:16:10.806 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:16:10.839 +03:00 [INF] Executing RedirectResult, redirecting to scalar/.
+2025-04-11 11:16:10.841 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:16:10.848 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar - 302 0 null 69.5229ms
+2025-04-11 11:16:10.854 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/ - null null
+2025-04-11 11:16:10.860 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:16:10.935 +03:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-04-11 11:16:10.950 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-04-11 11:16:10.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/ - 200 null text/html 97.7236ms
+2025-04-11 11:16:11.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:16:11.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:16:11.166 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - null null
+2025-04-11 11:16:11.166 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/scalar/scalar.js - null null
+2025-04-11 11:16:11.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 15.7017ms
+2025-04-11 11:16:11.198 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:16:11.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.9321ms
+2025-04-11 11:16:11.202 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:16:11.211 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:16:11.217 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:16:11.219 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:16:11.220 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:16:11.236 +03:00 [INF] Setting HTTP status code 304.
+2025-04-11 11:16:11.236 +03:00 [INF] Setting HTTP status code 304.
+2025-04-11 11:16:11.239 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-04-11 11:16:11.240 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-04-11 11:16:11.242 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.js - 304 null null 76.2002ms
+2025-04-11 11:16:11.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/scalar/scalar.aspnetcore.js - 304 null null 79.7956ms
+2025-04-11 11:16:11.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/openapi/v1.json - null null
+2025-04-11 11:16:11.667 +03:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:16:11.964 +03:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-04-11 11:16:11.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/openapi/v1.json - 200 null application/json;charset=utf-8 306.061ms
+2025-04-11 11:16:24.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/Courses - null null
+2025-04-11 11:16:24.659 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:16:24.663 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-04-11 11:16:24.685 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Title"
+FROM "Courses" AS c
+2025-04-11 11:16:24.689 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-11 11:16:24.691 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 23.6342ms
+2025-04-11 11:16:24.695 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:16:24.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/Courses - 200 null application/json; charset=utf-8 44.607ms
+2025-04-11 11:17:46.240 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:17:46.894 +03:00 [INF] Now listening on: https://localhost:7271
+2025-04-11 11:17:46.896 +03:00 [INF] Now listening on: http://localhost:5065
+2025-04-11 11:17:46.990 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:17:46.997 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:17:46.998 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-04-11 11:17:47.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/ - null null
+2025-04-11 11:17:47.906 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:17:47.922 +03:00 [INF] The file /index.html was not modified
+2025-04-11 11:17:47.926 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-04-11 11:17:47.936 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 370.289ms
+2025-04-11 11:17:47.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-04-11 11:17:47.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-04-11 11:17:47.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:17:47.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/css/app.css - null null
+2025-04-11 11:17:47.987 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-04-11 11:17:48.000 +03:00 [INF] The file /css/app.css was not modified
+2025-04-11 11:17:48.001 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 29.9208ms
+2025-04-11 11:17:48.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/css/app.css - 304 null text/css 31.5454ms
+2025-04-11 11:17:48.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 42.1149ms
+2025-04-11 11:17:48.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-04-11 11:17:48.039 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:17:48.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.1493ms
+2025-04-11 11:17:48.042 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:17:48.067 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-04-11 11:17:48.069 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 47.8063ms
+2025-04-11 11:17:48.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-04-11 11:17:48.154 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-3l49mofw4v.gz'
+2025-04-11 11:17:48.158 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 12491 application/json 61.2455ms
+2025-04-11 11:17:48.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-04-11 11:17:48.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-04-11 11:17:48.182 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:17:48.186 +03:00 [INF] CORS policy execution failed.
+2025-04-11 11:17:48.190 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:17:48.200 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-04-11 11:17:48.209 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-04-11 11:17:48.212 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-04-11 11:17:48.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 45.3348ms
+2025-04-11 11:17:48.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 51.371ms
+2025-04-11 11:17:48.349 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.69z2wjrtjq.pdb - null null
+2025-04-11 11:17:48.383 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.69z2wjrtjq.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-69z2wjrtjq.gz'
+2025-04-11 11:17:48.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.69z2wjrtjq.pdb.gz - 200 18152 application/octet-stream 38.8599ms
+2025-04-11 11:17:48.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.o34j2kz151.wasm - null null
+2025-04-11 11:17:48.432 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.o34j2kz151.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-o34j2kz151.gz'
+2025-04-11 11:17:48.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.o34j2kz151.wasm.gz - 200 7581 application/wasm 32.1439ms
+2025-04-11 11:17:49.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-04-11 11:17:49.063 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 8.4865ms
+2025-04-11 11:17:49.069 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-04-11 11:17:49.072 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 3.5678ms
+2025-04-11 11:17:49.407 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/navBar.jpg - null null
+2025-04-11 11:17:49.413 +03:00 [INF] The file /images/navBar.jpg was not modified
+2025-04-11 11:17:49.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/navBar.jpg - 304 null image/jpeg 8.2238ms
+2025-04-11 11:17:49.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/images/logo.jpg - null null
+2025-04-11 11:17:49.457 +03:00 [INF] The file /images/logo.jpg was not modified
+2025-04-11 11:17:49.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/images/logo.jpg - 304 null image/jpeg 5.3405ms
+2025-04-11 11:17:51.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-04-11 11:17:51.903 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:17:51.939 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-04-11 11:17:53.749 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Title"
+FROM "Courses" AS c
+2025-04-11 11:17:53.862 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-11 11:17:53.890 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 1936.4633ms
+2025-04-11 11:17:53.894 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-04-11 11:17:53.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 2005.1481ms

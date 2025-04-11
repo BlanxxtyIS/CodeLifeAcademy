@@ -118,9 +118,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.CourseController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.CoursesController",
     "Method": "GetAllCourses",
-    "RelativePath": "Course",
+    "RelativePath": "Courses",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -138,9 +138,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.CourseController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.CoursesController",
     "Method": "CreateCourse",
-    "RelativePath": "Course",
+    "RelativePath": "Courses",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -164,9 +164,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.CourseController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.CoursesController",
     "Method": "GetCourse",
-    "RelativePath": "Course/{id}",
+    "RelativePath": "Courses/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -190,9 +190,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.CourseController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.CoursesController",
     "Method": "UpdateCourse",
-    "RelativePath": "Course/{id}",
+    "RelativePath": "Courses/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -211,9 +211,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.CourseController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.CoursesController",
     "Method": "DeleteCourse",
-    "RelativePath": "Course/{id}",
+    "RelativePath": "Courses/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -227,9 +227,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionsController",
     "Method": "GetLessions",
-    "RelativePath": "Lession",
+    "RelativePath": "Lessions",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -247,9 +247,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionsController",
     "Method": "AddLession",
-    "RelativePath": "Lession",
+    "RelativePath": "Lessions",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -273,9 +273,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionsController",
     "Method": "GetLession",
-    "RelativePath": "Lession/{id}",
+    "RelativePath": "Lessions/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -299,9 +299,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionsController",
     "Method": "UpdateLession",
-    "RelativePath": "Lession/{id}",
+    "RelativePath": "Lessions/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -320,9 +320,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.LessionsController",
     "Method": "DeleteLession",
-    "RelativePath": "Lession/{id}",
+    "RelativePath": "Lessions/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -336,9 +336,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicsController",
     "Method": "GetTopics",
-    "RelativePath": "Topic",
+    "RelativePath": "Topics",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -356,9 +356,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicsController",
     "Method": "AddTopic",
-    "RelativePath": "Topic",
+    "RelativePath": "Topics",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -382,9 +382,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicsController",
     "Method": "GetTopic",
-    "RelativePath": "Topic/{id}",
+    "RelativePath": "Topics/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -408,9 +408,9 @@
     ]
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicsController",
     "Method": "UpdateTopic",
-    "RelativePath": "Topic/{id}",
+    "RelativePath": "Topics/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -429,9 +429,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicController",
+    "ContainingType": "CodeLifeAcademy.API.Controllers.TopicsController",
     "Method": "DeleteTopic",
-    "RelativePath": "Topic/{id}",
+    "RelativePath": "Topics/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

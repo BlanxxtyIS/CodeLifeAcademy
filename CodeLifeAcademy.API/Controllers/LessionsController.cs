@@ -10,12 +10,12 @@ namespace CodeLifeAcademy.API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class LessionController: ControllerBase
+public class LessionsController: ControllerBase
 {
     private readonly ApplicationDbContext _context;
     private readonly IValidator<CreateLessionDto> _createLessionValidator;
 
-    public LessionController(ApplicationDbContext context, IValidator<CreateLessionDto> createLessionValidator)
+    public LessionsController(ApplicationDbContext context, IValidator<CreateLessionDto> createLessionValidator)
     {
         _context = context;
         _createLessionValidator = createLessionValidator;

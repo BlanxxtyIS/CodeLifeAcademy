@@ -11,12 +11,12 @@ namespace CodeLifeAcademy.API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class TopicController: ControllerBase
+public class TopicsController: ControllerBase
 {
     private readonly ApplicationDbContext _context;
     private readonly IValidator<CreateTopicDto> _createTopicValidator;
 
-    public TopicController(ApplicationDbContext context, IValidator<CreateTopicDto> createTopicValidator)
+    public TopicsController(ApplicationDbContext context, IValidator<CreateTopicDto> createTopicValidator)
     {
         _context = context;
         _createTopicValidator = createTopicValidator;

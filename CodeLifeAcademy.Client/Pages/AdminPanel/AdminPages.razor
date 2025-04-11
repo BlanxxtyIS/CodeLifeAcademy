@@ -1,0 +1,58 @@
+﻿@page "/adminPanel"
+@inject HttpClient Http
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Admin Panel</h1>
+
+<p>Страница админки для редактирования и изменения ресурсов.</p>
+
+
+<a href="/counter">Страница 1</a>
+<br />
+<a href="/">Страница основная</a>
+<br />
+<a href="/scalar">Тест страница</a>
+
+<h3>Users</h3>
+@if (_users is null)
+{
+    <p>хуйня пусто что-то</p>
+}
+else
+{
+    foreach (var user in _users)
+    {
+        <p>@user.Id</p>
+        <p>@user.Username</p>
+        <p>@user.Email</p>
+        <p>-----------------------</p>
+    }
+}
+
+<h3>Courses</h3>
+@if (_courses is null)
+{
+    <p>хуйня пусто что-то</p>
+} else {
+    foreach (var course in _courses)
+    {
+        <p>@course.Id</p>
+        <p>@course.Title</p>
+        <p>@course.Description</p>
+        <p>-----------------------</p>
+    }
+}
+
+
+
+@code {
+    private List<User>? _users;
+    private List<Course>? _courses;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _users = await Http.GetFromJsonAsync<List<User>>("/users");
+        _courses = await Http.GetFromJsonAsync<List<Course>>("/courses");
+    }
+}
