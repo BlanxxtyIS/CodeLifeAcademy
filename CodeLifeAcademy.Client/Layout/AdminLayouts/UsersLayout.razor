@@ -1,0 +1,45 @@
+﻿@if (Users is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h3>@Title</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>PasswordHash</th>
+                <th>UserRoles</th>
+                <th>RefreshToken</th>
+                <th>CreatedAt</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Users)
+            {
+                <tr>
+                    <th>@user.Id</th>
+                    <th>@user.Username</th>
+                    <th>@user.Email</th>
+                    <th>@user.PasswordHash</th>
+                    @foreach (var roles in @user.UserRoles) {
+                        <th>@roles.Role.Name</th>
+                    }
+                    <th>@user.RefreshToken</th>
+                    <th>@user.CreatedAt</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public IEnumerable<User>? Users { get; set; } = null;
+}
