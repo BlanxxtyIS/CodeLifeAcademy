@@ -52,6 +52,7 @@ public class TopicsController: ControllerBase
         {
             Title = dto.Title,
             Description = dto.Description,
+            CourseId = dto.CourseId
         };
 
         _context.Topics.Add(topic);

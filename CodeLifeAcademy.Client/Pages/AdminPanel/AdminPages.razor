@@ -14,11 +14,23 @@
 
 <UsersLayout Users="_users" Title="Users"/>
 
-<EntitiesLayout TEntity="Course" Items="_courses" Title="Courses"/>
+<EntitiesLayout TEntity="Course" Items="_courses" Title="Courses">
+    <EditFormContent>
+        <EditEntityLayout />
+    </EditFormContent>
+</EntitiesLayout>
 
-<EntitiesLayout TEntity="Topic" Items="_topics" Title="Topics" />
+<EntitiesLayout TEntity="Topic" Items="_topics" Title="Topics">
+    <EditFormContent>
+        <AddTopicLayout />
+    </EditFormContent>
+</EntitiesLayout>
 
-<EntitiesLayout TEntity="Lession" Items="_lessions" Title="Lessions" />
+<EntitiesLayout TEntity="Lession" Items="_lessions" Title="Lessions">
+    <EditFormContent>
+        <EditEntityLayout />
+    </EditFormContent>
+</EntitiesLayout>
 
 @code {
     private List<User>? _users;

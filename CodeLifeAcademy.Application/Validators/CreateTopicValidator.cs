@@ -12,5 +12,8 @@ public class CreateTopicValidator: AbstractValidator<CreateTopicDto>
 
         RuleFor(x => x.Description)
             .MaximumLength(500).WithMessage("Описание не должно превышать 500 символов");
+
+        RuleFor(x => x.CourseId)
+            .NotNull().WithMessage("Обязателен к добавлению");
     }
 }

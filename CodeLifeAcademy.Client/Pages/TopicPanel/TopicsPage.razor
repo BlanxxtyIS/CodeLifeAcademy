@@ -1,0 +1,26 @@
+﻿@page "/topicsPage"
+@inject HttpClient _http
+
+<h3>IOS [SWIFT] - Разработчик</h3>
+
+@if (_topics is null) {
+    <p>Загрузка тем...</p>
+} else {
+    @foreach (var topic in _topics) {
+        <TopicCardLayout Title="@topic.Title" Description="@topic.Description" />
+    }
+}
+
+@code {
+    private IEnumerable<Topic>? _topics = new List<Topic>();
+
+    protected override async Task OnInitializedAsync() {
+        try {
+            _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Ошибка при загрузке тем курса {ex.Message}");
+        }
+    }
+}

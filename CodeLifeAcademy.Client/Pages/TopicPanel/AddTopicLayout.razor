@@ -1,0 +1,74 @@
+﻿@inject HttpClient _http
+
+<div class="form-container">
+    <p>@_test</p>
+    <div class="form">
+        <span class="heading">Добавить тему</span>
+        <input placeholder="Наименование" type="text" class="input" @bind=_title>
+        <textarea placeholder="Описание" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_description></textarea>
+        <input placeholder="CourseID" type="text" class="input" @bind=_courseId>
+        <div class="button-container">
+            <button class="send-button" @onclick=Send>Изменить</button>
+            <button id="reset-btn" class="reset-button" @onclick=Reset>Reset</button>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private string _test = "Добавить!";
+
+    private string? _title;
+    private string? _description;
+    private string? _courseId;
+
+    private async Task Send()
+    {
+        if (string.IsNullOrWhiteSpace(_title) || string.IsNullOrWhiteSpace(_description)
+        || string.IsNullOrWhiteSpace(_courseId)) {
+            _test = "Заполните все поля!";
+            return;
+        }
+
+        if (!Guid.TryParse(_courseId, out var courseId))
+        {
+            _test = "CourseId не является корректным GUID!";
+            return;
+        }
+
+        var newTopic = new Topic
+        {
+            Title = _title,
+            Description = _description,
+            CourseId = courseId
+        };
+
+        try
+        {
+            var response = await _http.PostAsJsonAsync("topics", newTopic);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _test = "Тема успешно добавлена!";
+                Reset();
+            }
+            else
+            {
+                _test = $"Ошибка: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            _test = $"Ошибка при отправке: {ex.Message}";
+        }
+        StateHasChanged();
+    }
+
+    private void Reset()
+    {
+        _title = string.Empty;
+        _description = string.Empty;
+        _courseId = string.Empty;
+        _test = "Добавить!";
+    }
+}

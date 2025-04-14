@@ -14,7 +14,7 @@ else
 
     @if (showEditForm)
     {
-        <EditEntityLayout />
+        @EditFormContent
     }
 
     <table>
@@ -50,6 +50,8 @@ else
 
     [Parameter]
     public IEnumerable<TEntity>? Items { get; set; }
+
+    [Parameter] public RenderFragment? EditFormContent { get; set; }
 
     private bool showEditForm = false;
 
