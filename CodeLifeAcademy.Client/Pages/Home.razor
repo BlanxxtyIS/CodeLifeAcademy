@@ -1,7 +1,37 @@
 ﻿@page "/"
+@inject HttpClient _http
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Курсы</PageTitle>
 
-<h1>Hello, world!</h1>
+@if (_courses is null)
+{
+    <p>Загрузка страницы...</p>
+}
+else {
+    <CourseDeatailsLayout Course="_selectedCourse" />
+    <div class="grid" >
+        @foreach (var course in _courses)
+        {
+            <CourseCardLayout Course="course" OnSelected="HandleCourseSelected"/>
+        }
+    </div>
+}
 
-Welcome to your new app.
+
+@code {
+    private Course? _selectedCourse;
+    private IEnumerable<Course>? _courses;
+
+    protected override async Task OnInitializedAsync() {
+        try {
+            _courses = await _http.GetFromJsonAsync<IEnumerable<Course>>("/courses");
+        }
+        catch (HttpRequestException ex) {
+            Console.WriteLine($"Ошибка при загрузке курсов {ex.Message}");
+        }
+    }
+
+    private void HandleCourseSelected(Course course) => 
+        _selectedCourse = course;
+    }
+}

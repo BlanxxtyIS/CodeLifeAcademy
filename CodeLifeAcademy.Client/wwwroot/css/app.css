@@ -1,3 +1,112 @@
+/* Course Card */
+:root {
+    --brand: #448922;
+    --brand-hover: #5da030;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: var(--brand);
+    text-decoration: underline;
+}
+
+    a:hover {
+        color: var(--brand-hover);
+        text-decoration: none;
+    }
+
+.navbar {
+    border-bottom: 2px solid var(--brand);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 100%), url("../images/navbar-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+    .btn-primary:hover {
+        background-color: var(--brand-hover);
+        border-color: var(--brand-hover);
+    }
+
+.btn-outline-primary {
+    border-color: var(--brand);
+    color: var(--brand);
+}
+
+    .btn-outline-primary:hover {
+        background-color: var(--brand);
+        border-color: var(--brand);
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 288px);
+    column-gap: 123px;
+    row-gap: 75px;
+}
+
+/* Course Details */
+.drawer-mask {
+    visibility: hidden;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000000;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.drawer-wrapper.slide > .drawer-mask {
+    opacity: .5;
+    visibility: visible;
+}
+
+.drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+    border-left: 0.063em solid gray;
+    z-index: 100;
+    transform: translateX(110%);
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.drawer-wrapper .slide > .drawer {
+    transform: translateX(0);
+}
+
+.drawer-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.course-details {
+    padding: 20px;
+}
+
+.drawer-controls {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
 #blazor-error-ui {
     color-scheme: light only;
     background: lightyellow;
@@ -43,3 +152,103 @@ th {
     background-color: #f2f2f2;
 }
 
+/* Add Course Form */
+.orange {
+    color: #ff7a01;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 30px;
+    background-color: #001925;
+    padding: 30px;
+    border-left: 5px solid #ff7a01;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
+.heading {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.form-container .form .input {
+    color: #87a4b6;
+    width: 100%;
+    background-color: #002733;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    border-left: 1px solid transparent;
+}
+
+    .form-container .form .input:focus {
+        border-left: 5px solid #ff7a01;
+    }
+
+.form-container .form .textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #013747;
+    color: #ff7a01;
+    font-weight: bold;
+    resize: none;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border-left: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+    .form-container .form .textarea:focus {
+        border-left: 5px solid #ff7a01;
+    }
+
+.form-container .form .button-container {
+    display: flex;
+    gap: 10px;
+}
+
+    .form-container .form .button-container .send-button {
+        flex-basis: 70%;
+        background: #ff7a01;
+        padding: 10px;
+        color: #001925;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid transparent;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .form-container .form .button-container .send-button:hover {
+            background: transparent;
+            border: 1px solid #ff7a01;
+            color: #ff7a01;
+        }
+
+    .form-container .form .button-container .reset-button-container {
+        filter: drop-shadow(1px 1px 0px #ff7a01);
+        flex-basis: 30%;
+    }
+
+        .form-container .form .button-container .reset-button-container .reset-button {
+            position: relative;
+            text-align: center;
+            padding: 10px;
+            color: #ff7a01;
+            font-weight: bold;
+            background: #001925;
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+            transition: all 0.2s ease-in-out;
+        }
+
+            .form-container .form .button-container .reset-button-container .reset-button:hover {
+                background: #ff7a01;
+                color: #001925;
+            }

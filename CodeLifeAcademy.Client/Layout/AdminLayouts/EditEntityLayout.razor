@@ -1,0 +1,63 @@
+﻿@inject HttpClient _http
+
+<div class="form-container">
+    <div class="form">
+        <p>@_test</p>
+        <span class="heading">Добавить или изменить курс</span>
+        <input placeholder="Наименование" type="text" class="input" @bind=_title>
+        <input placeholder="Изображение" type="text"  class="input" @bind=_image>
+        <input placeholder="Рейтинг" type="text" class="input" @bind=_progress>
+        <input placeholder="Время прохождения" type="number" class="input" @bind=_timeInMinutes>
+        <textarea placeholder="Описание" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_description></textarea>
+        <div class="button-container">
+            <button class="send-button" @onclick=Send>Изменить</button>
+            <button id="reset-btn" class="reset-button" @onclick=Reset>Reset</button>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private string _test = "Добавить!";
+
+    private string? _title;
+    private string? _image;
+    private string? _progress;
+    private int? _timeInMinutes;
+    private string? _description;
+
+    private async Task Send() {
+        if (string.IsNullOrWhiteSpace(_title) || string.IsNullOrWhiteSpace(_description))
+        {
+            _test = "Заполните все поля!";
+            return;
+        }
+        var newCourse = new Course
+            {
+                Title = _title,
+                Description = _description
+            };
+
+        try {
+            var response = await _http.PostAsJsonAsync("courses", newCourse);
+
+            if (response.IsSuccessStatusCode) {
+                _test = "Курс успешно обновлен!";
+                Reset();
+            }
+            else {
+                _test = $"Ошибка: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex) {
+            _test = $"Ошибка при отправке: {ex.Message}";
+        }
+        StateHasChanged();
+    }
+
+    private void Reset() {
+        _title = string.Empty;
+        _description = string.Empty;
+        _test = "Добавить!";
+    }
+}

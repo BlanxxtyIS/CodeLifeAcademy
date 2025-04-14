@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CodeLifeAcademy.Application\CodeLifeAcademy.Application.csproj" />
     <ProjectReference Include="..\CodeLifeAcademy.Core\CodeLifeAcademy.Core.csproj" />
   </ItemGroup>
 

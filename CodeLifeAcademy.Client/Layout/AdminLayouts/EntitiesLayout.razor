@@ -7,6 +7,16 @@
 else
 {
     <h3>@Title</h3>
+
+    <button @onclick=showEditFormButton>
+        Добавить
+    </button>
+
+    @if (showEditForm)
+    {
+        <EditEntityLayout />
+    }
+
     <table>
         <thead>
             <tr>
@@ -25,7 +35,7 @@ else
                         <td>@FormatValue(prop.GetValue(entity))</td>
                     }
                     <td>
-                    <button @onclick="Edit">Редактировать</button>
+                        <button @onclick="Edit">Редактировать</button>
                     </td>
                 </tr>
 
@@ -41,6 +51,8 @@ else
     [Parameter]
     public IEnumerable<TEntity>? Items { get; set; }
 
+    private bool showEditForm = false;
+
     private string FormatValue(object? value)
     {
         if (value is null) return "";
@@ -52,6 +64,14 @@ else
     }
 
     private async Task Edit() {
-        
+
+    }
+
+    /// <summary>
+    /// Показать/скрыть форму для добавления
+    /// </summary>
+    private void showEditFormButton() {
+        showEditForm = !showEditForm;
+        StateHasChanged();
     }
 }

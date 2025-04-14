@@ -1060,6 +1060,7 @@
       },
       "CodeLifeAcademy.Client/1.0.0": {
         "dependencies": {
+          "CodeLifeAcademy.Application": "1.0.0",
           "CodeLifeAcademy.Core": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "9.0.0"
         },

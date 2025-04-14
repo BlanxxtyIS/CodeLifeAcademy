@@ -15,23 +15,27 @@ else
                 <th>UserRoles</th>
                 <th>RefreshToken</th>
                 <th>CreatedAt</th>
+                <th>Редактировать</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var user in Users)
             {
                 <tr>
-                    <th>@user.Id</th>
-                    <th>@user.Username</th>
-                    <th>@user.Email</th>
-                    <th>@user.PasswordHash</th>
+                    <td>@user.Id</td>
+                    <td>@user.Username</td>
+                    <td>@user.Email</td>
+                    <td>@user.PasswordHash</td>
                     @foreach (var roles in @user.UserRoles) {
-                        <th>@roles.Role.Name</th>
+                        <td>@roles.Role.Name</td>
                     }
-                    <th>@user.RefreshToken</th>
-                    <th>@user.CreatedAt</th>
+                    <td>@user.RefreshToken</td>
+                    <td>@user.CreatedAt</td>
+                    <td>
+                        <button @onclick="() => Edit(user)">Редактировать</button>
+                    </td>
                 </tr>
-            }
+                }
         </tbody>
     </table>
 }
@@ -42,4 +46,9 @@ else
 
     [Parameter]
     public IEnumerable<User>? Users { get; set; } = null;
+
+    private async Task Edit(User user)
+    {
+
+    }
 }

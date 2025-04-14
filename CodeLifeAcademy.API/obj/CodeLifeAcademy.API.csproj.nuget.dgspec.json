@@ -243,6 +243,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj": {
+                "projectPath": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj"
+              },
               "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj": {
                 "projectPath": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj"
               }

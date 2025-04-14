@@ -1,11 +1,9 @@
 ﻿@page "/adminPanel"
 @inject HttpClient Http
 
-<PageTitle>Weather</PageTitle>
+<PageTitle>Admin Page</PageTitle>
 
-<h1>Admin Panel</h1>
-
-<p>Страница админки для редактирования и изменения ресурсов.</p>
+<h3>Страница админки для редактирования и изменения ресурсов.</h3>
 
 
 <a href="/counter">Страница 1</a>
@@ -18,13 +16,21 @@
 
 <EntitiesLayout TEntity="Course" Items="_courses" Title="Courses"/>
 
+<EntitiesLayout TEntity="Topic" Items="_topics" Title="Topics" />
+
+<EntitiesLayout TEntity="Lession" Items="_lessions" Title="Lessions" />
+
 @code {
     private List<User>? _users;
     private List<Course>? _courses;
+    private List<Topic>? _topics;
+    private List<Lession>? _lessions;
 
     protected override async Task OnInitializedAsync()
     {
         _users = await Http.GetFromJsonAsync<List<User>>("/users");
-        _courses = await Http.GetFromJsonAsync<List<Course>>("/courses");    
+        _courses = await Http.GetFromJsonAsync<List<Course>>("/courses");
+        _topics = await Http.GetFromJsonAsync<List<Topic>>("/topics");
+        _lessions = await Http.GetFromJsonAsync<List<Lession>>("/lessions");
     }
 }

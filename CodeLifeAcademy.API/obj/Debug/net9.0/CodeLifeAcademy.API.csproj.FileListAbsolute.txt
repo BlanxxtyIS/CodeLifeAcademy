@@ -170,7 +170,6 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\CodeL
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\FluentValidation.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Serilog.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Serilog.AspNetCore.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
@@ -180,3 +179,4 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Seril
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Serilog.Sinks.Console.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

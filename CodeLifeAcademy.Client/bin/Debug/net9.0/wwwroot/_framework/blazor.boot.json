@@ -1,13 +1,16 @@
 {
   "mainAssemblyName": "CodeLifeAcademy.Client",
   "resources": {
-    "hash": "sha256-CbCplBWcjNV30tqy5mvcMnMvsZcXZFHXoqYxve+YA+w=",
+    "hash": "sha256-dEM19tv3i3Pow3z5GmBDDweMfT10ak8Rzj1uohhDkNs=",
     "fingerprinting": {
+      "FluentValidation.fvee6lf8f0.wasm": "FluentValidation.wasm",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.thhw8cz9wu.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.cx40wf47rk.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.5cygu8f0zf.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
+      "Microsoft.AspNetCore.Http.Abstractions.5jy9omvvsv.wasm": "Microsoft.AspNetCore.Http.Abstractions.wasm",
+      "Microsoft.AspNetCore.Http.Features.pqxjsc5k5q.wasm": "Microsoft.AspNetCore.Http.Features.wasm",
       "Microsoft.AspNetCore.Metadata.8r1tzxyzhv.wasm": "Microsoft.AspNetCore.Metadata.wasm",
       "Microsoft.Extensions.Configuration.ic45gpxjv4.wasm": "Microsoft.Extensions.Configuration.wasm",
       "Microsoft.Extensions.Configuration.Abstractions.pvxa4wu5tg.wasm": "Microsoft.Extensions.Configuration.Abstractions.wasm",
@@ -201,10 +204,12 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "CodeLifeAcademy.Core.yxbcgt8smh.wasm": "CodeLifeAcademy.Core.wasm",
-      "CodeLifeAcademy.Core.xhkvpni7u7.pdb": "CodeLifeAcademy.Core.pdb",
-      "CodeLifeAcademy.Client.zlbly7plnp.wasm": "CodeLifeAcademy.Client.wasm",
-      "CodeLifeAcademy.Client.0tmndp5nuy.pdb": "CodeLifeAcademy.Client.pdb"
+      "CodeLifeAcademy.Application.oh6f2a23qu.wasm": "CodeLifeAcademy.Application.wasm",
+      "CodeLifeAcademy.Core.gvfzcvcpwk.wasm": "CodeLifeAcademy.Core.wasm",
+      "CodeLifeAcademy.Application.rz4o0dvqke.pdb": "CodeLifeAcademy.Application.pdb",
+      "CodeLifeAcademy.Core.vpla2uhzjr.pdb": "CodeLifeAcademy.Core.pdb",
+      "CodeLifeAcademy.Client.hndii1tygw.wasm": "CodeLifeAcademy.Client.wasm",
+      "CodeLifeAcademy.Client.y8srbhq6bp.pdb": "CodeLifeAcademy.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -225,11 +230,14 @@
       "System.Private.CoreLib.fk089ohxy8.wasm": "sha256-3w3kRfKPH1QdD/KZ69pXxig13Aan9AlVD/FAJau8fC0="
     },
     "assembly": {
+      "FluentValidation.fvee6lf8f0.wasm": "sha256-y2wmu0q0yfh4/O0BN8s/ZnPUFizpBUQu6X5SeIQJjnI=",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "sha256-8hTdrmR59LAJRrDu8LLRlNn641/iWIAjzG1GcCsAhR0=",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "sha256-jTpt9y+Fzn6JeLtdS0PwW+fzVCyw2aJ8kFuDQAMFdcE=",
       "Microsoft.AspNetCore.Components.Forms.thhw8cz9wu.wasm": "sha256-b7dkg8tMPT2fEN10cgvga1DuG4BElomG5PE4E8Bv5B8=",
       "Microsoft.AspNetCore.Components.Web.cx40wf47rk.wasm": "sha256-ECvB9e5XSMH23qRbFlUaMQ7yi5lypoSEKbSDFgPrgfw=",
       "Microsoft.AspNetCore.Components.WebAssembly.5cygu8f0zf.wasm": "sha256-KwD9Lhu5DlaqdB2ceYX2LavpwSIAS5H07ZPT2jVbiu4=",
+      "Microsoft.AspNetCore.Http.Abstractions.5jy9omvvsv.wasm": "sha256-7wgz1ZHwXmXV8y00xn+jT4BGeuCQQbVYGQl+PNvBfnQ=",
+      "Microsoft.AspNetCore.Http.Features.pqxjsc5k5q.wasm": "sha256-bzIPAVp+XhD63CRn9cVTB4tJRU+oDEAuwFYoHytMhUk=",
       "Microsoft.AspNetCore.Metadata.8r1tzxyzhv.wasm": "sha256-3EoL3qJCooyvJ92CEaRsAzHRf1isqMHQN+kOaKV9bKA=",
       "Microsoft.Extensions.Configuration.ic45gpxjv4.wasm": "sha256-vnaZO3xnaFa9759X1ZOnVpCWKAwE9Xs9dd2r08xExUc=",
       "Microsoft.Extensions.Configuration.Abstractions.pvxa4wu5tg.wasm": "sha256-Be4qQkqKq9ZefQTu5oOnkHxOzbKy0D4XKHTLiRLKG5E=",
@@ -414,12 +422,14 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "CodeLifeAcademy.Core.yxbcgt8smh.wasm": "sha256-ihSXLPe/8/Wka121TVS9IJwVDu3D7hZQ6Yt/sPXLK28=",
-      "CodeLifeAcademy.Client.zlbly7plnp.wasm": "sha256-B9yfpszNPxMGgrtuLrcSH33JQh9aT5Y2+ZZnSlelw44="
+      "CodeLifeAcademy.Application.oh6f2a23qu.wasm": "sha256-nFjjUQdYGDtQ/W/76zB4JK2JVrqGz/95eZhoLdSQIpI=",
+      "CodeLifeAcademy.Core.gvfzcvcpwk.wasm": "sha256-HKO/4iLFUfhRGzk+j5mVKG9QolNMj3oK6QZu6ztSwco=",
+      "CodeLifeAcademy.Client.hndii1tygw.wasm": "sha256-Y6Sh/bUXiLzYvC3f5wnmhtkrz+v8AL2cEfE/Edy2OHU="
     },
     "pdb": {
-      "CodeLifeAcademy.Core.xhkvpni7u7.pdb": "sha256-ezEXYgUcb3bE1OAY6X7u03pSFekBXnsHYUeIT82B60s=",
-      "CodeLifeAcademy.Client.0tmndp5nuy.pdb": "sha256-zOuuaWTskizyAszfo+eYnnFeEoUGRxx3TZqfvIsdtcI="
+      "CodeLifeAcademy.Application.rz4o0dvqke.pdb": "sha256-R/OsgurUL+gGXs0W8ypzEmrVk4s1a3bouBVYHEmZpEs=",
+      "CodeLifeAcademy.Core.vpla2uhzjr.pdb": "sha256-jSmkQZ6bUJfpaLvxJJFoPZCykG2/bMzIvq3gAvMcJ98=",
+      "CodeLifeAcademy.Client.y8srbhq6bp.pdb": "sha256-wrYO0+Xjp4dV8fNRDw28gLlKnrDIOQAeigqiSRoPPEE="
     }
   },
   "cacheBootResources": true,
