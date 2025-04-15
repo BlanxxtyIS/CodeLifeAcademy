@@ -98,14 +98,13 @@ app.UseCors("AllowFrontend");
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 app.UseRouting();
-app.MapFallbackToFile("index.html");
 
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseMiddleware<JwtCookieMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 
-
 app.MapControllers();
+app.MapFallbackToFile("index.html");
 
 app.Run();

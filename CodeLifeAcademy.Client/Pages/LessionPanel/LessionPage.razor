@@ -28,18 +28,7 @@ else
     {
         try
         {
-            // Вариант 1 (предпочтительный, если API возвращает JSON)
             Lesson = await _http.GetFromJsonAsync<Lession>($"/lessions/{LessonId}");
-
-            // ИЛИ Вариант 2 (если API возвращает HTML напрямую)
-            // var response = await _http.GetAsync($"/lessions/{LessonId}");
-            // if (response.IsSuccessStatusCode)
-            // {
-            //     Lesson = new Lession {
-            //         Id = LessonId,
-            //         Content = await response.Content.ReadAsStringAsync()
-            //     };
-            // }
         }
         catch (Exception ex)
         {
@@ -60,12 +49,5 @@ else
         // Заглушка - реализуйте получение ID следующего урока
         // Можно через API или из списка уроков
         return Guid.NewGuid();
-    }
-
-    public class Lession
-    {
-        public Guid Id { get; set; }
-        public string? Title { get; set; }
-        public string? Content { get; set; }
     }
 }

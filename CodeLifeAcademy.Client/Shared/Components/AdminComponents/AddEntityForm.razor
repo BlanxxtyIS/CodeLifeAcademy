@@ -3,15 +3,15 @@
 <div class="form-container">
     <div class="form">
         <p>@_test</p>
-        <span class="heading">Добавить или изменить курс</span>
+        <span class="heading">Добавить курс</span>
         <input placeholder="Наименование" type="text" class="input" @bind=_title>
         <input placeholder="Изображение" type="text"  class="input" @bind=_image>
         <input placeholder="Рейтинг" type="text" class="input" @bind=_progress>
         <input placeholder="Время прохождения" type="number" class="input" @bind=_timeInMinutes>
         <textarea placeholder="Описание" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_description></textarea>
         <div class="button-container">
-            <button class="send-button" @onclick=Send>Изменить</button>
-            <button id="reset-btn" class="reset-button" @onclick=Reset>Reset</button>
+            <button class="send-button" @onclick=Send>Добавить</button>
+            <button class="reset-button" @onclick=Reset>Сбросить</button>
         </div>
 
     </div>
@@ -42,7 +42,7 @@
             var response = await _http.PostAsJsonAsync("courses", newCourse);
 
             if (response.IsSuccessStatusCode) {
-                _test = "Курс успешно обновлен!";
+                _test = "Курс успешно добавлен!";
                 Reset();
             }
             else {

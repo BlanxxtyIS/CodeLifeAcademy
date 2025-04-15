@@ -12,9 +12,9 @@ else
         Добавить
     </button>
 
-    @if (showEditForm)
+    @if (_showAddContentForm)
     {
-        @EditFormContent
+        @AddContentForm
     }
 
     <table>
@@ -35,7 +35,7 @@ else
                         <td>@FormatValue(prop.GetValue(entity))</td>
                     }
                     <td>
-                        <button @onclick="Edit">Редактировать</button>
+                        <button @onclick="@(() => EditEntity(entity))">Редактировать</button>
                     </td>
                 </tr>
 
@@ -51,9 +51,9 @@ else
     [Parameter]
     public IEnumerable<TEntity>? Items { get; set; }
 
-    [Parameter] public RenderFragment? EditFormContent { get; set; }
+    [Parameter] public RenderFragment? AddContentForm { get; set; }
 
-    private bool showEditForm = false;
+    private bool _showAddContentForm = false;
 
     private string FormatValue(object? value)
     {
@@ -65,15 +65,15 @@ else
         return value.ToString() ?? "";
     }
 
-    private async Task Edit() {
-
+    private void EditEntity(TEntity entity)
+    {
     }
 
     /// <summary>
     /// Показать/скрыть форму для добавления
     /// </summary>
     private void showEditFormButton() {
-        showEditForm = !showEditForm;
+        _showAddContentForm = !_showAddContentForm;
         StateHasChanged();
     }
 }

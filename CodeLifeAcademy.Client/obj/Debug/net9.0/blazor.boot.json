@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CodeLifeAcademy.Client",
   "resources": {
-    "hash": "sha256-th5nkeAQ/67C8gsyshwNJ7HyySs0w2GVgYJ0Z0jXS88=",
+    "hash": "sha256-1DjaDb0LOKdVN41H62C5N85120+XG4p5bt9Ou7fc0Ig=",
     "fingerprinting": {
       "FluentValidation.fvee6lf8f0.wasm": "FluentValidation.wasm",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -208,8 +208,8 @@
       "CodeLifeAcademy.Core.gvfzcvcpwk.wasm": "CodeLifeAcademy.Core.wasm",
       "CodeLifeAcademy.Application.1opcw7zpzo.pdb": "CodeLifeAcademy.Application.pdb",
       "CodeLifeAcademy.Core.vpla2uhzjr.pdb": "CodeLifeAcademy.Core.pdb",
-      "CodeLifeAcademy.Client.0ebk4jr3mi.wasm": "CodeLifeAcademy.Client.wasm",
-      "CodeLifeAcademy.Client.9z9868266c.pdb": "CodeLifeAcademy.Client.pdb"
+      "CodeLifeAcademy.Client.0yvod5f0lt.wasm": "CodeLifeAcademy.Client.wasm",
+      "CodeLifeAcademy.Client.4byw9urq2u.pdb": "CodeLifeAcademy.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -424,12 +424,12 @@
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
       "CodeLifeAcademy.Application.r520gybys0.wasm": "sha256-Ee3FgMCLomWCaU7owTvxqMCBGRlD/40Z8Q/TtC+qoic=",
       "CodeLifeAcademy.Core.gvfzcvcpwk.wasm": "sha256-HKO/4iLFUfhRGzk+j5mVKG9QolNMj3oK6QZu6ztSwco=",
-      "CodeLifeAcademy.Client.0ebk4jr3mi.wasm": "sha256-qJZ+h7bYZcEu8tpPK30ryQ4AWK2cMf6d/rs5ETK16Gw="
+      "CodeLifeAcademy.Client.0yvod5f0lt.wasm": "sha256-SPewezxPhmvXmxzqcXR5YxqCiIOljKxoKMg5I3D51Hc="
     },
     "pdb": {
       "CodeLifeAcademy.Application.1opcw7zpzo.pdb": "sha256-D+fBiDQiIMnYF2Qw2N8soxTvkY+raIHX+FtD+ni2j38=",
       "CodeLifeAcademy.Core.vpla2uhzjr.pdb": "sha256-jSmkQZ6bUJfpaLvxJJFoPZCykG2/bMzIvq3gAvMcJ98=",
-      "CodeLifeAcademy.Client.9z9868266c.pdb": "sha256-hWoOEbXStdUlXzR0aK7H2VloGEnmlh8YRwKGcLXChHw="
+      "CodeLifeAcademy.Client.4byw9urq2u.pdb": "sha256-sIZQ8q63O18u20WfTu2IKTgsCU9AiFGSeajz7fa6l9Y="
     }
   },
   "cacheBootResources": true,

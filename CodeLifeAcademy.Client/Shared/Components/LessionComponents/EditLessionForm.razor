@@ -3,24 +3,36 @@
 <div class="form-container">
     <p>@_test</p>
     <div class="form">
-        <span class="heading">Добавить урок</span>
-        <input placeholder="Наименование" type="text" class="input" @bind=_title>
+        <span class="heading">Редактировать урок @_title</span>
+        <input placeholder="Наименование" type="text" class="input" @bind-value=_title>
         <textarea placeholder="Содержание HTML" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_content></textarea>
         <input placeholder="TopicID" type="text" class="input" @bind=_topicId>
         <div class="button-container">
-            <button class="send-button" @onclick=Send>Добавить</button>
-            <button class="reset-button" @onclick=Reset>Reset</button>
+            <button class="send-button" @onclick=Send>Изменить</button>
+            <button class="reset-button" @onclick=Reset>Сбросить</button>
         </div>
 
     </div>
 </div>
 
 @code {
+    [Parameter, EditorRequired] 
+    public Lession EditorLesson { get; set; }
+
     private string _test = string.Empty;
 
     private string? _title;
     private string? _content;
     private string? _topicId;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (EditorLesson is null) return;
+
+        _title = EditorLesson.Title;
+        _content = EditorLesson.Content;
+        _topicId = EditorLesson.TopicId.ToString();
+    }
 
     private async Task Send()
     {
@@ -33,24 +45,21 @@
 
         if (!Guid.TryParse(_topicId, out var topicId))
         {
-            _test = "CourseId не является корректным GUID!";
+            _test = "TopicId не является корректным GUID!";
             return;
         }
 
-        var newLession = new Lession
-            {
-                Title = _title,
-                Content = _content,
-                TopicId = topicId
-            };
+        EditorLesson.Title = _title;
+        EditorLesson.Content = _content;
+        EditorLesson.TopicId = topicId;
 
         try
         {
-            var response = await _http.PostAsJsonAsync("lessions", newLession);
+            var response = await _http.PutAsJsonAsync($"lessions/{EditorLesson.Id}", EditorLesson);
 
             if (response.IsSuccessStatusCode)
             {
-                _test = "Тема успешно добавлена!";
+                _test = "Урок успешно добавлен!";
                 Reset();
             }
             else
@@ -67,9 +76,11 @@
 
     private void Reset()
     {
-        _title = string.Empty;
-        _content = string.Empty;
-        _topicId = string.Empty;
-        _test = "Добавить!";
+        if (EditorLesson is null) return;
+
+        _title = EditorLesson.Title;
+        _content = EditorLesson.Content;
+        _topicId = EditorLesson.TopicId.ToString();
+        _test = "Изменения отменены";
     }
 }

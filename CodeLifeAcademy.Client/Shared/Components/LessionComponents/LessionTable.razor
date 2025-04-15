@@ -1,0 +1,73 @@
+﻿@if (Lessions is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h3>@Title</h3>
+
+    <button @onclick=ShowAddFormButton>
+        Добавить
+    </button>
+
+    @if (_showAddLessionForm)
+    {
+        <AddLessionForm />
+    }
+    else if (_showEditLessionForm) {
+        <EditLessionForm EditorLesson="_currentEditLession" />
+    }
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>TopicID</th>
+                <th>Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var lession in Lessions)
+            {
+                <tr>
+                    <td>@lession.Id</td>
+                    <td>@lession.Title</td>
+                    <td>@lession.Content</td>
+                    <td>@lession.TopicId</td>
+                    <td>@lession.Topic</td>
+                    <td>
+                        <button @onclick="@(() => EditEntity(lession))">Редактировать</button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public IEnumerable<Lession>? Lessions { get; set; }
+
+    private bool _showAddLessionForm;
+    private bool _showEditLessionForm;
+    private Lession? _currentEditLession;
+
+    private void EditEntity(Lession entity)
+    {
+        _currentEditLession = entity;
+        _showEditLessionForm = !_showEditLessionForm;
+    }
+
+    /// <summary>
+    /// Показать/скрыть форму для добавления
+    /// </summary>
+    private void ShowAddFormButton()
+    {
+        _showAddLessionForm = !_showAddLessionForm;
+    }
+}

@@ -13,28 +13,24 @@
 <a href="/scalar">Тест страница</a>
 
 <EntitiesTable TEntity="User" Items="_users" Title="Users">
-    <EditFormContent>
-        <EditEntityForm />
-    </EditFormContent>
+    <AddContentForm>
+        <AddEntityForm />
+    </AddContentForm>
 </EntitiesTable>
 
 <EntitiesTable TEntity="Course" Items="_courses" Title="Courses">
-    <EditFormContent>
-        <EditEntityForm />
-    </EditFormContent>
+    <AddContentForm>
+        <AddEntityForm />
+    </AddContentForm>
 </EntitiesTable>
 
 <EntitiesTable TEntity="Topic" Items="_topics" Title="Topics">
-    <EditFormContent>
+    <AddContentForm>
         <AddTopicForm />
-    </EditFormContent>
+    </AddContentForm>
 </EntitiesTable>
 
-<EntitiesTable TEntity="Lession" Items="_lessions" Title="Lessions">
-    <EditFormContent>
-        <AddLessionForm />
-    </EditFormContent>
-</EntitiesTable>
+<LessionTable Lessions="_lessions" Title="Lessions"/>
 
 @code {
     private List<User>? _users;
