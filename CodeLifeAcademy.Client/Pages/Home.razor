@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject HttpClient _http
+@inject NavigationManager _navManager
 
 <PageTitle>Курсы</PageTitle>
 
@@ -8,18 +9,16 @@
     <p>Загрузка страницы...</p>
 }
 else {
-    <CourseDeatailsLayout Course="_selectedCourse" />
     <div class="grid" >
         @foreach (var course in _courses)
         {
-            <CourseCardLayout Course="course" OnSelected="HandleCourseSelected"/>
+            <CourseCard Course="course" OnSelected="HandleCourseSelected"/>
         }
     </div>
 }
 
 
 @code {
-    private Course? _selectedCourse;
     private IEnumerable<Course>? _courses;
 
     protected override async Task OnInitializedAsync() {
@@ -31,7 +30,6 @@ else {
         }
     }
 
-    private void HandleCourseSelected(Course course) => 
-        _selectedCourse = course;
-    }
+    private void HandleCourseSelected() =>
+        _navManager.NavigateTo("/topicsPage");
 }

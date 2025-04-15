@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>rm8loht469</Fingerprint>
-      <Integrity>DRUN0GeY2UX2WSn6D2Y7Fk05ZtThmgD01ZTJM8Ai12I=</Integrity>
+      <Fingerprint>xt4vvstcr9</Fingerprint>
+      <Integrity>NWn5kCbrevIGjKpluuBLI93P/uhn/OKGWqL8YlktJ+Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodeLifeAcademy.Client.styles.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>asj9jl2m80</Fingerprint>
-      <Integrity>atMsQTgMyTo3im8uPkXxOkrrP1X3ZX7DxXjj76KjSbs=</Integrity>
+      <Fingerprint>v1uf6fqu65</Fingerprint>
+      <Integrity>48fhLgNrWPhMbNn4xAiIEnZdhpqj05hSSdKPAVyYNEg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>

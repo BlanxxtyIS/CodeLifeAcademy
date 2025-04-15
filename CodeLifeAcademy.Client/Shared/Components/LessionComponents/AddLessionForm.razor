@@ -1,0 +1,75 @@
+﻿@inject HttpClient _http
+
+<div class="form-container">
+    <p>@_test</p>
+    <div class="form">
+        <span class="heading">Добавить урок</span>
+        <input placeholder="Наименование" type="text" class="input" @bind=_title>
+        <textarea placeholder="Содержание HTML" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_content></textarea>
+        <input placeholder="TopicID" type="text" class="input" @bind=_topicId>
+        <div class="button-container">
+            <button class="send-button" @onclick=Send>Изменить</button>
+            <button id="reset-btn" class="reset-button" @onclick=Reset>Reset</button>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private string _test = "Добавить!";
+
+    private string? _title;
+    private string? _content;
+    private string? _topicId;
+
+    private async Task Send()
+    {
+        if (string.IsNullOrWhiteSpace(_title) || string.IsNullOrWhiteSpace(_content)
+        || string.IsNullOrWhiteSpace(_topicId))
+        {
+            _test = "Заполните все поля!";
+            return;
+        }
+
+        if (!Guid.TryParse(_topicId, out var topicId))
+        {
+            _test = "CourseId не является корректным GUID!";
+            return;
+        }
+
+        var newLession = new Lession
+            {
+                Title = _title,
+                Content = _content,
+                TopicId = topicId
+            };
+
+        try
+        {
+            var response = await _http.PostAsJsonAsync("lessions", newLession);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _test = "Тема успешно добавлена!";
+                Reset();
+            }
+            else
+            {
+                _test = $"Ошибка: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            _test = $"Ошибка при отправке: {ex.Message}";
+        }
+        StateHasChanged();
+    }
+
+    private void Reset()
+    {
+        _title = string.Empty;
+        _content = string.Empty;
+        _topicId = string.Empty;
+        _test = "Добавить!";
+    }
+}

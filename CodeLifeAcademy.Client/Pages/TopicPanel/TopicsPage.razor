@@ -7,16 +7,18 @@
     <p>Загрузка тем...</p>
 } else {
     @foreach (var topic in _topics) {
-        <TopicCardLayout Title="@topic.Title" Description="@topic.Description" />
+        <TopicCard Title="@topic.Title" Description="@topic.Description" Lessions="_lessions" />
     }
 }
 
 @code {
     private IEnumerable<Topic>? _topics = new List<Topic>();
+    private List<Lession>? _lessions = [];
 
     protected override async Task OnInitializedAsync() {
         try {
             _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+            _lessions = await _http.GetFromJsonAsync<List<Lession>>("/lessions");
         }
         catch (HttpRequestException ex)
         {

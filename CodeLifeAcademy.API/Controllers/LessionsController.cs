@@ -32,8 +32,13 @@ public class LessionsController: ControllerBase
     public async Task<ActionResult<Lession>> GetLession(Guid id)
     {
         var lession = await _context.Lessions.FindAsync(id);
-        return (lession is null) ?
-            NotFound() : Ok(lession);
+        if (lession is null) return NotFound();
+        return Ok(new
+        {
+            lession.Id,
+            lession.Title,
+            Content = lession.Content // HTML остаётся как есть, но обёрнут в JSON
+        });
     }
 
     [HttpPost]
@@ -50,6 +55,7 @@ public class LessionsController: ControllerBase
         {
             Title = dto.Title,
             Content = dto.Content,
+            TopicId = dto.TopicId
         };
 
         _context.Lessions.Add(lession);

@@ -12,6 +12,9 @@ public class CreateLessionValidator: AbstractValidator<CreateLessionDto>
             .MaximumLength(100).WithMessage("Название не должно превышать 100 символов");
 
         RuleFor(x => x.Content)
-            .MaximumLength(500).WithMessage("Описание не должно превышать 500 символов");
+            .MaximumLength(5000).WithMessage("Описание не должно превышать 5000 символов");
+
+        RuleFor(x => x.TopicId)
+            .NotNull().WithMessage("Обязателен к добавлению");
     }
 }
