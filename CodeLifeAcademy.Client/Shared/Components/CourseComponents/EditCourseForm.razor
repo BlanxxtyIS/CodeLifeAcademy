@@ -1,0 +1,85 @@
+﻿@inject HttpClient _http
+
+<div class="form-container">
+    <p>@_test</p>
+    <div class="form">
+        <span class="heading">Редактировать курс @_title</span>
+        <input placeholder="Наименование" type="text" class="input" @bind-value=_title>
+        <textarea placeholder="Описание" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_description></textarea>
+        <input placeholder="Изображение" type="text" class="input" @bind=_image>
+        <input placeholder="Время прохождения" type="text" class="input" @bind=_time>
+        <div class="button-container">
+            <button class="send-button" @onclick=Send>Изменить</button>
+            <button class="reset-button" @onclick=Reset>Сбросить</button>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public Course? EditorCourse { get; set; }
+
+    private string _test = string.Empty;
+
+    private string? _title;
+    private string? _description;
+    private string? _image;
+    private int _time;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (EditorCourse is null) return;
+
+        _title = EditorCourse.Title;
+        _description = EditorCourse.Description;
+        _image = EditorCourse.Image;
+        _time = EditorCourse.TimeInMinutes;
+    }
+
+    private async Task Send()
+    {
+        if (string.IsNullOrWhiteSpace(_title) || string.IsNullOrWhiteSpace(_description)
+        || string.IsNullOrWhiteSpace(_image))
+        {
+            _test = "Заполните все поля!";
+            return;
+        }
+
+        EditorCourse.Title = _title;
+        EditorCourse.Description = _description;
+        EditorCourse.Image = _image;
+        EditorCourse.TimeInMinutes = _time;
+
+        try
+        {
+            var response = await _http.PutAsJsonAsync($"lessions/{EditorCourse.Id}", EditorCourse);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _test = "Курс успешно обнавлен!";
+                Reset();
+            }
+            else
+            {
+                _test = $"Ошибка: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            _test = $"Ошибка при отправке: {ex.Message}";
+        }
+        StateHasChanged();
+    }
+
+    private void Reset()
+    {
+        if (EditorCourse is null) return;
+
+        _title = EditorCourse.Title;
+        _description = EditorCourse.Description;
+        _image = EditorCourse.Image;
+        _time = EditorCourse.TimeInMinutes;
+        _test = "Изменения отменены";
+    }
+}

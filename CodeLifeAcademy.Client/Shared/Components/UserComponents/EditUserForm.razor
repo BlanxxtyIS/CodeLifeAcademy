@@ -1,0 +1,78 @@
+﻿@* @inject HttpClient _http
+
+<div class="form-container">
+    <p>@_test</p>
+    <div class="form">
+        <span class="heading">Редактировать пользователя @_username</span>
+        <input placeholder="Email" type="text" class="input" @bind-value=_email>
+        <input placeholder="Role" type="text" class="input" @bind=_userRoles>
+        <div class="button-container">
+            <button class="send-button" @onclick=Send>Изменить</button>
+            <button class="reset-button" @onclick=Reset>Сбросить</button>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public User? EditorUser { get; set; }
+
+    private string _test = string.Empty;
+
+    private string? _username;
+    private string? _email;
+    private ICollection<UserRole>? _userRoles;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (EditorUser is null) return;
+
+        _username = EditorUser.Username;
+        _email = EditorUser.Email;
+        _userRoles = EditorUser.UserRoles;
+    }
+
+    private async Task Send()
+    {
+        if (string.IsNullOrWhiteSpace(_username) || string.IsNullOrWhiteSpace(_email))
+        {
+            _test = "Заполните все поля!";
+            return;
+        }
+
+        EditorUser.Username = _username;
+        EditorUser.Email = _email;
+        EditorUser.UserRoles = _userRoles;
+
+        try
+        {
+            var response = await _http.PutAsJsonAsync($"users/{EditorUser.Id}", EditorUser);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _test = "Пользователь успешно обновлен!";
+                Reset();
+            }
+            else
+            {
+                _test = $"Ошибка: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            _test = $"Ошибка при отправке: {ex.Message}";
+        }
+        StateHasChanged();
+    }
+
+    private void Reset()
+    {
+        if (EditorUser is null) return;
+
+        _username = EditorUser.Username;
+        _email = EditorUser.Email;
+        _userRoles = EditorUser.UserRoles;
+        _test = "Изменения отменены";
+    }
+} *@

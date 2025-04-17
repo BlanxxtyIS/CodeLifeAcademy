@@ -1,0 +1,73 @@
+﻿@if (Topics is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h3>@Title</h3>
+
+    <button @onclick=ShowAddFormButton>
+        Добавить
+    </button>
+
+    @if (_showAddTopicForm)
+    {
+        <AddLessionForm />
+    }
+    else if (_showEditTopicForm)
+    {
+        <EditTopicForm EditorTopic="_currentEditTopic" />
+    }
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>TopicID</th>
+                <th>Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var topic in Topics)
+            {
+                <tr>
+                    <td>@topic.Id</td>
+                    <td>@topic.Title</td>
+                    <td>@topic.Description</td>
+                    <td>@topic.CourseId</td>
+                    <td>@topic.Course</td>
+                    <td>
+                        <button @onclick="@(() => EditEntity(topic))">Редактировать</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public IEnumerable<Topic>? Topics { get; set; }
+
+    private bool _showAddTopicForm;
+    private bool _showEditTopicForm;
+    private Topic? _currentEditTopic;
+
+    private void EditEntity(Topic topic)
+    {
+        _currentEditTopic = topic;
+        _showEditTopicForm = !_showEditTopicForm;
+    }
+
+    /// <summary>
+    /// Показать/скрыть форму для добавления
+    /// </summary>
+    private void ShowAddFormButton()
+    {
+        _showAddTopicForm = !_showAddTopicForm;
+    }
+}

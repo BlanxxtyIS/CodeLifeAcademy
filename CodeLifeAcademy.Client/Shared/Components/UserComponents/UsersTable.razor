@@ -1,0 +1,75 @@
+﻿@* @if (Users is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h3>@Title</h3>
+
+    <button @onclick=ShowAddFormButton>
+        Добавить
+    </button>
+
+    @if (_showAddUserForm)
+    {
+        <AddLessionForm />
+    }
+    else if (_showEditUserForm)
+    {
+        <EditUserForm EditorLesson="_showEditUserForm" />
+    }
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>TopicID</th>
+                <th>Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Users)
+            {
+                <tr>
+                    <td>@lession.Id</td>
+                    <td>@lession.Title</td>
+                    <td>@lession.Content</td>
+                    <td>@lession.TopicId</td>
+                    <td>@lession.Topic</td>
+                    <td>
+                        <button @onclick="@(() => EditEntity(lession))">Редактировать</button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public IEnumerable<User>? Users { get; set; }
+
+    private bool _showAddUserForm;
+    private bool _showEditUserForm;
+    private Lession? _currentEditUser;
+
+    private void EditEntity(Lession entity)
+    {
+        _currentEditUser = entity;
+        _showEditUserForm = !_showEditUserForm;
+    }
+
+    /// <summary>
+    /// Показать/скрыть форму для добавления
+    /// </summary>
+    private void ShowAddFormButton()
+    {
+        _showAddUserForm = !_showAddUserForm;
+    }
+}
+ *@

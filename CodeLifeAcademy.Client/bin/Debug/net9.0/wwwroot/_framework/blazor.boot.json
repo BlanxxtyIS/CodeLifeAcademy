@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CodeLifeAcademy.Client",
   "resources": {
-    "hash": "sha256-1DjaDb0LOKdVN41H62C5N85120+XG4p5bt9Ou7fc0Ig=",
+    "hash": "sha256-Ythz3n6uBzUC1pGxOgsGOo6B79j8iOw/Xd/8Z9E2vbQ=",
     "fingerprinting": {
       "FluentValidation.fvee6lf8f0.wasm": "FluentValidation.wasm",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -208,8 +208,8 @@
       "CodeLifeAcademy.Core.gvfzcvcpwk.wasm": "CodeLifeAcademy.Core.wasm",
       "CodeLifeAcademy.Application.1opcw7zpzo.pdb": "CodeLifeAcademy.Application.pdb",
       "CodeLifeAcademy.Core.vpla2uhzjr.pdb": "CodeLifeAcademy.Core.pdb",
-      "CodeLifeAcademy.Client.0yvod5f0lt.wasm": "CodeLifeAcademy.Client.wasm",
-      "CodeLifeAcademy.Client.4byw9urq2u.pdb": "CodeLifeAcademy.Client.pdb"
+      "CodeLifeAcademy.Client.njlu26i49i.wasm": "CodeLifeAcademy.Client.wasm",
+      "CodeLifeAcademy.Client.jpunuy5p15.pdb": "CodeLifeAcademy.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -424,12 +424,12 @@
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
       "CodeLifeAcademy.Application.r520gybys0.wasm": "sha256-Ee3FgMCLomWCaU7owTvxqMCBGRlD/40Z8Q/TtC+qoic=",
       "CodeLifeAcademy.Core.gvfzcvcpwk.wasm": "sha256-HKO/4iLFUfhRGzk+j5mVKG9QolNMj3oK6QZu6ztSwco=",
-      "CodeLifeAcademy.Client.0yvod5f0lt.wasm": "sha256-SPewezxPhmvXmxzqcXR5YxqCiIOljKxoKMg5I3D51Hc="
+      "CodeLifeAcademy.Client.njlu26i49i.wasm": "sha256-kwLSpNs7thRqsld27UHe48ENxqUEwFFXNfG/eunkAJM="
     },
     "pdb": {
       "CodeLifeAcademy.Application.1opcw7zpzo.pdb": "sha256-D+fBiDQiIMnYF2Qw2N8soxTvkY+raIHX+FtD+ni2j38=",
       "CodeLifeAcademy.Core.vpla2uhzjr.pdb": "sha256-jSmkQZ6bUJfpaLvxJJFoPZCykG2/bMzIvq3gAvMcJ98=",
-      "CodeLifeAcademy.Client.4byw9urq2u.pdb": "sha256-sIZQ8q63O18u20WfTu2IKTgsCU9AiFGSeajz7fa6l9Y="
+      "CodeLifeAcademy.Client.jpunuy5p15.pdb": "sha256-yc7fjxDpgOLZr+b2WZR2p/D4dXW++xBhkfPxygUx+jY="
     }
   },
   "cacheBootResources": true,

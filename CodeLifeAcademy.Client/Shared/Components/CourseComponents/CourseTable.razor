@@ -1,0 +1,82 @@
+﻿@if (Courses is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h3>@Title</h3>
+
+    <button @onclick=ShowAddFormButton>
+        Добавить
+    </button>
+
+    @if (_showAddCourseForm)
+    {
+        <AddLessionForm />
+    }
+    else if (_showEditCourseForm)
+    {
+        <EditCourseForm EditorCourse="_currentEditCourse" />
+    }
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Progress</th>
+                <th>TimeInMinutes</th>
+                <th>TimeFormatted</th>
+                <th>Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Courses)
+            {
+                <tr>
+                    <td>@course.Id</td>
+                    <td>@course.Title</td>
+                    <td>@course.Description</td>
+                    <td>@course.Image</td>
+                    <td>@course.Progress</td>
+                    <td>@course.TimeInMinutes</td>
+                    <td>@course.TimeFormatted</td>
+                    @foreach (var topic in course.Topics) {
+                        <td>@topic.Title</td>
+                    }
+                    <td>
+                        <button @onclick="@(() => EditEntity(course))">Редактировать</button>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public IEnumerable<Course>? Courses { get; set; }
+
+    private bool _showAddCourseForm;
+    private bool _showEditCourseForm;
+    private Course? _currentEditCourse;
+
+    private void EditEntity(Course entity)
+    {
+        _currentEditCourse = entity;
+        _showEditCourseForm = !_showEditCourseForm;
+    }
+
+    /// <summary>
+    /// Показать/скрыть форму для добавления
+    /// </summary>
+    private void ShowAddFormButton()
+    {
+        _showAddCourseForm = !_showAddCourseForm;
+    }
+}

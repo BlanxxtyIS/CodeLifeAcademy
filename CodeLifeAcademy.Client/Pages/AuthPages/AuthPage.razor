@@ -1,0 +1,62 @@
+﻿@inject HttpClient _http
+@inject NavigationManager _navManager
+@page "/authentication"
+
+<PageTitle>Авторизация</PageTitle>
+
+<h3>Авторизация</h3>
+
+<fieldset>
+    <legend>Вход в систему</legend>
+    <label>Username:<br />
+        <input type="text" name="email" @bind="_username"/>
+    </label>
+    <br />
+
+    <label>Пароль:<br/>
+        <input type="password" name="password" @bind="_password"/>
+    </label>
+
+    <p>@_errorText</p>
+
+    <button type="submit" @onclick=@(async() => Enter())>Войти</button>
+</fieldset>
+
+@code {
+    private string? _username;
+    private string? _password;
+    private string? _errorText;
+
+    private async Task Enter() {
+        if (string.IsNullOrEmpty(_username) || string.IsNullOrEmpty(_password)) {
+            _errorText = "Введите логин и пароль!";
+            return;
+        }
+
+        var loginUser = new LoginUserDto
+        {
+           Username = _username,
+           Password = _password
+        };
+
+        try
+        {
+            var response = await _http.PostAsJsonAsync("/api/auth/login", loginUser);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _errorText = null;
+                _navManager.NavigateTo("/");
+            }
+            else
+            {
+                var message = await response.Content.ReadAsStringAsync();
+                _errorText = $"Ошибка регистрации: {message}";
+            }
+        }
+        catch (Exception ex)
+        {
+            _errorText = $"Ошибка: {ex.Message}";
+        }
+    }
+}

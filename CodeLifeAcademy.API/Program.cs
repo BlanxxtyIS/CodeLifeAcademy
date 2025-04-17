@@ -12,15 +12,15 @@ using CodeLifeAcademy.Application.Validators;
 using FluentValidation;
 using Serilog;
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
-    .Enrich.FromLogContext()
-    .CreateLogger();
+//Log.Logger = new LoggerConfiguration()
+//    .WriteTo.Console()
+//    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+//    .Enrich.FromLogContext()
+//    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog();
+//builder.Host.UseSerilog();
 
 builder.Logging.AddConsole();
 

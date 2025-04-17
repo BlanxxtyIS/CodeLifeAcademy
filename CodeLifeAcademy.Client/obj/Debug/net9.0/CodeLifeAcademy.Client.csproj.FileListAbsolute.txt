@@ -1108,10 +1108,10 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\ww
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Application.r520gybys0.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\97ivewwo7c-r520gybys0.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\4lvf2uyhz6-1opcw7zpzo.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.4byw9urq2u.pdb
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.0yvod5f0lt.wasm
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.4byw9urq2u.pdb.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.0yvod5f0lt.wasm.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-0yvod5f0lt.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-4byw9urq2u.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-1wf07sqxww.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.jpunuy5p15.pdb
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.njlu26i49i.wasm
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.jpunuy5p15.pdb.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.njlu26i49i.wasm.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-njlu26i49i.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-jpunuy5p15.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-n69mv03q41.gz

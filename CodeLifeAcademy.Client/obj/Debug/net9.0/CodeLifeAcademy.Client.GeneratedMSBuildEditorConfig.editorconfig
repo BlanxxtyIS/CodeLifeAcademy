@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFxBZG1pblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/AuthPages/AuthPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFBhZ2VzXEF1dGhQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/AuthPages/RegisterPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFBhZ2VzXFJlZ2lzdGVyUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,8 +64,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQWRtaW5Db21wb25lbnRzXEVudGl0aWVzVGFibGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/CourseComponents/AddCourseForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQ291cnNlQ29tcG9uZW50c1xBZGRDb3Vyc2VGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/CourseComponents/CourseCard.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQ291cnNlQ29tcG9uZW50c1xDb3Vyc2VDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/CourseComponents/CourseTable.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQ291cnNlQ29tcG9uZW50c1xDb3Vyc2VUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/CourseComponents/EditCourseForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQ291cnNlQ29tcG9uZW50c1xFZGl0Q291cnNlRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/LessionComponents/AddLessionForm.razor]
@@ -80,8 +100,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVG9waWNDb21wb25lbnRzXEFkZFRvcGljRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/TopicComponents/EditTopicForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVG9waWNDb21wb25lbnRzXEVkaXRUb3BpY0Zvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/TopicComponents/TopicCard.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVG9waWNDb21wb25lbnRzXFRvcGljQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/TopicComponents/TopicTable.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVG9waWNDb21wb25lbnRzXFRvcGljVGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/UserComponents/AddUserForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVXNlckNvbXBvbmVudHNcQWRkVXNlckZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/UserComponents/EditUserForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVXNlckNvbXBvbmVudHNcRWRpdFVzZXJGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Components/UserComponents/UsersTable.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcVXNlckNvbXBvbmVudHNcVXNlcnNUYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zver/Desktop/CodeLifeAcademy/CodeLifeAcademy.Client/Shared/Layouts/HeaderLayout.razor]

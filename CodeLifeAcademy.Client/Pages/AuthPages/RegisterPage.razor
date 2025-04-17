@@ -1,0 +1,60 @@
+﻿@inject HttpClient _http
+@inject NavigationManager _navManager
+@page "/register"
+
+<PageTitle>Register</PageTitle>
+
+<h3>Страница регистрации</h3>
+
+<fieldset>
+    <legend>Регистрация</legend>
+    <label>Username:<br/>
+        <input type="text" name="Username" @bind=_username/></label><br/>
+
+    <label>Email:<br/>
+        <input type="text" name="Email" @bind=_email/></label><br/>
+
+    <label>Password:<br/>
+        <input type="password" name="Password" @bind=_password/></label><br/>
+
+    <p>@_errorText</p>
+
+    <button type="submit" @onclick=@(async() => Register())>Регистрация</button>
+</fieldset>
+
+@code {
+    private string? _username;
+    private string? _email;
+    private string? _password;
+    private string? _errorText;
+
+    private async Task Register() {
+        if (string.IsNullOrEmpty(_username) || string.IsNullOrEmpty(_email) ||
+            string.IsNullOrEmpty(_password)) {
+            _errorText = "Заполните все поля!";
+            return;
+        }
+
+        var registerUser = new RegisterUserDto
+        {
+           Username = _username,
+           Email = _email,
+           Password = _password
+        };
+
+        try {
+            var response = await _http.PostAsJsonAsync("/api/auth/register", registerUser);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _errorText = null;
+                _navManager.NavigateTo("/authentication");
+            } else {
+                _errorText = $"Ошибка регистрации: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex) {
+            _errorText = $"Ошибка: {ex.Message}";
+        }
+    }
+}
