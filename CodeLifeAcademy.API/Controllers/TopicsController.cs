@@ -25,7 +25,10 @@ public class TopicsController: ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Topic>>> GetTopics()
     {
-        var topics = await _context.Topics.ToListAsync();
+        var topics = await _context.Topics
+            .OrderBy(l => l.Order)
+            .ToListAsync();
+
         return Ok(topics);
     }
 
@@ -52,7 +55,8 @@ public class TopicsController: ControllerBase
         {
             Title = dto.Title,
             Description = dto.Description,
-            CourseId = dto.CourseId
+            CourseId = dto.CourseId,
+            Order = dto.Order
         };
 
         _context.Topics.Add(topic);
@@ -80,6 +84,7 @@ public class TopicsController: ControllerBase
 
         topic.Title = dto.Title;
         topic.Description = dto.Description;
+        topic.Order = dto.Order;
 
         _context.Topics.Update(topic);
         await _context.SaveChangesAsync();

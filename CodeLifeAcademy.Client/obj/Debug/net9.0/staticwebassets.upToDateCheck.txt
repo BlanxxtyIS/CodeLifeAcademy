@@ -47,6 +47,7 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\wwwroot\lib\bootstr
 wwwroot\css\app.css
 wwwroot\images\logo.jpg
 wwwroot\images\navBar.jpg
+wwwroot\images\ping-pong.gif
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

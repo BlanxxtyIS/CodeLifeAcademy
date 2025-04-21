@@ -14,6 +14,9 @@ public class CreateLessionValidator: AbstractValidator<CreateLessionDto>
         RuleFor(x => x.Content)
             .MaximumLength(5000).WithMessage("Описание не должно превышать 5000 символов");
 
+        RuleFor(x => x.Order)
+            .NotEmpty().WithMessage("Порядковый номер обязателен");
+
         RuleFor(x => x.TopicId)
             .NotNull().WithMessage("Обязателен к добавлению");
     }

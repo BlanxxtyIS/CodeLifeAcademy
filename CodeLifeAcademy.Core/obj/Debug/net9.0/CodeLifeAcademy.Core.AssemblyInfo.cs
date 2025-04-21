@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeLifeAcademy.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c656aeb0f7f9c1b315c14a21eedd9508450db9e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+268a6d9dd377803df875682d5ae3059c0571a2cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeLifeAcademy.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeLifeAcademy.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,6 +7,7 @@
         <input placeholder="Наименование" type="text" class="input" @bind=_title>
         <textarea placeholder="Содержание HTML" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_content></textarea>
         <input placeholder="TopicID" type="text" class="input" @bind=_topicId>
+        <input placeholder="Order" type="text" class="input" @bind=_order>
         <div class="button-container">
             <button class="send-button" @onclick=Send>Добавить</button>
             <button class="reset-button" @onclick=Reset>Reset</button>
@@ -21,6 +22,7 @@
     private string? _title;
     private string? _content;
     private string? _topicId;
+    private int _order;
 
     private async Task Send()
     {
@@ -41,7 +43,8 @@
             {
                 Title = _title,
                 Content = _content,
-                TopicId = topicId
+                TopicId = topicId,
+                Order = _order
             };
 
         try
@@ -70,6 +73,7 @@
         _title = string.Empty;
         _content = string.Empty;
         _topicId = string.Empty;
+        _order = 0;
         _test = "Добавить!";
     }
 }

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\navBar.jpg"
     },
     {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\ping-pong.gif",
+      "PackagePath": "staticwebassets\\images\\ping-pong.gif"
+    },
+    {
       "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

@@ -13,6 +13,9 @@ else
         <div class="lesson-content">@((MarkupString)Lesson.Content)</div>
 
         <div class="lesson-navigation">
+            <button class="btn btn-primary" @onclick="GoToBackLession">
+                Назад
+            </button>
             <button class="btn btn-primary" @onclick="GoToNextLesson">
                 Следующий урок
             </button>
@@ -22,32 +25,87 @@ else
 
 @code {
     [Parameter] public Guid LessonId { get; set; }
-    private Lession? Lesson;
 
-    protected override async Task OnInitializedAsync()
+    private Lession? Lesson;
+    private List<Lession>? Lessons;
+    private bool isLoading;
+
+    protected override async Task OnParametersSetAsync()
     {
         try
         {
             Lesson = await _http.GetFromJsonAsync<Lession>($"/lessions/{LessonId}");
+            if (isLoading)
+            {
+                Lessons = await _http.GetFromJsonAsync<List<Lession>>($"/lessions");
+            }
         }
         catch (Exception ex)
         {
             Console.WriteLine("Ошибка загрузки урока: " + ex.Message);
         }
+
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Загружаем список уроков только один раз
+            Lessons = await _http.GetFromJsonAsync<List<Lession>>($"/lessions");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Ошибка загрузки списка уроков: " + ex.Message);
+        }
+        finally
+        {
+            isLoading = true;
+        }
+    }
+
+    private void GoToBackLession()
+    {
+        var prevLessonId = GetPreviousLessonId();
+
+        if (prevLessonId != Guid.Empty) {
+            _navManager.NavigateTo($"/lesson/{prevLessonId}");
+        }
+
     }
 
     private void GoToNextLesson()
     {
-        // Здесь должна быть логика получения ID следующего урока
-        // Например:
-        var nextLessonId = GetNextLessonId(); // Реализуйте этот метод
-        _navManager.NavigateTo($"/lesson/{nextLessonId}");
+        var nextLessionId = GetNextLessonId();
+
+        if (nextLessionId != Guid.Empty) {
+            _navManager.NavigateTo($"/lesson/{nextLessionId}");
+        }
+    }
+
+    private Guid GetPreviousLessonId()
+    {
+        if (Lessons == null || Lesson == null) return Guid.Empty;
+
+        var currentIndex = Lessons.FindIndex(l => l.Id == LessonId);
+        if (currentIndex <= 0) 
+        {
+            return Guid.Empty;
+        }
+
+        return Lessons[currentIndex - 1].Id;
     }
 
     private Guid GetNextLessonId()
     {
-        // Заглушка - реализуйте получение ID следующего урока
-        // Можно через API или из списка уроков
-        return Guid.NewGuid();
+        if (Lessons == null || Lesson == null) return Guid.Empty;
+
+        var currentIndex = Lessons.FindIndex(l => l.Id == LessonId);
+        if (currentIndex == -1 || currentIndex >= Lessons.Count - 1)
+        {
+            return Guid.Empty; // Нет следующего урока
+        }
+
+        return Lessons[currentIndex + 1].Id;
     }
 }

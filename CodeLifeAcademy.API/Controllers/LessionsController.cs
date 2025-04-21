@@ -24,8 +24,11 @@ public class LessionsController: ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Lession>>> GetLessions()
     {
-        var lession = await _context.Lessions.ToListAsync();
-        return Ok(lession);
+        var lessons = await _context.Lessions
+            .OrderBy(l => l.Order)
+            .ToListAsync();
+
+        return Ok(lessons);
     }
 
     [HttpGet("{id}")]
@@ -37,6 +40,7 @@ public class LessionsController: ControllerBase
         {
             lession.Id,
             lession.Title,
+            lession.Order,
             Content = lession.Content // HTML остаётся как есть, но обёрнут в JSON
         });
     }
@@ -55,7 +59,8 @@ public class LessionsController: ControllerBase
         {
             Title = dto.Title,
             Content = dto.Content,
-            TopicId = dto.TopicId
+            TopicId = dto.TopicId,
+            Order = dto.Order
         };
 
         _context.Lessions.Add(lession);
@@ -82,6 +87,7 @@ public class LessionsController: ControllerBase
 
         lession.Title = dto.Title;
         lession.Content = dto.Content;
+        lession.Order = dto.Order;
 
         _context.Lessions.Update(lession);
         await _context.SaveChangesAsync();

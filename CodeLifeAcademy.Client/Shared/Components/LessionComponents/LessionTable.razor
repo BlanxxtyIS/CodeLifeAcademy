@@ -26,6 +26,7 @@ else
                 <th>Content</th>
                 <th>TopicID</th>
                 <th>Topics</th>
+                <th>Orders</th>
             </tr>
         </thead>
         <tbody>
@@ -37,6 +38,7 @@ else
                     <td>@lession.Content</td>
                     <td>@lession.TopicId</td>
                     <td>@lession.Topic</td>
+                    <td>@lession.Order</td>
                     <td>
                         <button @onclick="@(() => EditEntity(lession))">Редактировать</button>
                     </td>

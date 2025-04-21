@@ -7,9 +7,11 @@
         <input placeholder="Наименование" type="text" class="input" @bind-value=_title>
         <textarea placeholder="Описание" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_description></textarea>
         <input placeholder="CourseId" type="text" class="input" @bind=_courseId>
+        <input placeholder="Order" type="number" class="input" @bind=_order>
         <div class="button-container">
             <button class="send-button" @onclick=Send>Изменить</button>
-            <button class="reset-button" @onclick=Reset>Сбросить</button>
+            <button class="send-button" @onclick=Reset>Сбросить</button>
+            <button class="send-button" @onclick=@(async () => Delete())>Удалить</button>
         </div>
 
     </div>
@@ -24,6 +26,7 @@
     private string? _title;
     private string? _description;
     private string? _courseId;
+    private int _order;
 
     protected override async Task OnParametersSetAsync()
     {
@@ -32,6 +35,7 @@
         _title = EditorTopic.Title;
         _description = EditorTopic.Description;
         _courseId = EditorTopic.CourseId.ToString();
+        _order = EditorTopic.Order;
     }
 
     private async Task Send()
@@ -52,6 +56,7 @@
         EditorTopic.Title = _title;
         EditorTopic.Description = _description;
         EditorTopic.CourseId = courseId;
+        EditorTopic.Order = _order;
 
         try
         {
@@ -81,6 +86,25 @@
         _title = EditorTopic.Title;
         _description = EditorTopic.Description;
         _courseId = EditorTopic.CourseId.ToString();
+        _order = EditorTopic.Order;
         _test = "Изменения отменены";
+    }
+
+    private async Task Delete() {
+        if (EditorTopic is null) return;
+
+        try {
+            var response = await _http.DeleteAsync($"topics/{EditorTopic.Id}");
+
+            if (response.IsSuccessStatusCode) {
+                _test = "Тема успешно удалена!";
+            }
+            else {
+                _test = $"Ошибка: {response.StatusCode}";
+            }
+        } catch (Exception ex) {
+            _test = $"Ошибка при отправке: {ex.Message}";
+        }
+        StateHasChanged();
     }
 }
