@@ -1,4 +1,12 @@
 ﻿@inject HttpClient _http
+@inject NotificationService NotificationService
+
+@if (_showConflictDialog)
+{
+    <div class="alert alert-warning">
+        ⚠️ @_errorMessage <br />
+    </div>
+}
 
 <div class="form-container">
     <p>@_test</p>
@@ -13,7 +21,6 @@
             <button class="reset-button" @onclick=Reset>Сбросить</button>
             <button class="send-button" @onclick=@(async () => Delete())>Удалить</button>
         </div>
-
     </div>
 </div>
 
@@ -22,6 +29,8 @@
     public Lession? EditorLesson { get; set; }
 
     private string _test = string.Empty;
+    private string _errorMessage = string.Empty;
+    private bool _showConflictDialog;
 
     private string? _title;
     private string? _content;
@@ -65,7 +74,12 @@
             if (response.IsSuccessStatusCode)
             {
                 _test = "Урок успешно добавлен!";
+                await NotifyRefresh();
                 Reset();
+            }
+            else if (response.StatusCode == System.Net.HttpStatusCode.Conflict) {
+                _errorMessage = await response.Content.ReadAsStringAsync();
+                _showConflictDialog = true;
             }
             else
             {
@@ -107,5 +121,10 @@
             _test = $"Ошибка при отправке : {ex.Message}";
         }
         StateHasChanged();
+    }
+
+    private async Task NotifyRefresh()
+    {
+        await NotificationService.RequestDataRefresh();
     }
 }

@@ -1,5 +1,6 @@
 ﻿@page "/topicsPage"
 @inject HttpClient _http
+@inject NotificationService NotificationService
 
 <PageTitle>Topics</PageTitle>
 
@@ -20,11 +21,20 @@
 
     protected override async Task OnInitializedAsync() {
         try {
-            _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+            RefreshData();
+            NotificationService.OnDataRefreshRequested += RefreshData;
+            await NotificationService.ConnectAsync();
         }
         catch (HttpRequestException ex)
         {
             Console.WriteLine($"Ошибка при загрузке тем курса {ex.Message}");
         }
+    }
+
+    private async void RefreshData()
+    {
+        Console.WriteLine("Обновление данных от SignalR");
+        _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+        StateHasChanged();
     }
 }

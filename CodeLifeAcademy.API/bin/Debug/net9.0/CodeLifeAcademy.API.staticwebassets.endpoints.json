@@ -43,7 +43,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 11:48:36 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -84,7 +84,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 11:48:36 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -125,7 +125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 11:48:36 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -180,7 +180,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 11:48:36 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -229,7 +229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 11:48:36 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -278,7 +278,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 11:48:36 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -301,8 +301,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb",
+      "Route": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,44 +315,44 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14396"
+          "Value": "13589"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM=\""
+          "Value": "\"lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:35 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bs26k4oe5v"
+          "Value": "cmnw8auvt3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM="
+          "Value": "sha256-lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k="
         },
         {
           "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.pdb"
+          "Value": "_framework/CodeLifeAcademy.Application.wasm"
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb.gz",
+      "Route": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124038700"
+          "Quality": "0.000186081131"
         }
       ],
       "ResponseHeaders": [
@@ -370,23 +370,23 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8061"
+          "Value": "5373"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"JiIlJa1RgIBhls9MX1Z4VVG0c2LKsXDeF87lkE9rZmY=\""
+          "Value": "\"kIU33FdSyHPllHdQYhdRjJ43LcWG15hb8x3cqO8iS58=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM=\""
+          "Value": "W/\"lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -396,21 +396,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bs26k4oe5v"
+          "Value": "cmnw8auvt3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM="
+          "Value": "sha256-lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k="
         },
         {
           "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.pdb"
+          "Value": "_framework/CodeLifeAcademy.Application.wasm"
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb.gz",
+      "Route": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -427,19 +427,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8061"
+          "Value": "5373"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"JiIlJa1RgIBhls9MX1Z4VVG0c2LKsXDeF87lkE9rZmY=\""
+          "Value": "\"kIU33FdSyHPllHdQYhdRjJ43LcWG15hb8x3cqO8iS58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -449,11 +449,172 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bs26k4oe5v"
+          "Value": "cmnw8auvt3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JiIlJa1RgIBhls9MX1Z4VVG0c2LKsXDeF87lkE9rZmY="
+          "Value": "sha256-kIU33FdSyHPllHdQYhdRjJ43LcWG15hb8x3cqO8iS58="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Application.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 11:40:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iujrt5ue73"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Application.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000122129946"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zrh/56VzCSxs7lX6+jUDa/vug1XSGazHmGvZcdXebE0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iujrt5ue73"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Application.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zrh/56VzCSxs7lX6+jUDa/vug1XSGazHmGvZcdXebE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iujrt5ue73"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zrh/56VzCSxs7lX6+jUDa/vug1XSGazHmGvZcdXebE0="
         },
         {
           "Name": "label",
@@ -463,7 +624,7 @@
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -476,7 +637,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14396"
+          "Value": "14432"
         },
         {
           "Name": "Content-Type",
@@ -484,28 +645,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM=\""
+          "Value": "\"xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:35 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:28 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM="
+          "Value": "sha256-xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124038700"
+          "Quality": "0.000122129946"
         }
       ],
       "ResponseHeaders": [
@@ -523,7 +684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8061"
+          "Value": "8187"
         },
         {
           "Name": "Content-Type",
@@ -531,15 +692,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JiIlJa1RgIBhls9MX1Z4VVG0c2LKsXDeF87lkE9rZmY=\""
+          "Value": "\"zrh/56VzCSxs7lX6+jUDa/vug1XSGazHmGvZcdXebE0=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM=\""
+          "Value": "W/\"xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -549,13 +710,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m3exabfXcRZW8lCk1hW2dngMRi3NdSZGqGniKGD9CJM="
+          "Value": "sha256-xpEBETpwU/KKhm9W1gtbaiOpQdrlFo8iJFhlNrJhjLo="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.pdb.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.bs26k4oe5v.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.iujrt5ue73.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -572,7 +733,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8061"
+          "Value": "8187"
         },
         {
           "Name": "Content-Type",
@@ -580,11 +741,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JiIlJa1RgIBhls9MX1Z4VVG0c2LKsXDeF87lkE9rZmY=\""
+          "Value": "\"zrh/56VzCSxs7lX6+jUDa/vug1XSGazHmGvZcdXebE0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -594,174 +755,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JiIlJa1RgIBhls9MX1Z4VVG0c2LKsXDeF87lkE9rZmY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13589"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:36 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t2reyoi6zi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000190912562"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5237"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"skTKy3Cv0boWDLFGtA4AL0wbdnrGemAbNB3L1Vbqrpc=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t2reyoi6zi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5237"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"skTKy3Cv0boWDLFGtA4AL0wbdnrGemAbNB3L1Vbqrpc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t2reyoi6zi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-skTKy3Cv0boWDLFGtA4AL0wbdnrGemAbNB3L1Vbqrpc="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.wasm.gz"
+          "Value": "sha256-zrh/56VzCSxs7lX6+jUDa/vug1XSGazHmGvZcdXebE0="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -782,28 +782,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s=\""
+          "Value": "\"lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:36 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s="
+          "Value": "sha256-lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000190912562"
+          "Quality": "0.000186081131"
         }
       ],
       "ResponseHeaders": [
@@ -821,7 +821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5237"
+          "Value": "5373"
         },
         {
           "Name": "Content-Type",
@@ -829,15 +829,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"skTKy3Cv0boWDLFGtA4AL0wbdnrGemAbNB3L1Vbqrpc=\""
+          "Value": "\"kIU33FdSyHPllHdQYhdRjJ43LcWG15hb8x3cqO8iS58=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s=\""
+          "Value": "W/\"lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -847,13 +847,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-leLwZy87X+wpYMR7Ed6FmXcAmyzd9Xl9cNih/nriB5s="
+          "Value": "sha256-lE8VJieiYZM3xI9ImGJX7CwDXAMg/dJJOY3YIhxKh2k="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.wasm.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Application.t2reyoi6zi.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Application.cmnw8auvt3.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -870,7 +870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5237"
+          "Value": "5373"
         },
         {
           "Name": "Content-Type",
@@ -878,11 +878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"skTKy3Cv0boWDLFGtA4AL0wbdnrGemAbNB3L1Vbqrpc=\""
+          "Value": "\"kIU33FdSyHPllHdQYhdRjJ43LcWG15hb8x3cqO8iS58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -892,13 +892,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-skTKy3Cv0boWDLFGtA4AL0wbdnrGemAbNB3L1Vbqrpc="
+          "Value": "sha256-kIU33FdSyHPllHdQYhdRjJ43LcWG15hb8x3cqO8iS58="
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm",
+      "Route": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -911,44 +911,44 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "79637"
+          "Value": "88380"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc=\""
+          "Value": "\"3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:36 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "naoe1o231c"
+          "Value": "ibkk6k67pi"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc="
+          "Value": "sha256-3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M="
         },
         {
           "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.wasm"
+          "Value": "_framework/CodeLifeAcademy.Client.pdb"
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm.gz",
+      "Route": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000036090660"
+          "Quality": "0.000014318237"
         }
       ],
       "ResponseHeaders": [
@@ -966,23 +966,23 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27707"
+          "Value": "69840"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"w579q7DIINKxS3OweEJ2zVyIcmncFPkG1LjZFyb6SDw=\""
+          "Value": "\"umPuczxNbOh4jLRK+lTCjFjNPr+TG8Oc1QCdMG1jg64=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc=\""
+          "Value": "W/\"3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         },
         {
           "Name": "Vary",
@@ -992,21 +992,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "naoe1o231c"
+          "Value": "ibkk6k67pi"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc="
+          "Value": "sha256-3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M="
         },
         {
           "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.wasm"
+          "Value": "_framework/CodeLifeAcademy.Client.pdb"
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm.gz",
+      "Route": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1023,19 +1023,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27707"
+          "Value": "69840"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"w579q7DIINKxS3OweEJ2zVyIcmncFPkG1LjZFyb6SDw=\""
+          "Value": "\"umPuczxNbOh4jLRK+lTCjFjNPr+TG8Oc1QCdMG1jg64=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         },
         {
           "Name": "Vary",
@@ -1045,11 +1045,172 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "naoe1o231c"
+          "Value": "ibkk6k67pi"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-w579q7DIINKxS3OweEJ2zVyIcmncFPkG1LjZFyb6SDw="
+          "Value": "sha256-umPuczxNbOh4jLRK+lTCjFjNPr+TG8Oc1QCdMG1jg64="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Client.pdb.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 18:03:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlyeoxycrj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Client.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030774912"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X61FGSAq7hRzjMCnXFLgrPyojCT0SXu1yxDsNO68Jzo=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlyeoxycrj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Client.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X61FGSAq7hRzjMCnXFLgrPyojCT0SXu1yxDsNO68Jzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlyeoxycrj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X61FGSAq7hRzjMCnXFLgrPyojCT0SXu1yxDsNO68Jzo="
         },
         {
           "Name": "label",
@@ -1059,7 +1220,7 @@
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1072,7 +1233,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "86008"
+          "Value": "88380"
         },
         {
           "Name": "Content-Type",
@@ -1080,28 +1241,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI=\""
+          "Value": "\"3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:36 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI="
+          "Value": "sha256-3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000014418571"
+          "Quality": "0.000014318237"
         }
       ],
       "ResponseHeaders": [
@@ -1119,7 +1280,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "69354"
+          "Value": "69840"
         },
         {
           "Name": "Content-Type",
@@ -1127,15 +1288,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jogqZUylDQjOERXltwFVpovr9LUPC1dDlLIlGQmAiqM=\""
+          "Value": "\"umPuczxNbOh4jLRK+lTCjFjNPr+TG8Oc1QCdMG1jg64=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI=\""
+          "Value": "W/\"3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         },
         {
           "Name": "Vary",
@@ -1145,13 +1306,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI="
+          "Value": "sha256-3lmsPsAFWfc1ShnKe5IaxH5yZjCwZCr5t1bQq2fTy7M="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.pdb.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.ibkk6k67pi.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1168,7 +1329,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "69354"
+          "Value": "69840"
         },
         {
           "Name": "Content-Type",
@@ -1176,11 +1337,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jogqZUylDQjOERXltwFVpovr9LUPC1dDlLIlGQmAiqM=\""
+          "Value": "\"umPuczxNbOh4jLRK+lTCjFjNPr+TG8Oc1QCdMG1jg64=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         },
         {
           "Name": "Vary",
@@ -1190,174 +1351,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jogqZUylDQjOERXltwFVpovr9LUPC1dDlLIlGQmAiqM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "86008"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:36 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vt2fzgas3x"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000014418571"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69354"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jogqZUylDQjOERXltwFVpovr9LUPC1dDlLIlGQmAiqM=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vt2fzgas3x"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-E58ShMjlOo49wrNLPAISKC+fsiScsOK1VDvXXkyVnoI="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.vt2fzgas3x.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69354"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jogqZUylDQjOERXltwFVpovr9LUPC1dDlLIlGQmAiqM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vt2fzgas3x"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jogqZUylDQjOERXltwFVpovr9LUPC1dDlLIlGQmAiqM="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.pdb.gz"
+          "Value": "sha256-umPuczxNbOh4jLRK+lTCjFjNPr+TG8Oc1QCdMG1jg64="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1370,7 +1370,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "79637"
+          "Value": "92437"
         },
         {
           "Name": "Content-Type",
@@ -1378,28 +1378,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc=\""
+          "Value": "\"Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:36 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc="
+          "Value": "sha256-Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000036090660"
+          "Quality": "0.000030774912"
         }
       ],
       "ResponseHeaders": [
@@ -1417,7 +1417,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27707"
+          "Value": "32493"
         },
         {
           "Name": "Content-Type",
@@ -1425,15 +1425,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w579q7DIINKxS3OweEJ2zVyIcmncFPkG1LjZFyb6SDw=\""
+          "Value": "\"X61FGSAq7hRzjMCnXFLgrPyojCT0SXu1yxDsNO68Jzo=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc=\""
+          "Value": "W/\"Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         },
         {
           "Name": "Vary",
@@ -1443,13 +1443,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gaxifSb+aqDAZhwRDSlSRcrmVzp7GfUJ1G7y1J/X1dc="
+          "Value": "sha256-Vv2M0SJdORK+52h0FH2b0ZMzWDtXvrZ3wx87fR6L0nI="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.wasm.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Client.naoe1o231c.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Client.mlyeoxycrj.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1466,7 +1466,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27707"
+          "Value": "32493"
         },
         {
           "Name": "Content-Type",
@@ -1474,11 +1474,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w579q7DIINKxS3OweEJ2zVyIcmncFPkG1LjZFyb6SDw=\""
+          "Value": "\"X61FGSAq7hRzjMCnXFLgrPyojCT0SXu1yxDsNO68Jzo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         },
         {
           "Name": "Vary",
@@ -1488,13 +1488,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-w579q7DIINKxS3OweEJ2zVyIcmncFPkG1LjZFyb6SDw="
+          "Value": "sha256-X61FGSAq7hRzjMCnXFLgrPyojCT0SXu1yxDsNO68Jzo="
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm",
+      "Route": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1507,7 +1507,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11029"
+          "Value": "11541"
         },
         {
           "Name": "Content-Type",
@@ -1515,21 +1515,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg=\""
+          "Value": "\"kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:33 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "72aknzx80z"
+          "Value": "62qmtvt41m"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg="
+          "Value": "sha256-kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk="
         },
         {
           "Name": "label",
@@ -1538,13 +1538,13 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm.gz",
+      "Route": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000217533174"
+          "Quality": "0.000207684320"
         }
       ],
       "ResponseHeaders": [
@@ -1562,7 +1562,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4596"
+          "Value": "4814"
         },
         {
           "Name": "Content-Type",
@@ -1570,15 +1570,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N5/kKxcsb5QfLJeD95EocsRpmWLABRVDeJE3Grw/1iU=\""
+          "Value": "\"VjKhWk9SKNGNy7L6h8pho7njZKlmWDU7SjfBbMOcoHg=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg=\""
+          "Value": "W/\"kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -1588,11 +1588,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "72aknzx80z"
+          "Value": "62qmtvt41m"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg="
+          "Value": "sha256-kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk="
         },
         {
           "Name": "label",
@@ -1601,8 +1601,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm.gz",
+      "Route": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1619,7 +1619,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4596"
+          "Value": "4814"
         },
         {
           "Name": "Content-Type",
@@ -1627,11 +1627,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N5/kKxcsb5QfLJeD95EocsRpmWLABRVDeJE3Grw/1iU=\""
+          "Value": "\"VjKhWk9SKNGNy7L6h8pho7njZKlmWDU7SjfBbMOcoHg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -1641,11 +1641,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "72aknzx80z"
+          "Value": "62qmtvt41m"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N5/kKxcsb5QfLJeD95EocsRpmWLABRVDeJE3Grw/1iU="
+          "Value": "sha256-VjKhWk9SKNGNy7L6h8pho7njZKlmWDU7SjfBbMOcoHg="
         },
         {
           "Name": "label",
@@ -1654,8 +1654,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb",
+      "Route": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1668,7 +1668,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13752"
+          "Value": "13984"
         },
         {
           "Name": "Content-Type",
@@ -1676,21 +1676,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4=\""
+          "Value": "\"xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:24 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:28 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ixs14xl1zt"
+          "Value": "obuthwupj8"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4="
+          "Value": "sha256-xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g="
         },
         {
           "Name": "label",
@@ -1699,13 +1699,13 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb.gz",
+      "Route": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000130344108"
+          "Quality": "0.000129132231"
         }
       ],
       "ResponseHeaders": [
@@ -1723,7 +1723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7671"
+          "Value": "7743"
         },
         {
           "Name": "Content-Type",
@@ -1731,15 +1731,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dbIEj4qWR25Nx5wVDFGtk8dtijgQ2qOcGZTcshOMc1w=\""
+          "Value": "\"lYEvSkOs10y6trIiu4Kf2qzjRCccbjdGwQy1BWtljFw=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4=\""
+          "Value": "W/\"xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -1749,11 +1749,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ixs14xl1zt"
+          "Value": "obuthwupj8"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4="
+          "Value": "sha256-xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g="
         },
         {
           "Name": "label",
@@ -1762,8 +1762,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb.gz",
+      "Route": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1780,7 +1780,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7671"
+          "Value": "7743"
         },
         {
           "Name": "Content-Type",
@@ -1788,11 +1788,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dbIEj4qWR25Nx5wVDFGtk8dtijgQ2qOcGZTcshOMc1w=\""
+          "Value": "\"lYEvSkOs10y6trIiu4Kf2qzjRCccbjdGwQy1BWtljFw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -1802,11 +1802,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ixs14xl1zt"
+          "Value": "obuthwupj8"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dbIEj4qWR25Nx5wVDFGtk8dtijgQ2qOcGZTcshOMc1w="
+          "Value": "sha256-lYEvSkOs10y6trIiu4Kf2qzjRCccbjdGwQy1BWtljFw="
         },
         {
           "Name": "label",
@@ -1816,7 +1816,7 @@
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1829,7 +1829,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13752"
+          "Value": "13984"
         },
         {
           "Name": "Content-Type",
@@ -1837,28 +1837,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4=\""
+          "Value": "\"xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:24 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:28 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4="
+          "Value": "sha256-xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.pdb",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000130344108"
+          "Quality": "0.000129132231"
         }
       ],
       "ResponseHeaders": [
@@ -1876,7 +1876,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7671"
+          "Value": "7743"
         },
         {
           "Name": "Content-Type",
@@ -1884,15 +1884,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dbIEj4qWR25Nx5wVDFGtk8dtijgQ2qOcGZTcshOMc1w=\""
+          "Value": "\"lYEvSkOs10y6trIiu4Kf2qzjRCccbjdGwQy1BWtljFw=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4=\""
+          "Value": "W/\"xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -1902,13 +1902,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sn+HZn/4adryG4j6PGYi2EBF8NrcAMXb07yrtwLnWD4="
+          "Value": "sha256-xI+I4CDFaYJ2Oye5EpHwRd5haMIe0FUso3qlIaVU6/g="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.pdb.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.ixs14xl1zt.pdb.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.obuthwupj8.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1925,7 +1925,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7671"
+          "Value": "7743"
         },
         {
           "Name": "Content-Type",
@@ -1933,11 +1933,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dbIEj4qWR25Nx5wVDFGtk8dtijgQ2qOcGZTcshOMc1w=\""
+          "Value": "\"lYEvSkOs10y6trIiu4Kf2qzjRCccbjdGwQy1BWtljFw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -1947,13 +1947,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dbIEj4qWR25Nx5wVDFGtk8dtijgQ2qOcGZTcshOMc1w="
+          "Value": "sha256-lYEvSkOs10y6trIiu4Kf2qzjRCccbjdGwQy1BWtljFw="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1966,7 +1966,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11029"
+          "Value": "11541"
         },
         {
           "Name": "Content-Type",
@@ -1974,28 +1974,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg=\""
+          "Value": "\"kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:33 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg="
+          "Value": "sha256-kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.wasm",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000217533174"
+          "Quality": "0.000207684320"
         }
       ],
       "ResponseHeaders": [
@@ -2013,7 +2013,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4596"
+          "Value": "4814"
         },
         {
           "Name": "Content-Type",
@@ -2021,15 +2021,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N5/kKxcsb5QfLJeD95EocsRpmWLABRVDeJE3Grw/1iU=\""
+          "Value": "\"VjKhWk9SKNGNy7L6h8pho7njZKlmWDU7SjfBbMOcoHg=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg=\""
+          "Value": "W/\"kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -2039,13 +2039,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-72JPTl7iii1OPci72R55+f75USSb7eQQO/0Qm/6oHMg="
+          "Value": "sha256-kumXf5dsXErCVf5MdiJDFTnkQn52tAcjPb6N7kMuZQk="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.wasm.gz",
-      "AssetFile": "_framework/CodeLifeAcademy.Core.72aknzx80z.wasm.gz",
+      "AssetFile": "_framework/CodeLifeAcademy.Core.62qmtvt41m.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2062,7 +2062,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4596"
+          "Value": "4814"
         },
         {
           "Name": "Content-Type",
@@ -2070,11 +2070,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N5/kKxcsb5QfLJeD95EocsRpmWLABRVDeJE3Grw/1iU=\""
+          "Value": "\"VjKhWk9SKNGNy7L6h8pho7njZKlmWDU7SjfBbMOcoHg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:40:34 GMT"
+          "Value": "Tue, 22 Apr 2025 11:40:34 GMT"
         },
         {
           "Name": "Vary",
@@ -2084,7 +2084,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N5/kKxcsb5QfLJeD95EocsRpmWLABRVDeJE3Grw/1iU="
+          "Value": "sha256-VjKhWk9SKNGNy7L6h8pho7njZKlmWDU7SjfBbMOcoHg="
         }
       ]
     },
@@ -2115,7 +2115,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:25 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2174,7 +2174,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -2227,7 +2227,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -2276,7 +2276,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:25 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2327,7 +2327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -2372,7 +2372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -3877,6 +3877,304 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sxxybpen1d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Connections.Abstractions.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000074940048"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dhKPCUgMPXcDAIDlfTuVzu141b7kzTj1yH1UTkXRg4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sxxybpen1d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Connections.Abstractions.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dhKPCUgMPXcDAIDlfTuVzu141b7kzTj1yH1UTkXRg4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sxxybpen1d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4dhKPCUgMPXcDAIDlfTuVzu141b7kzTj1yH1UTkXRg4="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Connections.Abstractions.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Connections.Abstractions.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Connections.Abstractions.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000074940048"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dhKPCUgMPXcDAIDlfTuVzu141b7kzTj1yH1UTkXRg4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJATXpUD2BC/BGSkVfV38h+8gbkIvhmpjEzRB3E2EDI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Connections.Abstractions.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Connections.Abstractions.sxxybpen1d.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dhKPCUgMPXcDAIDlfTuVzu141b7kzTj1yH1UTkXRg4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4dhKPCUgMPXcDAIDlfTuVzu141b7kzTj1yH1UTkXRg4="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.AspNetCore.Http.Abstractions.5jy9omvvsv.wasm",
       "AssetFile": "_framework/Microsoft.AspNetCore.Http.Abstractions.5jy9omvvsv.wasm",
       "Selectors": [],
@@ -3903,7 +4201,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:25 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3962,7 +4260,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4015,7 +4313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4064,7 +4362,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:25 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4115,7 +4413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4160,7 +4458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4171,6 +4469,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-2nz2T6ffkygeRahvwGJqJJDk4GI4fEsQKAE6vaY+7/I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d7jcjeqai6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Http.Connections.Client.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000024088840"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qO11KzOzQMB/5tiGbKGHcpnIpD11K0pUsshUO1eYTgM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d7jcjeqai6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Http.Connections.Client.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qO11KzOzQMB/5tiGbKGHcpnIpD11K0pUsshUO1eYTgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d7jcjeqai6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qO11KzOzQMB/5tiGbKGHcpnIpD11K0pUsshUO1eYTgM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Http.Connections.Client.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Client.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Client.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000024088840"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qO11KzOzQMB/5tiGbKGHcpnIpD11K0pUsshUO1eYTgM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OffkOU02+WpFnYYEP1F73Xg1hf4gzcJqzqCR3T8O9jM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Client.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Client.d7jcjeqai6.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qO11KzOzQMB/5tiGbKGHcpnIpD11K0pUsshUO1eYTgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qO11KzOzQMB/5tiGbKGHcpnIpD11K0pUsshUO1eYTgM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3e96u42mc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Http.Connections.Common.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000121728545"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rNRuw135trf2IYQBT+f0LKRgEhaXlrSQoqlBTBmOWBM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3e96u42mc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Http.Connections.Common.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rNRuw135trf2IYQBT+f0LKRgEhaXlrSQoqlBTBmOWBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3e96u42mc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rNRuw135trf2IYQBT+f0LKRgEhaXlrSQoqlBTBmOWBM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Http.Connections.Common.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Common.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Common.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000121728545"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rNRuw135trf2IYQBT+f0LKRgEhaXlrSQoqlBTBmOWBM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZKRBivMx+KS8LA62O12IU0u2i/BFJ6SisRyBdMXZ9E="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Http.Connections.Common.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.Http.Connections.Common.n3e96u42mc.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rNRuw135trf2IYQBT+f0LKRgEhaXlrSQoqlBTBmOWBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rNRuw135trf2IYQBT+f0LKRgEhaXlrSQoqlBTBmOWBM="
         }
       ]
     },
@@ -4201,7 +5095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:25 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4260,7 +5154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4313,7 +5207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4362,7 +5256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:25 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4413,7 +5307,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4458,7 +5352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:00:26 GMT"
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
         },
         {
           "Name": "Vary",
@@ -4767,6 +5661,1198 @@
         {
           "Name": "integrity",
           "Value": "sha256-0xsFmUTQ1B+PxoAIl6pKmI/y4mLPrzid8YlfkSXWlw4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nvj6skbhu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013756294"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nSF9krtT7/DWepQNgPmse5bTZGQgbzv4xtv6f2uXiPo=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nvj6skbhu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nSF9krtT7/DWepQNgPmse5bTZGQgbzv4xtv6f2uXiPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nvj6skbhu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nSF9krtT7/DWepQNgPmse5bTZGQgbzv4xtv6f2uXiPo="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013756294"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nSF9krtT7/DWepQNgPmse5bTZGQgbzv4xtv6f2uXiPo=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nSF9krtT7/DWepQNgPmse5bTZGQgbzv4xtv6f2uXiPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nSF9krtT7/DWepQNgPmse5bTZGQgbzv4xtv6f2uXiPo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1jj8eiwy0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Client.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232234092"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v48dbqldR4ri8WBS8ZCYI/bl/zVlqOU0Fv33CdJeUHQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1jj8eiwy0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Client.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v48dbqldR4ri8WBS8ZCYI/bl/zVlqOU0Fv33CdJeUHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1jj8eiwy0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v48dbqldR4ri8WBS8ZCYI/bl/zVlqOU0Fv33CdJeUHQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Client.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232234092"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v48dbqldR4ri8WBS8ZCYI/bl/zVlqOU0Fv33CdJeUHQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JgdJHkdFbEs/lqHVocdVwK9wb3KsGenqy3BaCgt4tjM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Client.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Client.i1jj8eiwy0.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v48dbqldR4ri8WBS8ZCYI/bl/zVlqOU0Fv33CdJeUHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v48dbqldR4ri8WBS8ZCYI/bl/zVlqOU0Fv33CdJeUHQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu6pvv9aaf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Common.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000068268706"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uYvz4R+/kX92qCFD2idz6f8rim+/8i7usUJocy6mZP0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu6pvv9aaf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Common.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uYvz4R+/kX92qCFD2idz6f8rim+/8i7usUJocy6mZP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu6pvv9aaf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uYvz4R+/kX92qCFD2idz6f8rim+/8i7usUJocy6mZP0="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Common.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Common.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Common.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000068268706"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uYvz4R+/kX92qCFD2idz6f8rim+/8i7usUJocy6mZP0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Common.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uYvz4R+/kX92qCFD2idz6f8rim+/8i7usUJocy6mZP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uYvz4R+/kX92qCFD2idz6f8rim+/8i7usUJocy6mZP0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dh0x4273ng"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078746358"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn57TPBAcaPQueTVR6coBU36fE9Oe6/UfZxKYBpuBWE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dh0x4273ng"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn57TPBAcaPQueTVR6coBU36fE9Oe6/UfZxKYBpuBWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dh0x4273ng"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fn57TPBAcaPQueTVR6coBU36fE9Oe6/UfZxKYBpuBWE="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078746358"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn57TPBAcaPQueTVR6coBU36fE9Oe6/UfZxKYBpuBWE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm.gz",
+      "AssetFile": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn57TPBAcaPQueTVR6coBU36fE9Oe6/UfZxKYBpuBWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fn57TPBAcaPQueTVR6coBU36fE9Oe6/UfZxKYBpuBWE="
         }
       ]
     },
@@ -7151,6 +9237,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-fpvgkN/TXui1XBF5hhM6Nz35TJy3GlcgzYxZ6kyRr3I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm",
+      "AssetFile": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qc4oop4dbt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Features.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm",
+      "AssetFile": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000140311492"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWhjl4me9Fm+G+aQUaqT1NfV+W8uFAUIv+1qHsaq91k=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qc4oop4dbt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Features.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm.gz",
+      "AssetFile": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWhjl4me9Fm+G+aQUaqT1NfV+W8uFAUIv+1qHsaq91k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qc4oop4dbt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWhjl4me9Fm+G+aQUaqT1NfV+W8uFAUIv+1qHsaq91k="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Features.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Features.wasm",
+      "AssetFile": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Features.wasm",
+      "AssetFile": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000140311492"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWhjl4me9Fm+G+aQUaqT1NfV+W8uFAUIv+1qHsaq91k=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Features.wasm.gz",
+      "AssetFile": "_framework/Microsoft.Extensions.Features.qc4oop4dbt.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWhjl4me9Fm+G+aQUaqT1NfV+W8uFAUIv+1qHsaq91k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWhjl4me9Fm+G+aQUaqT1NfV+W8uFAUIv+1qHsaq91k="
         }
       ]
     },
@@ -31748,6 +34132,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-jGXSu+IJ8zTxFzyjBaKuESBSqjtjUHqS7kgx7LVBs1I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm",
+      "AssetFile": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9z7i1rzsd8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/System.Net.ServerSentEvents.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm",
+      "AssetFile": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000087935280"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfBfiUqfTK5tPnZ4Wxe3KM5TE/c3jLocAUEsniCMBWk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9z7i1rzsd8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/System.Net.ServerSentEvents.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm.gz",
+      "AssetFile": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfBfiUqfTK5tPnZ4Wxe3KM5TE/c3jLocAUEsniCMBWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9z7i1rzsd8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfBfiUqfTK5tPnZ4Wxe3KM5TE/c3jLocAUEsniCMBWk="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/System.Net.ServerSentEvents.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Net.ServerSentEvents.wasm",
+      "AssetFile": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Net.ServerSentEvents.wasm",
+      "AssetFile": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000087935280"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfBfiUqfTK5tPnZ4Wxe3KM5TE/c3jLocAUEsniCMBWk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5RWhCIT3okxK84yzqgxbdfqEMbUjfT+ODyXE2ZFDEHE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Net.ServerSentEvents.wasm.gz",
+      "AssetFile": "_framework/System.Net.ServerSentEvents.9z7i1rzsd8.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfBfiUqfTK5tPnZ4Wxe3KM5TE/c3jLocAUEsniCMBWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:58:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfBfiUqfTK5tPnZ4Wxe3KM5TE/c3jLocAUEsniCMBWk="
         }
       ]
     },
@@ -59319,7 +62001,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40626"
+          "Value": "42714"
         },
         {
           "Name": "Content-Type",
@@ -59327,17 +62009,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EQ7v6EuZgYVPzHQBnuzJfkpOrjE6A3MEykjYN3A3bmQ=\""
+          "Value": "\"3f/w/9uyQNT9c80ywIzIyXVs5BChwUCuFXXTUIfuv04=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:33:37 GMT"
+          "Value": "Tue, 22 Apr 2025 18:03:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EQ7v6EuZgYVPzHQBnuzJfkpOrjE6A3MEykjYN3A3bmQ="
+          "Value": "sha256-3f/w/9uyQNT9c80ywIzIyXVs5BChwUCuFXXTUIfuv04="
         }
       ]
     },
@@ -59348,7 +62030,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000078106694"
+          "Quality": "0.000074855902"
         }
       ],
       "ResponseHeaders": [
@@ -59366,7 +62048,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12802"
+          "Value": "13358"
         },
         {
           "Name": "Content-Type",
@@ -59374,15 +62056,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rpBGQh/w3gSGM0kghipNPR2H4Ay8vRR/0Bmb7bArceQ=\""
+          "Value": "\"hf5/SNf6o3vyR1JXgpyo2fcTigWo2oQTMKzxwgoGNxI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EQ7v6EuZgYVPzHQBnuzJfkpOrjE6A3MEykjYN3A3bmQ=\""
+          "Value": "W/\"3f/w/9uyQNT9c80ywIzIyXVs5BChwUCuFXXTUIfuv04=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:27:23 GMT"
+          "Value": "Tue, 22 Apr 2025 18:02:46 GMT"
         },
         {
           "Name": "Vary",
@@ -59392,7 +62074,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EQ7v6EuZgYVPzHQBnuzJfkpOrjE6A3MEykjYN3A3bmQ="
+          "Value": "sha256-3f/w/9uyQNT9c80ywIzIyXVs5BChwUCuFXXTUIfuv04="
         }
       ]
     },
@@ -59415,7 +62097,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12802"
+          "Value": "13358"
         },
         {
           "Name": "Content-Type",
@@ -59423,11 +62105,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rpBGQh/w3gSGM0kghipNPR2H4Ay8vRR/0Bmb7bArceQ=\""
+          "Value": "\"hf5/SNf6o3vyR1JXgpyo2fcTigWo2oQTMKzxwgoGNxI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 10:27:23 GMT"
+          "Value": "Tue, 22 Apr 2025 18:02:46 GMT"
         },
         {
           "Name": "Vary",
@@ -59437,7 +62119,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rpBGQh/w3gSGM0kghipNPR2H4Ay8vRR/0Bmb7bArceQ="
+          "Value": "sha256-hf5/SNf6o3vyR1JXgpyo2fcTigWo2oQTMKzxwgoGNxI="
         }
       ]
     },
@@ -62897,7 +65579,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:53:45 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -62938,7 +65620,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:53:45 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -62979,7 +65661,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:53:45 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -63034,7 +65716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:53:45 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -63083,7 +65765,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:53:45 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -63132,7 +65814,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:53:45 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         },
         {
           "Name": "Vary",
@@ -63345,7 +66027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 12:34:33 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [
@@ -63382,7 +66064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 12:34:33 GMT"
+          "Value": "Mon, 21 Apr 2025 11:07:38 GMT"
         }
       ],
       "EndpointProperties": [

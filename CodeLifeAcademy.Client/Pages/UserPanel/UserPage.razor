@@ -1,18 +1,43 @@
 ﻿@page "/userPanel"
+@inject NotificationService NotificationService
 
 <PageTitle>MyPanel</PageTitle>
 
-<h1>Counter</h1>
+<h3>📢 Чат SignalR</h3>
 
-<p role="status">Current count: @currentCount</p>
+<div>
+    <input @bind="user" placeholder="Имя" />
+    <input @bind="message" placeholder="Сообщение" />
+    <button @onclick="SendMessage">Отправить</button>
+</div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<hr />
+<ul>
+    @foreach (var msg in messages)
+    {
+        <li><strong>@msg.User:</strong> @msg.Text</li>
+    }
+</ul>
 
 @code {
-    private int currentCount = 0;
+    private string user;
+    private string message;
+    private List<(string User, string Text)> messages = new();
 
-    private void IncrementCount()
+    protected override async Task OnInitializedAsync()
     {
-        currentCount++;
+        NotificationService.OnMessageReceived += (user, msg) =>
+        {
+            messages.Add((user, msg));
+            InvokeAsync(StateHasChanged);
+        };
+
+        await NotificationService.ConnectAsync();
+    }
+
+    private async Task SendMessage()
+    {
+        await NotificationService.SendMessageAsync(user, message);
+        message = "";
     }
 }

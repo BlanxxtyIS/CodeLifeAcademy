@@ -26,4 +26,12 @@ public class UsersController: ControllerBase
         var users = await _context.Users.ToListAsync();
         return Ok(users);
     }
+
+    [HttpGet]
+    [Route("userRoles")]
+    public async Task<ActionResult<IEnumerable<UserRole>>> GetUserRoles()
+    {
+        var roles = await _context.UserRoles.ToListAsync();
+        return Ok(roles);
+    }
 }

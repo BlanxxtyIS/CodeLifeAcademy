@@ -1,4 +1,6 @@
-﻿namespace CodeLifeAcademy.Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CodeLifeAcademy.Core.Entities;
 
 public class Lession
 {
@@ -8,4 +10,7 @@ public class Lession
     public int Order { get; set; }
     public Guid TopicId { get; set; }
     public Topic Topic { get; set; } = null!;
+
+    [Timestamp]
+    public byte[] RowVersion { get; set; } = default!;
 }

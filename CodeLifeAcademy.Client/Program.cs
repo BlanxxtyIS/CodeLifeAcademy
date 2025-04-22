@@ -1,8 +1,11 @@
 using CodeLifeAcademy.Client;
+using CodeLifeAcademy.Client.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.Services.AddSingleton<NotificationService>();
+
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 

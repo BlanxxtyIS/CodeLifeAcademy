@@ -1,4 +1,5 @@
 ﻿@inject HttpClient _http
+@inject NotificationService NotificationService
 
 <div class="card">
     <div class="card-details">
@@ -35,6 +36,8 @@
 
     protected override async Task OnInitializedAsync()
     {
+        NotificationService.OnDataRefreshRequested += RefreshData;
+        await NotificationService.ConnectAsync();
         try
         {
             _lessions = await _http.GetFromJsonAsync<List<Lession>>("/lessions");
@@ -46,5 +49,12 @@
         {
             Console.WriteLine($"Ошибка при загрузке тем курса {ex.Message}");
         }
+    }
+
+    private async void RefreshData()
+    {
+        Console.WriteLine("Обновление данных от SignalR");
+        _lessions = await _http.GetFromJsonAsync<List<Lession>>("/lessions");
+        StateHasChanged();
     }
 }

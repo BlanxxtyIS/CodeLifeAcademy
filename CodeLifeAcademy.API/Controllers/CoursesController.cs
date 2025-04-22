@@ -60,8 +60,8 @@ namespace CodeLifeAcademy.API.Controllers
                 new { id = course.Id }, course);
         }
 
+        [Authorize(Policy = "ManageCourses")]
         [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateCourse(Guid id, [FromBody] CreateCourseDto dto)
         {
             var validationResult = await _createCourseValidator.ValidateAsync(dto);
@@ -80,14 +80,20 @@ namespace CodeLifeAcademy.API.Controllers
             course.Title = dto.Title;
             course.Description = dto.Description;
 
-            _context.Courses.Update(course);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            _context.Entry(course).State = EntityState.Modified;
+            try
+            {
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return Conflict("Курс уже был обновлен другим администратором. Пожжалуйста, перезагружите данные.");
+            }
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "ManageCourses")]
         public async Task<IActionResult> DeleteCourse(Guid id)
         {
             var course = await _context.Courses.FindAsync(id);

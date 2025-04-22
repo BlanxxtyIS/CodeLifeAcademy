@@ -1,23 +1,16 @@
 ﻿@page "/adminPanel"
 @inject HttpClient Http
+@inject NotificationService NotificationService
 
 <PageTitle>Admin Page</PageTitle>
 
 <h3>Страница админки для редактирования и изменения ресурсов.</h3>
 
-
-<a href="/counter">Страница 1</a>
-<br />
-<a href="/">Страница основная</a>
-<br />
+<a href="/counter">Страница 1</a><br />
+<a href="/">Страница основная</a><br />
 <a href="/scalar">Тест страница</a>
 
-<EntitiesTable TEntity="User" Items="_users" Title="Users">
-    <AddContentForm>
-        <AddEntityForm />
-    </AddContentForm>
-
-</EntitiesTable>
+<UsersTable Title="Users" Users="_users" UserRoles="_userRoles"/>
 
 <CourseTable Title="Courses" Courses="_courses" />
 
@@ -26,16 +19,38 @@
 <LessionTable Lessions="_lessions" Title="Lessions"/>
 
 @code {
+
     private List<User>? _users;
+    private List<UserRole>? _userRoles;
     private List<Course>? _courses;
     private List<Topic>? _topics;
     private List<Lession>? _lessions;
 
     protected override async Task OnInitializedAsync()
     {
+        await LoadData();
+        NotificationService.OnDataRefreshRequested += RefreshData;
+        await NotificationService.ConnectAsync();
+    }
+
+    private async void RefreshData()
+    {
+        Console.WriteLine("Обновление данных от SignalR");
+        await LoadData();
+        StateHasChanged();
+    }
+
+    public async Task LoadData()
+    {
         _users = await Http.GetFromJsonAsync<List<User>>("/users");
+        _userRoles = await Http.GetFromJsonAsync<List<UserRole>>("/users/userRoles");
         _courses = await Http.GetFromJsonAsync<List<Course>>("/courses");
         _topics = await Http.GetFromJsonAsync<List<Topic>>("/topics");
         _lessions = await Http.GetFromJsonAsync<List<Lession>>("/lessions");
+    }
+
+    public async void Dispose()
+    {
+        NotificationService.OnDataRefreshRequested -= RefreshData;
     }
 }

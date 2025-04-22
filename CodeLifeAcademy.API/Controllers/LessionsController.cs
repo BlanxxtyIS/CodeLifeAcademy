@@ -70,7 +70,7 @@ public class LessionsController: ControllerBase
     }
 
     [HttpPut("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Policy = "ManageCourses")]
     public async Task<ActionResult> UpdateLession(Guid id, [FromBody] CreateLessionDto dto)
     {
         var validationResult = _createLessionValidator.Validate(dto);
@@ -89,13 +89,21 @@ public class LessionsController: ControllerBase
         lession.Content = dto.Content;
         lession.Order = dto.Order;
 
-        _context.Lessions.Update(lession);
-        await _context.SaveChangesAsync();
-        return NoContent();
+        _context.Entry(lession).State = EntityState.Modified;
+
+        try
+        {
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            return Conflict("Урок уже был обновлен другим администратором. Пожжалуйста, перезагружите данные.");
+        }
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Policy = "ManageCourses")]
     public async Task<ActionResult> DeleteLession(Guid id)
     {
         var lession = await _context.Lessions.FindAsync(id);

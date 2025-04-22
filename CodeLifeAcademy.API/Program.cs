@@ -11,6 +11,8 @@ using System.Text;
 using CodeLifeAcademy.Application.Validators;
 using FluentValidation;
 using Serilog;
+using CodeLifeAcademy.API.Hubs;
+using CodeLifeAcademy.Client.Services;
 
 //Log.Logger = new LoggerConfiguration()
 //    .WriteTo.Console()
@@ -19,14 +21,15 @@ using Serilog;
 //    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSignalR();
 
 //builder.Host.UseSerilog();
-
 builder.Logging.AddConsole();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+
 builder.Services.AddSingleton<IJwtService, JwtService>();
 
 builder.Services.AddAuthentication(options =>
@@ -61,8 +64,8 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
-    options.AddPolicy("MentorOrAdmin", policy => policy.RequireRole("Admin", "Mentor"));
+    options.AddPolicy("ManageCourses", policy =>
+        policy.RequireRole("Admin", "PM"));
 });
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCourseValidator>();
@@ -91,6 +94,8 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
     app.UseWebAssemblyDebugging();
 }
+
+app.MapHub<NotificationHub>("/hubs/notification");
 
 app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");

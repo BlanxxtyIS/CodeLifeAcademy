@@ -22,6 +22,8 @@
     public Topic? EditorTopic { get; set; }
 
     private string _test = string.Empty;
+    private string _errorMessage = string.Empty;
+    private bool _showConflictDialog;
 
     private string? _title;
     private string? _description;
@@ -66,6 +68,11 @@
             {
                 _test = "Тема успешно обновлена!";
                 Reset();
+            }
+            else if (response.StatusCode == System.Net.HttpStatusCode.Conflict)
+            {
+                _errorMessage = await response.Content.ReadAsStringAsync();
+                _showConflictDialog = true;
             }
             else
             {

@@ -42,6 +42,12 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
                     b.Property<int>("Progress")
                         .HasColumnType("integer");
 
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .IsRequired()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("bytea");
+
                     b.Property<int>("TimeInMinutes")
                         .HasColumnType("integer");
 
@@ -66,6 +72,12 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
                     b.Property<int>("Order")
                         .HasColumnType("integer");
+
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .IsRequired()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("bytea");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -164,6 +176,12 @@ namespace CodeLifeAcademy.Infrastructure.Migrations
 
                     b.Property<int>("Order")
                         .HasColumnType("integer");
+
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .IsRequired()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("bytea");
 
                     b.Property<string>("Title")
                         .IsRequired()

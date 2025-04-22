@@ -1,4 +1,6 @@
-﻿namespace CodeLifeAcademy.Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CodeLifeAcademy.Core.Entities;
 
 public class Course
 {
@@ -12,4 +14,7 @@ public class Course
     public string TimeFormatted => $"{TimeInMinutes / 60}ч {TimeInMinutes % 60}м";
 
     public ICollection<Topic> Topics { get; set; } = new List<Topic>();
+
+    [Timestamp]
+    public byte[] RowVersion { get; set; } = default!;
 }

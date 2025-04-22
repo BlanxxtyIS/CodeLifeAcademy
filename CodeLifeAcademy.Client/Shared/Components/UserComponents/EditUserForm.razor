@@ -1,11 +1,17 @@
-﻿@* @inject HttpClient _http
+﻿@inject HttpClient _http
 
 <div class="form-container">
     <p>@_test</p>
     <div class="form">
         <span class="heading">Редактировать пользователя @_username</span>
+        <input placeholder="Username" type="text" class="input" @bind-value=_username>
         <input placeholder="Email" type="text" class="input" @bind-value=_email>
-        <input placeholder="Role" type="text" class="input" @bind=_userRoles>
+        <input placeholder="Role" type="text" class="input" @bind-value=_role>
+        <select name="ustroistva">
+            @foreach (var role in _userRoles) {
+                <option value="@role">@role</option>
+            }
+        </select>
         <div class="button-container">
             <button class="send-button" @onclick=Send>Изменить</button>
             <button class="reset-button" @onclick=Reset>Сбросить</button>
@@ -22,6 +28,7 @@
 
     private string? _username;
     private string? _email;
+    private string? _role;
     private ICollection<UserRole>? _userRoles;
 
     protected override async Task OnParametersSetAsync()
@@ -75,4 +82,4 @@
         _userRoles = EditorUser.UserRoles;
         _test = "Изменения отменены";
     }
-} *@
+}

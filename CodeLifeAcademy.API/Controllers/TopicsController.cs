@@ -66,7 +66,7 @@ public class TopicsController: ControllerBase
     }
 
     [HttpPut("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Policy = "ManageCourses")]
     public async Task<IActionResult> UpdateTopic(Guid id, [FromBody] CreateTopicDto dto)
     {
         var validationResult = await _createTopicValidator.ValidateAsync(dto);
@@ -86,14 +86,20 @@ public class TopicsController: ControllerBase
         topic.Description = dto.Description;
         topic.Order = dto.Order;
 
-        _context.Topics.Update(topic);
-        await _context.SaveChangesAsync();
-
-        return NoContent();
+        _context.Entry(topic).State = EntityState.Modified;
+        try
+        {
+            await _context.SaveChangesAsync();
+            return NoContent();
+        } 
+        catch (DbUpdateConcurrencyException)
+        {
+            return Conflict("Тема уже была обновлена другим администратором. Пожалуйста, перезагружите данные.");
+        }
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Policy = "ManageCourses")]
     public async Task<IActionResult> DeleteTopic(Guid id)
     {
         var topic = await _context.Topics.FindAsync(id);
