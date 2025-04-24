@@ -8,7 +8,7 @@ else
 
     @if (_showEditUserForm)
     {
-        <EditUserForm EditorUser="_currentEditUser" />
+        <EditUserForm EditorUser="_currentEditUser" Roles="Roles" />
     }
     <table>
         <thead>
@@ -17,7 +17,6 @@ else
                 <th>Username</th>
                 <th>Email</th>
                 <th>UserRoles</th>
-                <th>RefreshToken</th>
                 <th>CreatedAt</th>
             </tr>
         </thead>
@@ -29,10 +28,9 @@ else
                     <td>@user.Username</td>
                     <td>@user.Email</td>
                     <td>
-                            РОЛИ
+                        @string.Join(", ", user.UserRoles.Select(ur => ur.Role.Name))
                     </td>
-                    <td>@user.RefreshToken</td>
-                    <td>@user.CreatedAt.ToString()</td>
+                    <td>@user.CreatedAt.ToShortDateString()</td>
                     <td>
                         <button @onclick="@(() => EditEntity(user))">Редактировать</button>
                     </td>
@@ -50,8 +48,8 @@ else
     [Parameter]
     public IEnumerable<User>? Users { get; set; }
 
-    [Parameter]
-    public IEnumerable<UserRole>? UserRoles { get; set; }
+    [Parameter, EditorRequired]
+    public IEnumerable<Role>? Roles { get; set; }
 
     private bool _showEditUserForm;
     private User? _currentEditUser;

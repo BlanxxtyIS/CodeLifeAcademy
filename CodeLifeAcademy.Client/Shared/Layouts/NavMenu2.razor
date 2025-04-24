@@ -1,0 +1,31 @@
+﻿@inject NavigationManager _navManager
+
+<div>
+    <ul>
+        <li><button @onclick=GoToHome>Курсы</button></li>
+        <li><button @onclick=GoToUserPanel>MyPanel</button></li>
+        <li><button @onclick=GoToAdminPanel>AdminPage</button></li>
+        <li><button @onclick=GoToAuth>Войти</button></li>
+    </ul>
+</div>
+
+@code {
+    private void GoToHome() {
+        _navManager.NavigateTo("/");
+    }
+
+    private void GoToUserPanel()
+    {
+        _navManager.NavigateTo("/userPanel");
+    }
+
+    private void GoToAdminPanel()
+    {
+        _navManager.NavigateTo("/adminPanel");
+    }
+
+    private void GoToAuth()
+    {
+        _navManager.NavigateTo("/authentication");
+    }
+}

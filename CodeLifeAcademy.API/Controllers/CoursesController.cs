@@ -24,7 +24,9 @@ namespace CodeLifeAcademy.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Course>>> GetAllCourses()
         {
-            var courses = await _context.Courses.ToListAsync();
+            var courses = await _context.Courses
+                .Include(c => c.Topics)
+                .ToListAsync();
             return courses;
         }
 
@@ -60,8 +62,8 @@ namespace CodeLifeAcademy.API.Controllers
                 new { id = course.Id }, course);
         }
 
-        [Authorize(Policy = "ManageCourses")]
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateCourse(Guid id, [FromBody] CreateCourseDto dto)
         {
             var validationResult = await _createCourseValidator.ValidateAsync(dto);
@@ -79,6 +81,9 @@ namespace CodeLifeAcademy.API.Controllers
 
             course.Title = dto.Title;
             course.Description = dto.Description;
+            course.Image = dto.Image;
+            course.Progress = dto.Progress;
+            course.TimeInMinutes = dto.TimeInMinutes;
 
             _context.Entry(course).State = EntityState.Modified;
             try

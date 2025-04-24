@@ -86,34 +86,58 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/9.0.0": {
+      "Microsoft.AspNetCore.Authorization/9.0.4": {
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "9.0.0",
+          "Microsoft.AspNetCore.Metadata": "9.0.4",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
           "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16403"
+          }
         }
       },
       "Microsoft.AspNetCore.Authorization.Policy/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.3.0",
-          "Microsoft.AspNetCore.Authorization": "9.0.0"
+          "Microsoft.AspNetCore.Authorization": "9.0.4"
         }
       },
-      "Microsoft.AspNetCore.Components/9.0.0": {
+      "Microsoft.AspNetCore.Components/9.0.4": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.0",
-          "Microsoft.AspNetCore.Components.Analyzers": "9.0.0"
+          "Microsoft.AspNetCore.Authorization": "9.0.4",
+          "Microsoft.AspNetCore.Components.Analyzers": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Components.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16403"
+          }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/9.0.0": {},
+      "Microsoft.AspNetCore.Components.Analyzers/9.0.4": {},
+      "Microsoft.AspNetCore.Components.Authorization/9.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "9.0.4",
+          "Microsoft.AspNetCore.Components": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16403"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/9.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.0"
+          "Microsoft.AspNetCore.Components": "9.0.4"
         }
       },
       "Microsoft.AspNetCore.Components.Web/9.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.0",
+          "Microsoft.AspNetCore.Components": "9.0.4",
           "Microsoft.AspNetCore.Components.Forms": "9.0.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.4",
           "Microsoft.Extensions.Primitives": "9.0.4",
@@ -252,7 +276,14 @@
           "System.IO.Pipelines": "8.0.0"
         }
       },
-      "Microsoft.AspNetCore.Metadata/9.0.0": {},
+      "Microsoft.AspNetCore.Metadata/9.0.4": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16403"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/9.0.0": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.17"
@@ -327,7 +358,7 @@
       },
       "Microsoft.AspNetCore.SignalR.Core/1.2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.0",
+          "Microsoft.AspNetCore.Authorization": "9.0.4",
           "Microsoft.AspNetCore.SignalR.Common": "9.0.4",
           "Microsoft.AspNetCore.SignalR.Protocols.Json": "9.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
@@ -1299,6 +1330,7 @@
         "dependencies": {
           "CodeLifeAcademy.Application": "1.0.0",
           "CodeLifeAcademy.Core": "1.0.0",
+          "Microsoft.AspNetCore.Components.Authorization": "9.0.4",
           "Microsoft.AspNetCore.Components.WebAssembly": "9.0.0",
           "Microsoft.AspNetCore.SignalR.Client": "9.0.4"
         },
@@ -1385,12 +1417,12 @@
       "path": "microsoft.aspnetcore.authentication.jwtbearer/9.0.4",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.9.0.4.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authorization/9.0.0": {
+    "Microsoft.AspNetCore.Authorization/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qDJlBC5pUQ/3o6/C6Vuo9CGKtV5TAe5AdKeHvDR2bgmw8vwPxsAy3KG5eU0i1C+iAUNbmq+iDTbiKt16f9pRiA==",
-      "path": "microsoft.aspnetcore.authorization/9.0.0",
-      "hashPath": "microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512"
+      "sha512": "sha512-QIV3Jk/zb5wsBNkxj4eK4Qoja6f0hO2pUhWrG8NOmgnclA7zbQvzLLKaGnva7/PtglS8VS5HusZfrnnO8FTpSA==",
+      "path": "microsoft.aspnetcore.authorization/9.0.4",
+      "hashPath": "microsoft.aspnetcore.authorization.9.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization.Policy/2.3.0": {
       "type": "package",
@@ -1399,19 +1431,26 @@
       "path": "microsoft.aspnetcore.authorization.policy/2.3.0",
       "hashPath": "microsoft.aspnetcore.authorization.policy.2.3.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components/9.0.0": {
+    "Microsoft.AspNetCore.Components/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xKzY0LRqWrwuPVzKIF9k1kC21NrLmIE2qPhhKlInEAdYqNe8qcMoPWZy7fo1uScHkz5g73nTqDDra3+aAV7mTQ==",
-      "path": "microsoft.aspnetcore.components/9.0.0",
-      "hashPath": "microsoft.aspnetcore.components.9.0.0.nupkg.sha512"
+      "sha512": "sha512-imeT4r1PLXqI3kzf7b06Tzj5H4od8o/u4ZE5JgyrlvwABSZlBQzWN8AgT/lPLqs2VJVxNwcAolx+vxLMl9Dn+g==",
+      "path": "microsoft.aspnetcore.components/9.0.4",
+      "hashPath": "microsoft.aspnetcore.components.9.0.4.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Analyzers/9.0.0": {
+    "Microsoft.AspNetCore.Components.Analyzers/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-maOE1qlJ9hf1Fb7PhFLw9bgP9mWckuDOcn1uKNt9/msdJG2YHl3cPRHojYa6CxliGHIXL8Da4qPgeUc4CaOoeg==",
-      "path": "microsoft.aspnetcore.components.analyzers/9.0.0",
-      "hashPath": "microsoft.aspnetcore.components.analyzers.9.0.0.nupkg.sha512"
+      "sha512": "sha512-fPrKrrfT5o0dJZ4AgbGsXBl4YNTlSrRcpYMgLTsrmYo7aOkZrdWPmsxVsFRyelfmCW9qHH7ZZK/4cTC8HuS7BA==",
+      "path": "microsoft.aspnetcore.components.analyzers/9.0.4",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Authorization/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BgS8VbdTa3s1AIVssOC/XoEYrEIeIWbKfvF2DevQ0aDokoIajWqEjjGrnVzSTc9vlDp158SZMY1hMeC1PulMqA==",
+      "path": "microsoft.aspnetcore.components.authorization/9.0.4",
+      "hashPath": "microsoft.aspnetcore.components.authorization.9.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Forms/9.0.0": {
       "type": "package",
@@ -1525,12 +1564,12 @@
       "path": "microsoft.aspnetcore.http.features/5.0.17",
       "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Metadata/9.0.0": {
+    "Microsoft.AspNetCore.Metadata/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-X81C891nMuWgzNHyZ0C3s+blSDxRHzQHDFYQoOKtFvFuxGq3BbkLbc5CfiCqIzA/sWIfz6u8sGBgwntQwBJWBw==",
-      "path": "microsoft.aspnetcore.metadata/9.0.0",
-      "hashPath": "microsoft.aspnetcore.metadata.9.0.0.nupkg.sha512"
+      "sha512": "sha512-3AhnSEW/Zw0E++itsen8YvqT7UoyF7zYD9OZPQmeGpT7YQP4W9GOiwOljfJEC8+4pP8kqgpeRN/p4LkmKLIUlQ==",
+      "path": "microsoft.aspnetcore.metadata/9.0.4",
+      "hashPath": "microsoft.aspnetcore.metadata.9.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/9.0.0": {
       "type": "package",

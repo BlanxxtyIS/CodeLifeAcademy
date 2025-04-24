@@ -1,23 +1,33 @@
 ﻿@page "/userPanel"
 @inject NotificationService NotificationService
+@attribute [Authorize]
 
 <PageTitle>MyPanel</PageTitle>
 
 <h3>📢 Чат SignalR</h3>
 
-<div>
-    <input @bind="user" placeholder="Имя" />
-    <input @bind="message" placeholder="Сообщение" />
-    <button @onclick="SendMessage">Отправить</button>
-</div>
+<AuthorizeView>
+    <Authorized>
+        <div>
+            <input @bind="user" placeholder="Имя" />
+            <input @bind="message" placeholder="Сообщение" />
+            <button @onclick="SendMessage">Отправить</button>
+        </div>
 
-<hr />
-<ul>
-    @foreach (var msg in messages)
-    {
-        <li><strong>@msg.User:</strong> @msg.Text</li>
-    }
-</ul>
+        <hr />
+        <ul>
+            @foreach (var msg in messages)
+            {
+                <li><strong>@msg.User:</strong> @msg.Text</li>
+            }
+        </ul>
+    </Authorized>
+    <NotAuthorized>
+        <p>Пж покиньте аудиторию</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+
 
 @code {
     private string user;

@@ -13,8 +13,44 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\logo.jpg",
-      "PackagePath": "staticwebassets\\images\\logo.jpg"
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\fonts\\Literal-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Literal-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\fonts\\Literal-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\Literal-Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\fonts\\Literal-Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\Literal-Regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\Courses\\csharp.png",
+      "PackagePath": "staticwebassets\\images\\Courses\\csharp.png"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\Courses\\swift.png",
+      "PackagePath": "staticwebassets\\images\\Courses\\swift.png"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\Topics\\Chilling.png",
+      "PackagePath": "staticwebassets\\images\\Topics\\Chilling.png"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\Topics\\Float.png",
+      "PackagePath": "staticwebassets\\images\\Topics\\Float.png"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\Topics\\phone-call.png",
+      "PackagePath": "staticwebassets\\images\\Topics\\phone-call.png"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\logo-bck.jpg",
+      "PackagePath": "staticwebassets\\images\\logo-bck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\logo.gif",
+      "PackagePath": "staticwebassets\\images\\logo.gif"
     },
     {
       "Id": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\images\\navBar.jpg",

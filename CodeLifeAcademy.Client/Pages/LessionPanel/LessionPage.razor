@@ -2,21 +2,24 @@
 @inject HttpClient _http
 @inject NavigationManager _navManager
 
+<PageTitle>Урок</PageTitle>
+<link href="css/lesson-style.css" rel="stylesheet" />
+
 @if (Lesson is null)
 {
     <p>Загрузка...</p>
 }
 else
 {
-    <div class="lesson-container">
+    <div class="content">
         <h1>@Lesson.Title</h1>
         <div class="lesson-content">@((MarkupString)Lesson.Content)</div>
 
         <div class="lesson-navigation">
-            <button class="btn btn-primary" @onclick="GoToBackLession">
+            <button class="button-question" @onclick="GoToBackLession">
                 Назад
             </button>
-            <button class="btn btn-primary" @onclick="GoToNextLesson">
+            <button class="button-question" @onclick="GoToNextLesson">
                 Следующий урок
             </button>
         </div>

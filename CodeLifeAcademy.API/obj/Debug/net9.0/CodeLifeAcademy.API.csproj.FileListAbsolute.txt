@@ -192,3 +192,7 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Syste
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\System.Threading.Channels.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll

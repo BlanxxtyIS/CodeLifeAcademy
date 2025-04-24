@@ -42,9 +42,11 @@ else
                     <td>@course.Progress</td>
                     <td>@course.TimeInMinutes</td>
                     <td>@course.TimeFormatted</td>
-                    @foreach (var topic in course.Topics) {
-                        <td>@topic.Title</td>
-                    }
+                    <td>
+                        @foreach (var topic in course.Topics) {
+                            @topic.Title
+                        }
+                    </td>
                     <td>
                         <button @onclick="@(() => EditEntity(course))">Редактировать</button>
                     </td>

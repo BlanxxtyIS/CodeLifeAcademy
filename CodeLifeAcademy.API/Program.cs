@@ -13,6 +13,7 @@ using FluentValidation;
 using Serilog;
 using CodeLifeAcademy.API.Hubs;
 using CodeLifeAcademy.Client.Services;
+using System.Text.Json.Serialization;
 
 //Log.Logger = new LoggerConfiguration()
 //    .WriteTo.Console()
@@ -82,7 +83,11 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    });
 
 builder.Services.AddOpenApi();
 

@@ -14,10 +14,14 @@
     }
 </div>
 
+< br/>
+
 @if (_showLession)
 {
     <LessionsCard Lessions="_lessions" />
+    <br />
 }
+
 
 @code {
     [Parameter, EditorRequired]
@@ -26,7 +30,7 @@
     private List<Lession>? _lessions;
 
     private bool _showLession;
-    private string _showLessionButtonText = string.Empty;
+    private string _showLessionButtonText = "Показать";
 
     private void ShowLessonsButton()
     {

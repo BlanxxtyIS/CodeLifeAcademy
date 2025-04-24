@@ -1,9 +1,12 @@
 using CodeLifeAcademy.Client;
 using CodeLifeAcademy.Client.Services;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.Services.AddAuthorizationCore();
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
 builder.Services.AddSingleton<NotificationService>();
 
 builder.RootComponents.Add<App>("#app");

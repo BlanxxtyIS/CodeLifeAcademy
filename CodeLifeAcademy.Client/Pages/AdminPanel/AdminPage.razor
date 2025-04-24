@@ -2,26 +2,31 @@
 @inject HttpClient Http
 @inject NotificationService NotificationService
 
+@attribute [Authorize(Roles="Admin")]
 <PageTitle>Admin Page</PageTitle>
 
 <h3>Страница админки для редактирования и изменения ресурсов.</h3>
 
-<a href="/counter">Страница 1</a><br />
-<a href="/">Страница основная</a><br />
-<a href="/scalar">Тест страница</a>
+<AuthorizeView>
+    <Authorized>
+        <UsersTable Title="Users" Users="_users" Roles="_roles" /> <br />
 
-<UsersTable Title="Users" Users="_users" UserRoles="_userRoles"/>
+        <CourseTable Title="Courses" Courses="_courses" /> <br />
 
-<CourseTable Title="Courses" Courses="_courses" />
+        <TopicTable Title="Topics" Topics="_topics" /> <br />
 
-<TopicTable Title="Topics" Topics="_topics" />
+        <LessionTable Lessions="_lessions" Title="Lessions" />
+    </Authorized>
+    <NotAuthorized>
+        <p>Пшел вон с этой страницы</p>
+    </NotAuthorized>
+</AuthorizeView>
 
-<LessionTable Lessions="_lessions" Title="Lessions"/>
 
 @code {
 
     private List<User>? _users;
-    private List<UserRole>? _userRoles;
+    private List<Role>? _roles;
     private List<Course>? _courses;
     private List<Topic>? _topics;
     private List<Lession>? _lessions;
@@ -43,7 +48,7 @@
     public async Task LoadData()
     {
         _users = await Http.GetFromJsonAsync<List<User>>("/users");
-        _userRoles = await Http.GetFromJsonAsync<List<UserRole>>("/users/userRoles");
+        _roles = await Http.GetFromJsonAsync<List<Role>>("/users/roles");
         _courses = await Http.GetFromJsonAsync<List<Course>>("/courses");
         _topics = await Http.GetFromJsonAsync<List<Topic>>("/topics");
         _lessions = await Http.GetFromJsonAsync<List<Lession>>("/lessions");

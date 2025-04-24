@@ -4,20 +4,22 @@
 
 <PageTitle>Курсы</PageTitle>
 
-<h3>Курсы</h3>
+<div class="content">
+    <h3>Курсы</h3>
 
 @if (_courses is null)
 {
     <p>Загрузка страницы...</p>
 }
 else {
-    <div class="grid" >
+    <div class="content">
         @foreach (var course in _courses)
         {
             <CourseCard Course="course" OnSelected="HandleCourseSelected"/>
         }
     </div>
 }
+</div>
 
 
 @code {

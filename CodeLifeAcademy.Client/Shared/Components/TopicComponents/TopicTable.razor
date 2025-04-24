@@ -24,8 +24,7 @@ else
                 <th>Id</th>
                 <th>Title</th>
                 <th>Content</th>
-                <th>TopicID</th>
-                <th>Topics</th>
+                <th>Course ID</th>
                 <th>Order</th>
             </tr>
         </thead>
@@ -37,7 +36,6 @@ else
                     <td>@topic.Title</td>
                     <td>@topic.Description</td>
                     <td>@topic.CourseId</td>
-                    <td>@topic.Course</td>
                     <td>@topic.Order</td>
                     <td>
                         <button @onclick="@(() => EditEntity(topic))">Редактировать</button>

@@ -1,4 +1,5 @@
 ﻿@inject HttpClient _http
+@inject NotificationService NotificationService
 
 <div class="form-container">
     <p>@_test</p>
@@ -6,8 +7,9 @@
         <span class="heading">Редактировать курс @_title</span>
         <input placeholder="Наименование" type="text" class="input" @bind-value=_title>
         <textarea placeholder="Описание" rows="10" cols="30" id="message" name="message" class="textarea" @bind=_description></textarea>
-        <input placeholder="Изображение" type="text" class="input" @bind=_image>
-        <input placeholder="Время прохождения" type="text" class="input" @bind=_time>
+        <input placeholder="Изображение" type="text" class="input" @bind-value=_image>
+        <input placeholder="Прогресс" type="text" class="input" @bind-value=_progress>
+        <input placeholder="Время прохождения" type="text" class="input" @bind-value=_time>
         <div class="button-container">
             <button class="send-button" @onclick=Send>Изменить</button>
             <button class="reset-button" @onclick=Reset>Сбросить</button>
@@ -27,6 +29,7 @@
     private string? _title;
     private string? _description;
     private string? _image;
+    private int _progress;
     private int _time;
 
     protected override async Task OnParametersSetAsync()
@@ -36,6 +39,7 @@
         _title = EditorCourse.Title;
         _description = EditorCourse.Description;
         _image = EditorCourse.Image;
+        _progress = EditorCourse.Progress;
         _time = EditorCourse.TimeInMinutes;
     }
 
@@ -51,15 +55,17 @@
         EditorCourse.Title = _title;
         EditorCourse.Description = _description;
         EditorCourse.Image = _image;
+        EditorCourse.Progress = _progress;
         EditorCourse.TimeInMinutes = _time;
 
         try
         {
-            var response = await _http.PutAsJsonAsync($"lessions/{EditorCourse.Id}", EditorCourse);
+            var response = await _http.PutAsJsonAsync($"courses/{EditorCourse.Id}", EditorCourse);
 
             if (response.IsSuccessStatusCode)
             {
                 _test = "Курс успешно обнавлен!";
+                await NotifyRefresh();
                 Reset();
             }
             else if (response.StatusCode == System.Net.HttpStatusCode.Conflict)
@@ -86,7 +92,13 @@
         _title = EditorCourse.Title;
         _description = EditorCourse.Description;
         _image = EditorCourse.Image;
+        _progress = EditorCourse.Progress;
         _time = EditorCourse.TimeInMinutes;
         _test = "Изменения отменены";
+    }
+
+    private async Task NotifyRefresh()
+    {
+        await NotificationService.RequestDataRefresh();
     }
 }

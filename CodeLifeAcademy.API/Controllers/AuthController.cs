@@ -40,20 +40,6 @@ public class AuthController : ControllerBase
         return Ok(result.AccesToken);
     }
 
-    [Authorize(Roles = "Admin")]
-    [HttpGet("test")] 
-    public async Task<ActionResult<string>> Test()
-    {
-        return Ok("Only admins");
-    }
-
-    [Authorize(Policy = "MentorOrAdmin")]
-    [HttpGet("test2")]
-    public async Task<ActionResult<string>> Test2()
-    {
-        return Ok("Menthor and admin");
-    }
-
     [HttpPost("refresh")]
     public async Task<ActionResult<AuthResultDto>> Refresh(RefreshTokenDto request)
     {

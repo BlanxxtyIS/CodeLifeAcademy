@@ -4,6 +4,7 @@
 
 <PageTitle>Topics</PageTitle>
 
+<div class="content">
 <h3>IOS [SWIFT] - Разработчик</h3>
 
 @if (_topics is null) {
@@ -15,8 +16,10 @@
         <TopicCard CurrentTopic="@topic" />
     }
 }
+</div>
 
 @code {
+
     private IEnumerable<Topic>? _topics;
 
     protected override async Task OnInitializedAsync() {
