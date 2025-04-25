@@ -4,7 +4,7 @@
     <div class="palette">
         @foreach (var lession in Lessions) {
             <div class="color">
-                <button сlass="color" @onclick="() => GoToLession(lession.Id)">@lession.Title</button>
+                <button class="button-question" @onclick="() => GoToLession(lession.Id)">@lession.Title</button>
             </div>
         }
     </div>

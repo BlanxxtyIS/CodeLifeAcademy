@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeLifeAcademy.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0e852206ca8f58e6a22b738f64695bf592b6cbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ffdb87b03c0b4b86e32ca105d07da59ecbdef7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeLifeAcademy.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeLifeAcademy.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,7 +6,7 @@ else
 {
     <h3>@Title</h3>
 
-    <button @onclick=ShowAddFormButton>
+    <button class="button-question" @onclick=ShowAddFormButton>
         Добавить
     </button>
 
@@ -38,7 +38,7 @@ else
                     <td>@topic.CourseId</td>
                     <td>@topic.Order</td>
                     <td>
-                        <button @onclick="@(() => EditEntity(topic))">Редактировать</button>
+                        <button class="button-question" @onclick="@(() => EditEntity(topic))">Редактировать</button>
                     </td>
                 </tr>
             }

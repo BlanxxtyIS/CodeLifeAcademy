@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>xt4vvstcr9</Fingerprint>
-      <Integrity>NWn5kCbrevIGjKpluuBLI93P/uhn/OKGWqL8YlktJ+Q=</Integrity>
+      <Fingerprint>fv0ixos84b</Fingerprint>
+      <Integrity>FUr+WOkM0XzMwXwtPW/NNopCohJWw5Nf4f71bvVq/js=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodeLifeAcademy.Client.styles.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qzffxx5pls</Fingerprint>
-      <Integrity>SowDrt9CfFSAR/7itmjvBwUp/ehrymvfBascwvboRGU=</Integrity>
+      <Fingerprint>tbu9ojw9zi</Fingerprint>
+      <Integrity>N3q6nZB1c3rfU0liEj/30YfGfE5lUYRPgPvM4LbiKso=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>

@@ -8,7 +8,7 @@
     </div>
     @if (_lessions?.Count > 0)
     {
-        <button class="card-button" @onclick=ShowLessonsButton>
+        <button class="button-question" @onclick=ShowLessonsButton>
             @_showLessionButtonText
         </button>
     }
@@ -19,7 +19,6 @@
 @if (_showLession)
 {
     <LessionsCard Lessions="_lessions" />
-    <br />
 }
 
 
