@@ -17,21 +17,25 @@ namespace CodeLifeAcademy.Infrastructure.Services;
 
 public class AuthService : IAuthService
 {
-    public readonly ApplicationDbContext _context;
-    public readonly IPasswordHasher<User> _passwordHasher;
-    public readonly IConfiguration _configuration;
+    private readonly ApplicationDbContext _context;
+    private readonly IPasswordHasher<User> _passwordHasher;
+    private readonly IConfiguration _configuration;
+    private readonly IJwtService _jwtService;
 
     public AuthService(ApplicationDbContext context,
                         IPasswordHasher<User> passwordHasher,
-                        IConfiguration configuration)
+                        IConfiguration configuration,
+                        IJwtService jwtService)
     {
         _context = context;
         _passwordHasher = passwordHasher;
         _configuration = configuration;
+        _jwtService = jwtService;
     }
 
     public async Task<Guid?> RegisterAsync(RegisterUserDto request)
     {
+        // Проверяем уникальность email и username.
         if (await _context.Users
             .AnyAsync(u => u.Username == request.Username || 
             u.Email == request.Email))
@@ -39,11 +43,11 @@ public class AuthService : IAuthService
             return null;
         }
 
+        // Создается новый юзер с ролью Student
         var user = new User
         {
             Username = request.Username,
-            Email = request.Email
-            
+            Email = request.Email 
         };
 
         var studentRole = await _context.Roles
@@ -59,7 +63,8 @@ public class AuthService : IAuthService
             UserId = user.Id,
             RoleId = studentRole.Id
         };
-
+        
+        //Хешируем пасс и сохраеняем в бд
         var hashedPassword = _passwordHasher
             .HashPassword(user, request.Password);
         user.PasswordHash = hashedPassword;
@@ -70,9 +75,10 @@ public class AuthService : IAuthService
 
         return user.Id;
     }
-
+  
     public async Task<AuthResultDto?> LoginAsync(LoginUserDto request, HttpResponse response)
     {
+        //Ищем юзера 
         var user = await _context.Users
             .Include(u => u.UserRoles)
             .ThenInclude(ur => ur.Role)
@@ -83,8 +89,22 @@ public class AuthService : IAuthService
             return null;
         }
 
+        //Проверяем пасс
         if (_passwordHasher.VerifyHashedPassword(user, user.PasswordHash, request.Password)
             == PasswordVerificationResult.Failed)
+        {
+            return null;
+        }
+
+        //Если успешно создаем токены и возвращаем.
+        return await CreateTokenResponse(user, response);
+    }
+
+    public async Task<AuthResultDto?> RefreshToken(RefreshTokenDto request, HttpResponse response)
+    {
+        var user = await ValidateRefreshToken(request.UserId, request.RefreshToken);
+
+        if (user is null)
         {
             return null;
         }
@@ -92,6 +112,13 @@ public class AuthService : IAuthService
         return await CreateTokenResponse(user, response);
     }
 
+    /// <summary>
+    /// Создаем Access Token и сохраняем RefreshToken.
+    /// Возвращаем объект с токенами и временем истечения
+    /// </summary>
+    /// <param name="user"></param>
+    /// <param name="response"></param>
+    /// <returns></returns>
     private async Task<AuthResultDto> CreateTokenResponse(User? user, HttpResponse response)
     {
         return new AuthResultDto
@@ -114,29 +141,18 @@ public class AuthService : IAuthService
 
         claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
-        var cookieOptions = new CookieOptions
+        var token = _jwtService.CreateAccessToken(claims);
+
+        response.Cookies.Append("accessToken", token, new CookieOptions
         {
             HttpOnly = true,
             Secure = true,
             SameSite = SameSiteMode.Strict,
             Expires = DateTime.UtcNow.AddMinutes(15)
-        };
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
+        });
 
-        var token = new JwtSecurityToken(
-            issuer: _configuration["Jwt:Issuer"],
-            audience: _configuration["Jwt:Audience"],
-            claims: claims,
-            expires: DateTime.UtcNow.AddMinutes(15),
-            signingCredentials: creds
-        );
-
-        var accessToken = new JwtSecurityTokenHandler().WriteToken(token);
-        response.Cookies.Append("accessToken", accessToken, cookieOptions);
-
-        return accessToken;
+        return token;
     }
 
     private async Task<string> GenerateAndSaveRefreshTokenAsync(User user)
@@ -150,7 +166,7 @@ public class AuthService : IAuthService
         }
         var refreshToken = new RefreshToken()
         {
-            Token = GenerateRefreshToken(),
+            Token = _jwtService.GenerateRefreshToken(),
             ExpiresAt = DateTime.UtcNow.AddDays(7),
             UserId = user.Id,
             User = user
@@ -161,23 +177,6 @@ public class AuthService : IAuthService
         await _context.SaveChangesAsync();
 
         return refreshToken.Token;
-    }
-
-    public string GenerateRefreshToken()
-    {
-        return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
-    }
-
-    public async Task<AuthResultDto?> RefreshToken(RefreshTokenDto request, HttpResponse response)
-    {
-        var user = await ValidateRefreshToken(request.UserId, request.RefreshToken);
-
-        if (user is null)
-        {
-            return null;
-        }
-
-        return await CreateTokenResponse(user, response);
     }
 
     private async Task<User?> ValidateRefreshToken(Guid userId, string refreshToken)

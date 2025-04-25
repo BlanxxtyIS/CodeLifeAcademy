@@ -65,8 +65,14 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("ManageCourses", policy =>
-        policy.RequireRole("Admin", "PM"));
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("Admin"));
+
+    options.AddPolicy("TeacherOnly", policy =>
+        policy.RequireRole("Teacher"));
+
+    options.AddPolicy("StudentOnly", policy =>
+        policy.RequireRole("Student"));
 });
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCourseValidator>();

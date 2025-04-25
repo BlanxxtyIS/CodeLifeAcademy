@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CodeLifeAcademy.API.Controllers;
 
 [ApiController]
+[Authorize]
 [Route("[controller]")]
 public class TopicsController: ControllerBase
 {
@@ -66,7 +67,7 @@ public class TopicsController: ControllerBase
     }
 
     [HttpPut("{id}")]
-    [Authorize(Policy = "ManageCourses")]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> UpdateTopic(Guid id, [FromBody] CreateTopicDto dto)
     {
         var validationResult = await _createTopicValidator.ValidateAsync(dto);
@@ -99,7 +100,7 @@ public class TopicsController: ControllerBase
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Policy = "ManageCourses")]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> DeleteTopic(Guid id)
     {
         var topic = await _context.Topics.FindAsync(id);
