@@ -40,6 +40,7 @@ public class UsersController: ControllerBase
     }
 
     [HttpPut("{id}")]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> UpdateUser(Guid id, UserUpdateDto dto)
     {
         var user = await _context.Users
@@ -78,7 +79,6 @@ public class UsersController: ControllerBase
         return NoContent();
     }
 
-    [Authorize]
     [HttpGet("userinfo")]
     public IActionResult GetUserInfo()
     {

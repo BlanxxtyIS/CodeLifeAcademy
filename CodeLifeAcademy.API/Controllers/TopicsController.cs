@@ -10,7 +10,6 @@ using Microsoft.EntityFrameworkCore;
 namespace CodeLifeAcademy.API.Controllers;
 
 [ApiController]
-[Authorize]
 [Route("[controller]")]
 public class TopicsController: ControllerBase
 {
@@ -26,11 +25,18 @@ public class TopicsController: ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Topic>>> GetTopics()
     {
-        var topics = await _context.Topics
-            .OrderBy(l => l.Order)
-            .ToListAsync();
+        try
+        {
+            var topics = await _context.Topics
+                .OrderBy(l => l.Order)
+                .ToListAsync();
 
-        return Ok(topics);
+            return Ok(topics);
+        } 
+        catch (Exception ex)
+        {
+            return BadRequest($"Не удалось получить темы: {ex.Message}");
+        }
     }
 
     [HttpGet("{id}")]

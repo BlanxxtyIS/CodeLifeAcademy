@@ -2,25 +2,28 @@
 @inject HttpClient Http
 @inject NotificationService NotificationService
 
-@attribute [Authorize(Roles="Admin")]
+@attribute [Authorize(Roles = "Admin")]
 <PageTitle>Admin Page</PageTitle>
 
-<h3>Страница админки для редактирования и изменения ресурсов.</h3>
+<div class="content">
+    <h1>Админ-панель</h1>
+    <p>Здесь редактируем ресурсы: пользователей, курсы, темы и уроки.</p>
 
-<AuthorizeView>
-    <Authorized>
-        <UsersTable Title="Users" Users="_users" Roles="_roles" /> <br />
-
-        <CourseTable Title="Courses" Courses="_courses" /> <br />
-
-        <TopicTable Title="Topics" Topics="_topics" /> <br />
-
-        <LessionTable Lessions="_lessions" Title="Lessions" />
-    </Authorized>
-    <NotAuthorized>
-        <p>Пшел вон с этой страницы</p>
-    </NotAuthorized>
-</AuthorizeView>
+    <AuthorizeView>
+        <Authorized>
+            <UsersTable Title="Users" Users="_users" Roles="_roles" />
+            <hr />
+            <CourseTable Title="Courses" Courses="_courses" />
+            <hr />
+            <TopicTable Title="Topics" Topics="_topics" />
+            <hr />
+            <LessionTable Lessions="_lessions" Title="Lessions" />
+        </Authorized>
+        <NotAuthorized>
+            <p><b>Пшел вон с этой страницы</b></p>
+        </NotAuthorized>
+    </AuthorizeView>
+</div>
 
 
 @code {

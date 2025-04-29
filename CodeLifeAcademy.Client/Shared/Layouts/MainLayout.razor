@@ -2,12 +2,10 @@
 
 <HeaderLayout />
 
-<div class="page">
-    <div>
-        <NavMenu/>
-    </div>
+<div class="page" style="display: flex; min-height: 100vh;">
+    <NavMenu />
 
-    <main class="container mt-5 mb-5 background">
-            @Body
+    <main style="flex: 1; padding: 20px;">
+        @Body
     </main>
 </div>

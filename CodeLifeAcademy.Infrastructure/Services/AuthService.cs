@@ -100,31 +100,21 @@ public class AuthService : IAuthService
         return await CreateTokenResponse(user, response);
     }
 
-    public async Task<AuthResultDto?> RefreshToken(RefreshTokenDto request, HttpResponse response)
+    public async Task<AuthResultDto> CreateTokenResponse(User user, HttpResponse response)
     {
-        var user = await ValidateRefreshToken(request.UserId, request.RefreshToken);
+        var refreshToken = await GenerateAndSaveRefreshTokenAsync(user);
 
-        if (user is null)
+        response.Cookies.Append("refreshToken", refreshToken, new CookieOptions
         {
-            return null;
-        }
+            HttpOnly = true,
+            Secure = true,
+            SameSite = SameSiteMode.Strict,
+            Expires = DateTime.UtcNow.AddDays(7)
+        });
 
-        return await CreateTokenResponse(user, response);
-    }
-
-    /// <summary>
-    /// Создаем Access Token и сохраняем RefreshToken.
-    /// Возвращаем объект с токенами и временем истечения
-    /// </summary>
-    /// <param name="user"></param>
-    /// <param name="response"></param>
-    /// <returns></returns>
-    private async Task<AuthResultDto> CreateTokenResponse(User? user, HttpResponse response)
-    {
         return new AuthResultDto
         {
             AccesToken = CreateToken(user, response),
-            RefreshToken = await GenerateAndSaveRefreshTokenAsync(user),
             ExpiresAt = DateTime.UtcNow
         };
     }

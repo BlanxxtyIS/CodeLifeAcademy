@@ -3,48 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\lessionpanel\\lessionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\lessionpanel\\lessionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\userpanel\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\userpanel\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\shared\\layouts\\headerlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\shared\\layouts\\headerlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\shared\\components\\usercomponents\\edituserform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\shared\\components\\usercomponents\\edituserform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\shared\\components\\usercomponents\\userstable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\shared\\components\\usercomponents\\userstable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\adminpanel\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\adminpanel\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\shared\\layouts\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\shared\\layouts\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\shared\\layouts\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\shared\\layouts\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\lessionpanel\\lessionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\lessionpanel\\lessionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\topicpanel\\topicspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\topicpanel\\topicspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\authpages\\authpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\authpages\\authpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\lessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\lessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\shared\\components\\coursecomponents\\coursecard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\shared\\components\\coursecomponents\\coursecard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|solutionrelative:codelifeacademy.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|solutionrelative:codelifeacademy.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|solutionrelative:codelifeacademy.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.application\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|solutionrelative:codelifeacademy.application\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\services\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\services\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\userpanel\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\userpanel\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F4934-B4DB-4C69-9D52-742CF263A3E9}|CodeLifeAcademy.API\\CodeLifeAcademy.API.csproj|solutionrelative:codelifeacademy.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +127,8 @@
       "RelativeMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|solutionrelative:codelifeacademy.infrastructure\\dependencyinjection\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.application\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|solutionrelative:codelifeacademy.application\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.application\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|solutionrelative:codelifeacademy.application\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E800FA8-9049-42CB-A5CF-FD6868BD9B71}|CodeLifeAcademy.Application\\CodeLifeAcademy.Application.csproj|solutionrelative:codelifeacademy.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.core\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,111 +170,175 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditUserForm.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\EditUserForm.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\EditUserForm.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\EditUserForm.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\EditUserForm.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:27:39.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersTable.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\UsersTable.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\UsersTable.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\UsersTable.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\UsersTable.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:27:33.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HeaderLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\HeaderLayout.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Layouts\\HeaderLayout.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\HeaderLayout.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Shared\\Layouts\\HeaderLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:21:40.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TopicsPage.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\TopicPanel\\TopicsPage.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\TopicPanel\\TopicsPage.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\TopicPanel\\TopicsPage.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\TopicPanel\\TopicsPage.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:52:46.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAI4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:35:36.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LessionPage.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\LessionPanel\\LessionPage.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\LessionPanel\\LessionPage.razor",
               "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\LessionPanel\\LessionPage.razor",
               "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\LessionPanel\\LessionPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwHAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-25T14:55:56.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserPage.razor",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
-              "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\App.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\App.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\App.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T14:55:40.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-25T14:52:24.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:47:56.681Z",
+              "WhenOpened": "2025-04-29T07:01:55.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AdminPage.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:53:14.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TopicsController.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\TopicsController.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\TopicsController.cs",
               "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\TopicsController.cs",
               "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\TopicsController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T14:47:34.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LessionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
-              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:47:02.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CoursesController.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
-              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:46:39.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:46:36.329Z",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAuwLQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T14:52:24.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:48:12.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\NavMenu.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Layouts\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\NavMenu.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Shared\\Layouts\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:57:24.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\_Imports.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:49:04.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Program.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Program.cs",
@@ -226,12 +346,168 @@
               "RelativeToolTip": "CodeLifeAcademy.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:46:09.69Z",
+              "WhenOpened": "2025-04-25T14:46:09.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Layouts\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\MainLayout.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Shared\\Layouts\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:57:25.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:46:36.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:47:56.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseCard.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseCard.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseCard.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseCard.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:49:27.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthPage.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AuthPages\\AuthPage.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\AuthPages\\AuthPage.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AuthPages\\AuthPage.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\AuthPages\\AuthPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:53:10.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserPage.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:55:40.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Services\\CustomAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Services\\CustomAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Services\\CustomAuthStateProvider.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Services\\CustomAuthStateProvider.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:51:29.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Program.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Program.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:51:33.636Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "LessionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
+              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:47:02.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:41:03.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:37:27.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:36:00.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:46:39.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\DependencyInjection\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\DependencyInjection\\ServiceCollectionExtension.cs",
@@ -239,25 +515,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\DependencyInjection\\ServiceCollectionExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:41:57.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:41:57.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
-              "RelativeToolTip": "CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:37:27.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\LoginUserDto.cs",
@@ -265,12 +527,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Application\\DTOs\\LoginUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:41:19.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:41:19.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\RegisterUserDto.cs",
@@ -278,25 +539,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Application\\DTOs\\RegisterUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:41:14.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:41:14.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
-              "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAwwEMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:41:03.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Interfaces\\IJwtService.cs",
@@ -304,38 +551,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Application\\Interfaces\\IJwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:40:56.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:40:56.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:36:00.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
-              "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:35:36.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Enums\\UserRole.cs",
@@ -343,12 +563,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Core\\Enums\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:35:08.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:35:08.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "CreateUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Validators\\CreateUserValidator.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Validators\\CreateUserValidator.cs",
@@ -356,12 +575,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Application\\Validators\\CreateUserValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:30:03.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:30:03.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "RoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\RoleConfiguration.cs",
@@ -369,12 +587,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\RoleConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:34:53.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:34:53.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\UserRole.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\UserRole.cs",
@@ -382,12 +599,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Core\\Entities\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:34:28.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:34:28.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\Role.cs",
@@ -395,12 +611,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Core\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:34:19.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:34:19.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\UserConfiguration.cs",
@@ -408,12 +623,11 @@
               "RelativeToolTip": "CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\UserConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:32:37.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:32:37.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\User.cs",
@@ -421,8 +635,7 @@
               "RelativeToolTip": "CodeLifeAcademy.Core\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:27:55.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:27:55.527Z"
             }
           ]
         }

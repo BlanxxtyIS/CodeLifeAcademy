@@ -23,11 +23,11 @@ public interface IAuthService
     Task<AuthResultDto?> LoginAsync(LoginUserDto request, HttpResponse response);
 
     /// <summary>
-    /// Обновляет Access token используя refresh token и возвращет результат с токенами
-    /// (Access, refresh token и дату действия до)
+    /// Создаем Access Token и сохраняем RefreshToken в куках.
+    /// Возвращаем объект с акксес токеном и временем истечения
     /// </summary>
-    /// <param name="request"></param>
+    /// <param name="user"></param>
     /// <param name="response"></param>
     /// <returns></returns>
-    Task<AuthResultDto?> RefreshToken(RefreshTokenDto request, HttpResponse response);
+    Task<AuthResultDto> CreateTokenResponse(User user, HttpResponse response);
 }

@@ -5,17 +5,31 @@
 <PageTitle>Topics</PageTitle>
 
 <div class="content">
-<h3>IOS [SWIFT] - Разработчик</h3>
+    <h3>IOS [SWIFT] - Разработчик</h3>
 
-@if (_topics is null) {
-    <p>Загрузка тем...</p>
-} else if (!_topics.Any()) {
-    <p>Тем пока нет</p>
-} else {
-    @foreach (var topic in _topics) {
-        <TopicCard CurrentTopic="@topic" />
-    }
-}
+    <AuthorizeView>
+        <Authorized>
+            @if (_topics is null)
+            {
+                <p>Загрузка тем...</p>
+            }
+            else if (!_topics.Any())
+            {
+                <p>Тем пока нет</p>
+            }
+            else
+            {
+                @foreach (var topic in _topics)
+                {
+                    <TopicCard CurrentTopic="@topic" />
+                }
+            }
+        </Authorized>
+        <NotAuthorized>
+            <p>Ну ка брысь!</p>
+        </NotAuthorized>
+    </AuthorizeView>
+
 </div>
 
 @code {
@@ -36,7 +50,12 @@
     private async void RefreshData()
     {
         Console.WriteLine("Обновление данных от SignalR");
-        _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+        try
+        {
+            _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+        } catch {
+            _topics = null;
+        }
         StateHasChanged();
     }
 }

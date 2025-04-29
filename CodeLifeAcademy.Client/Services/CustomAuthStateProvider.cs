@@ -4,6 +4,10 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using CodeLifeAcademy.Core.Entities;
 
+/*
+ * Blazor WASM не знает автоматически, авторизован пользователь или нет, создаем кастомный провайдер
+ * на сторое клиента, чтобы понять какие у него Claims и передать в Blazor для управления
+ */
 public class CustomAuthStateProvider : AuthenticationStateProvider
 {
     private readonly HttpClient _http;
@@ -36,11 +40,13 @@ public class CustomAuthStateProvider : AuthenticationStateProvider
         }
     }
 
+    //Вызывается после логина, чтобы обновить состояние Blazor
     public void NotifyUserAuthentication(ClaimsPrincipal user)
     {
         NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(user)));
     }
 
+    //Вызывается после выхода
     public void NotifyUserLogout()
     {
         var anonymous = new ClaimsPrincipal(new ClaimsIdentity());

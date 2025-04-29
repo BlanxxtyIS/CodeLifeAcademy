@@ -134,7 +134,7 @@ nav {
 .button-question {
     background-color: var(--accent);
     color: var(--background);
-    padding: 12px 20px;
+    padding: 10px 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -145,7 +145,7 @@ nav {
 }
 
     .button-question:hover {
-        background-color: #9775e3;
+        background-color: #ea7600;
     }
 
 table {
@@ -176,3 +176,5 @@ tr.hover {
 .money {
     text-align: right;
 }
+
+

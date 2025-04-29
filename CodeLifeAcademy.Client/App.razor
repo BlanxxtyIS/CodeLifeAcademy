@@ -3,19 +3,16 @@
         <Found Context="routeData">
             <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
                 <NotAuthorized>
-                    <p>⛔ Доступ запрещён. У вас нет прав на просмотр этой страницы.</p>
+                    <p>⛔ Доступ запрещён.</p>
                 </NotAuthorized>
                 <Authorizing>
                     <p>⏳ Проверка авторизации...</p>
                 </Authorizing>
             </AuthorizeRouteView>
-            @* <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" /> *@
-            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
         </Found>
         <NotFound>
-            <PageTitle>Ничего не найдено</PageTitle>
             <LayoutView Layout="@typeof(MainLayout)">
-                <p role="alert">Извините, по такому адресу ничего не найдено.</p>
+                <p>Страница не найдена.</p>
             </LayoutView>
         </NotFound>
     </Router>

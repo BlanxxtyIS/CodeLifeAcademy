@@ -57,6 +57,7 @@ wwwroot\images\logo.gif
 wwwroot\images\logo-bck.jpg
 wwwroot\images\navBar.jpg
 wwwroot\images\ping-pong.gif
+wwwroot\images\Topics\ballet.png
 wwwroot\images\Topics\Chilling.png
 wwwroot\images\Topics\Float.png
 wwwroot\images\Topics\phone-call.png

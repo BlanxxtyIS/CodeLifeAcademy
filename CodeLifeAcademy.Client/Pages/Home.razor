@@ -7,29 +7,35 @@
 <div class="content">
     <h3>Курсы</h3>
 
-@if (_courses is null)
-{
-    <p>Загрузка страницы...</p>
-}
-else {
-    <div class="content">
-        @foreach (var course in _courses)
-        {
-            <CourseCard Course="course" OnSelected="HandleCourseSelected"/>
-        }
-    </div>
-}
+    @if (_courses is null)
+    {
+        <p>Загрузка страницы...</p>
+    }
+    else if (!_courses.Any()) {
+        <p>Курсы не найдены</p>
+    }
+    else {
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            @foreach (var course in _courses)
+            {
+                <CourseCard Course="course" OnSelected="HandleCourseSelected" />
+            }
+        </div>
+    }
 </div>
 
 
 @code {
     private IEnumerable<Course>? _courses;
 
-    protected override async Task OnInitializedAsync() {
-        try {
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
             _courses = await _http.GetFromJsonAsync<IEnumerable<Course>>("/courses");
         }
-        catch (HttpRequestException ex) {
+        catch (HttpRequestException ex)
+        {
             Console.WriteLine($"Ошибка при загрузке курсов {ex.Message}");
         }
     }

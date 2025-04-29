@@ -1,8 +1,10 @@
 ﻿using CodeLifeAcademy.Application.DTOs;
 using CodeLifeAcademy.Application.Interfaces;
 using CodeLifeAcademy.Core.Entities;
+using CodeLifeAcademy.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodeLifeAcademy.API.Controllers;
 
@@ -11,10 +13,13 @@ namespace CodeLifeAcademy.API.Controllers;
 public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;
+    private readonly ApplicationDbContext _context;
 
-    public AuthController(IAuthService authService)
+    public AuthController(IAuthService authService,
+                          ApplicationDbContext context)
     {
         _authService = authService;
+        _context = context;
     }
 
     [HttpPost("register")]
@@ -32,7 +37,7 @@ public class AuthController : ControllerBase
     public async Task<ActionResult<string>> Login(LoginUserDto request)
     {
         var result = await _authService.LoginAsync(request, Response);
-        if (result is null || result.AccesToken is null || result.RefreshToken is null)
+        if (result is null || result.AccesToken is null)
         {
             return BadRequest("Неправильный логин или пароль");
         }
@@ -41,14 +46,25 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("refresh")]
-    public async Task<ActionResult<AuthResultDto>> Refresh(RefreshTokenDto request)
+    public async Task<ActionResult<AuthResultDto>> Refresh()
     {
-        var refresh = await _authService.RefreshToken(request, Response);
-
-        if (refresh is null || refresh.AccesToken is null || refresh.RefreshToken is null)
+        var refreshToken = Request.Cookies["refreshToken"];
+        if (string.IsNullOrEmpty(refreshToken))
         {
-            return Unauthorized("Рефреш токен не действителен");
+            return Unauthorized("Refresh Token отсутствует");
         }
-        return Ok(refresh);
+
+        var user = await _context.Users
+            .Include(u => u.RefreshToken)
+            .FirstOrDefaultAsync(u => u.RefreshToken.Token == refreshToken);
+
+        if (user == null || user.RefreshToken.ExpiresAt <= DateTime.UtcNow)
+        {
+            return Unauthorized("Неверный токен или срок истек");
+        }
+
+        var result = await _authService.CreateTokenResponse(user, Response);
+
+        return Ok(result);
     }
 }
