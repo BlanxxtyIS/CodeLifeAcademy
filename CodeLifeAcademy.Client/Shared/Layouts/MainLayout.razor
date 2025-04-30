@@ -9,3 +9,22 @@
         @Body
     </main>
 </div>
+
+@code {
+    [Inject] private CustomAuthStateProvider AuthStateProvider { get; set; }
+
+    private Timer _refreshTimer;
+
+    protected override void OnInitialized()
+    {
+        _refreshTimer = new Timer(async _ =>
+        {
+            await AuthStateProvider.TryRefreshTokenAsync();
+        }, null, TimeSpan.FromMinutes(14), TimeSpan.FromMinutes(14));
+    }
+
+    public void Dispose()
+    {
+        _refreshTimer?.Dispose();
+    }
+}

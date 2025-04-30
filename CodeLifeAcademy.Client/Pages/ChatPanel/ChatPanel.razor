@@ -1,0 +1,53 @@
+﻿@page "/chatPanel"
+@inject NotificationService NotificationService
+@attribute [Authorize]
+
+<PageTitle>ChatPanel</PageTitle>
+
+<h3>📢 Чат SignalR</h3>
+
+<AuthorizeView>
+    <Authorized>
+        <div>
+            <input @bind="user" placeholder="Имя" />
+            <input @bind="message" placeholder="Сообщение" />
+            <button @onclick="SendMessage">Отправить</button>
+        </div>
+
+        <hr />
+        <ul>
+            @foreach (var msg in messages)
+            {
+                <li><strong>@msg.User:</strong> @msg.Text</li>
+            }
+        </ul>
+    </Authorized>
+    <NotAuthorized>
+        <p>Пж покиньте аудиторию</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+@code {
+    private string user;
+    private string message;
+    private List<(string User, string Text)> messages = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        NotificationService.OnMessageReceived += (user, msg) =>
+        {
+            messages.Add((user, msg));
+            InvokeAsync(StateHasChanged);
+        };
+
+        await NotificationService.ConnectAsync();
+    }
+
+    private async Task SendMessage()
+    {
+        await NotificationService.SendMessageAsync(user, message);
+        message = "";
+    }
+}

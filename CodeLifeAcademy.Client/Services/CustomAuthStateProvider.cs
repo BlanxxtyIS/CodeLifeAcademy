@@ -3,6 +3,8 @@ using System.Security.Claims;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using CodeLifeAcademy.Core.Entities;
+using System.Net.Http;
+using System.Net;
 
 /*
  * Blazor WASM не знает автоматически, авторизован пользователь или нет, создаем кастомный провайдер
@@ -22,6 +24,17 @@ public class CustomAuthStateProvider : AuthenticationStateProvider
         try
         {
             var response = await _http.GetAsync("users/userinfo"); // endpoint, который отдаёт инфу о текущем пользователе
+
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                var refreshed = await TryRefreshTokenAsync();
+
+                if (refreshed)
+                {
+                    response = await _http.GetAsync("users/userinfo");
+                }
+            }
+
             if (!response.IsSuccessStatusCode)
                 return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
 
@@ -39,6 +52,27 @@ public class CustomAuthStateProvider : AuthenticationStateProvider
             return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
         }
     }
+
+    public async Task<bool> TryRefreshTokenAsync()
+    {
+        try
+        {
+            var response = await _http.PostAsync("/api/auth/refresh", null);
+
+            if (response.IsSuccessStatusCode)
+            {
+                NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
+                return true;
+            }
+
+            return false;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
 
     //Вызывается после логина, чтобы обновить состояние Blazor
     public void NotifyUserAuthentication(ClaimsPrincipal user)

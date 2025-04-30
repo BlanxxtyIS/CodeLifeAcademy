@@ -1,11 +1,10 @@
 ﻿@inject HttpClient _http
 @inject NotificationService NotificationService
 
-<div class="card">
-    <div class="card-details">
-        <p class="text-title">@CurrentTopic?.Title</p>
-        <p class="text-body">@CurrentTopic?.Description</p>
-    </div>
+<div class="topic-card">
+    <h3>@CurrentTopic?.Title</h3>
+    <p>@CurrentTopic?.Description</p>
+
     @if (_lessions?.Count > 0)
     {
         <button class="button-question" @onclick=ShowLessonsButton>
@@ -13,8 +12,6 @@
         </button>
     }
 </div>
-
-< br/>
 
 @if (_showLession)
 {

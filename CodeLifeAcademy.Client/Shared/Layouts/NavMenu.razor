@@ -3,7 +3,8 @@
 <div>
     <ul>
         <li><button class="button-question" @onclick=GoToHome>Курсы</button></li>
-        <li><button class="button-question" @onclick=GoToUserPanel>MyPanel</button></li>
+        <li><button class="button-question" @onclick=GoToUserPanel>Мои уроки</button></li>
+        <li><button class="button-question" @onclick=GoToChatPanel>Test-Chat</button></li>
         <li><button class="button-question" @onclick=GoToAdminPanel>AdminPage</button></li>
         <li><button class="button-question" @onclick=GoToAuth>Войти</button></li>
     </ul>
@@ -12,6 +13,7 @@
 @code {
     private void GoToHome() => _navManager.NavigateTo("/");
     private void GoToUserPanel() =>  _navManager.NavigateTo("/userPanel");
+    private void GoToChatPanel() => _navManager.NavigateTo("/chatPanel");
     private void GoToAdminPanel() => _navManager.NavigateTo("/adminPanel");
     private void GoToAuth() =>  _navManager.NavigateTo("/authentication");
 }

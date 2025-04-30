@@ -156,6 +156,14 @@ th, td {
     padding: 7px 10px 10px 10px;
 }
 
+.short-content {
+    max-width: 300px;
+    max-height: 100px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
 th {
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -178,3 +186,83 @@ tr.hover {
 }
 
 
+/* CHAT */
+.form-container {
+    background-color: var(--headline);
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input, .textarea {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Literal', sans-serif;
+    background-color: var(--text);
+    color: var(--background);
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--accent);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.send-button,
+.reset-button {
+    background-color: var(--accent);
+    color: var(--background);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .send-button:hover {
+        background-color: #985fff;
+    }
+
+    .reset-button:hover {
+        background-color: #555a61;
+    }
+
+/* Topic Card */
+.topic-card {
+    background-color: var(--headline); /* глубокий фиолетово-синий */
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+    .topic-card:hover {
+        transform: translateY(-3px);
+    }
