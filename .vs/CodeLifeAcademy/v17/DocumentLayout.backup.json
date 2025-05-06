@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|solutionrelative:codelifeacademy.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|solutionrelative:codelifeacademy.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.client\\pages\\adminpanel\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}|CodeLifeAcademy.Client\\CodeLifeAcademy.Client.csproj|solutionrelative:codelifeacademy.client\\pages\\adminpanel\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -183,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|solutionrelative:codelifeacademy.infrastructure\\persistence\\configturations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7D23DEA-12FC-4D2D-A20D-002CAABD073F}|CodeLifeAcademy.Core\\CodeLifeAcademy.Core.csproj|solutionrelative:codelifeacademy.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|c:\\users\\zver\\desktop\\codelifeacademy\\codelifeacademy.infrastructure\\persistence\\configturations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C52CBED6-2CE9-4FA9-A01E-14B4FF23AF2F}|CodeLifeAcademy.Infrastructure\\CodeLifeAcademy.Infrastructure.csproj|solutionrelative:codelifeacademy.infrastructure\\persistence\\configturations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -198,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,7 +210,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\Course.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Core\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:17:15.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Hubs\\NotificationHub.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Hubs\\NotificationHub.cs",
@@ -219,20 +236,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Services\\NotificationService.cs",
               "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Services\\NotificationService.cs",
               "RelativeToolTip": "CodeLifeAcademy.Client\\Services\\NotificationService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:53:02.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\AuthController.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Services\\AuthService.cs",
@@ -257,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Services\\JwtService.cs",
@@ -269,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Program.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Program.cs",
@@ -282,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Program.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Program.cs",
@@ -295,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\MainLayout.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Layouts\\MainLayout.razor",
@@ -307,33 +324,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AdminPage.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
               "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
               "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\AdminPanel\\AdminPage.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-29T07:53:14.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ChatPanel.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\ChatPanel\\ChatPanel.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\ChatPanel\\ChatPanel.razor",
               "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\ChatPanel\\ChatPanel.razor",
               "RelativeToolTip": "CodeLifeAcademy.Client\\Pages\\ChatPanel\\ChatPanel.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-25T14:55:40.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\User.cs",
+              "RelativeToolTip": "CodeLifeAcademy.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:27:55.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CustomAuthStateProvider.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Services\\CustomAuthStateProvider.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Services\\CustomAuthStateProvider.cs",
@@ -345,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\NavMenu.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Layouts\\NavMenu.razor",
@@ -357,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\UsersController.cs",
@@ -369,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TokenRefreshHandler.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Services\\TokenRefreshHandler.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Services\\TokenRefreshHandler.cs",
@@ -381,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TopicsPage.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\TopicPanel\\TopicsPage.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\TopicPanel\\TopicsPage.razor",
@@ -393,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\wwwroot\\css\\app.css",
@@ -405,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AddCourseForm.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\AddCourseForm.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\AddCourseForm.razor",
@@ -417,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "UserPage.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\UserPanel\\UserPage.razor",
@@ -429,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "EditCourseForm.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\EditCourseForm.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\EditCourseForm.razor",
@@ -441,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CourseTable.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseTable.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseTable.razor",
@@ -453,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "LessionTable.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\LessionComponents\\LessionTable.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\LessionComponents\\LessionTable.razor",
@@ -465,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LessionsCard.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\LessionComponents\\LessionsCard.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\LessionComponents\\LessionsCard.razor",
@@ -477,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "TopicCard.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\TopicComponents\\TopicCard.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\TopicComponents\\TopicCard.razor",
@@ -489,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "LessionPage.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\LessionPanel\\LessionPage.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\LessionPanel\\LessionPage.razor",
@@ -501,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\CoursesController.cs",
@@ -513,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\Home.razor",
@@ -525,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "TopicsController.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\TopicsController.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\TopicsController.cs",
@@ -537,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\App.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\App.razor",
@@ -549,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "HeaderLayout.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Layouts\\HeaderLayout.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Layouts\\HeaderLayout.razor",
@@ -561,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "EditUserForm.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\EditUserForm.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\UserComponents\\EditUserForm.razor",
@@ -573,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\_Imports.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\_Imports.razor",
@@ -585,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "CourseCard.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseCard.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Shared\\Components\\CourseComponents\\CourseCard.razor",
@@ -597,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "AuthPage.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\Pages\\AuthPages\\AuthPage.razor",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Client\\Pages\\AuthPages\\AuthPage.razor",
@@ -609,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "LessionsController.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.API\\Controllers\\LessionsController.cs",
@@ -621,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "AuthResultDto.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\AuthResultDto.cs",
@@ -633,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Interfaces\\IAuthService.cs",
@@ -645,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\DependencyInjection\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\DependencyInjection\\ServiceCollectionExtension.cs",
@@ -657,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\LoginUserDto.cs",
@@ -669,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\DTOs\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\DTOs\\RegisterUserDto.cs",
@@ -681,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Interfaces\\IJwtService.cs",
@@ -693,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Enums\\UserRole.cs",
@@ -705,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "CreateUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Application\\Validators\\CreateUserValidator.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Application\\Validators\\CreateUserValidator.cs",
@@ -717,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "RoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\RoleConfiguration.cs",
@@ -729,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\UserRole.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\UserRole.cs",
@@ -741,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\Role.cs",
@@ -753,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "CodeLifeAcademy.Infrastructure\\Persistence\\Configturations\\UserConfiguration.cs",
@@ -762,18 +792,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T13:32:37.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "CodeLifeAcademy.Core\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Core\\Entities\\User.cs",
-              "RelativeToolTip": "CodeLifeAcademy.Core\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:27:55.527Z"
             }
           ]
         }

@@ -14,6 +14,8 @@ using Serilog;
 using CodeLifeAcademy.API.Hubs;
 using CodeLifeAcademy.Client.Services;
 using System.Text.Json.Serialization;
+using CodeLifeAcademy.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 //Log.Logger = new LoggerConfiguration()
 //    .WriteTo.Console()
@@ -122,5 +124,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapFallbackToFile("index.html");
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate(); // <-- автоматически применяет миграции
+}
 
 app.Run();
