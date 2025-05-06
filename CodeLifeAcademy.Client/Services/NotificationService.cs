@@ -16,27 +16,45 @@ public class NotificationService
         _navigationManager = navigationManager;
     }
 
+    private bool _handlersRegistered = false;
+
     public async Task ConnectAsync()
     {
-        var hubUrl = new Uri("https://localhost:7271/hubs/notification");
-
-        _hubConnection = new HubConnectionBuilder()
-            .WithUrl(hubUrl)
-            .WithAutomaticReconnect()
-            .Build();
-
-        _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        if (_hubConnection is { State: HubConnectionState.Connected})
         {
-            OnMessageReceived?.Invoke(user, message);
-        });
+            return;
+        }
 
-        _hubConnection.On("DataRefreshRequested", () =>
+        if (_hubConnection == null)
         {
-            Console.WriteLine("Получен сигнал DataRefreshRequested от сервера");
-            OnDataRefreshRequested?.Invoke();
-        });
+            var hubUrl = new Uri("https://localhost:7271/hubs/notification");
 
-        await _hubConnection.StartAsync();
+            _hubConnection = new HubConnectionBuilder()
+                .WithUrl(hubUrl)
+                .WithAutomaticReconnect()
+                .Build();
+        }
+
+        if (!_handlersRegistered)
+        {
+            _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+            {
+                OnMessageReceived?.Invoke(user, message);
+            });
+
+            _hubConnection.On("DataRefreshRequested", () =>
+            {
+                Console.WriteLine("Получен сигнал DataRefreshRequested от сервера");
+                OnDataRefreshRequested?.Invoke();
+            });
+
+            _handlersRegistered = true;
+        }
+
+        if (_hubConnection.State == HubConnectionState.Disconnected)
+        {
+            await _hubConnection.StartAsync();
+        }
     }
 
     public async Task SendMessageAsync(string user, string message)

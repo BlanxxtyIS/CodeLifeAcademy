@@ -80,8 +80,14 @@ public class UsersController: ControllerBase
     }
 
     [HttpGet("userinfo")]
+    [Authorize]
     public IActionResult GetUserInfo()
     {
+        if (User?.Identity == null || !User.Identity.IsAuthenticated)
+        {
+            return Unauthorized();
+        }
+
         var claims = User.Claims.Select(c => new
         {
             Type = c.Type,

@@ -1,6 +1,7 @@
 ﻿@page "/adminPanel"
 @inject HttpClient Http
 @inject NotificationService NotificationService
+@implements IDisposable
 
 @attribute [Authorize(Roles = "Admin")]
 <PageTitle>Admin Page</PageTitle>

@@ -1,5 +1,6 @@
 ﻿@page "/chatPanel"
 @inject NotificationService NotificationService
+@implements IDisposable
 @attribute [Authorize]
 
 <PageTitle>ChatPanel</PageTitle>
@@ -36,12 +37,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        NotificationService.OnMessageReceived += (user, msg) =>
-        {
-            messages.Add((user, msg));
-            InvokeAsync(StateHasChanged);
-        };
-
+        NotificationService.OnMessageReceived += HandleMessage;
         await NotificationService.ConnectAsync();
     }
 
@@ -49,5 +45,16 @@
     {
         await NotificationService.SendMessageAsync(user, message);
         message = "";
+    }
+
+    public void Dispose()
+    {
+        NotificationService.OnMessageReceived -= HandleMessage;
+    }
+
+    private void HandleMessage(string user, string msg)
+    {
+        messages.Add((user, msg));
+        InvokeAsync(StateHasChanged);
     }
 }
