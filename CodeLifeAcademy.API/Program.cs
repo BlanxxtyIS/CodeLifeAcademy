@@ -17,16 +17,16 @@ using System.Text.Json.Serialization;
 using CodeLifeAcademy.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-//Log.Logger = new LoggerConfiguration()
-//    .WriteTo.Console()
-//    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
-//    .Enrich.FromLogContext()
-//    .CreateLogger();
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddSignalR();
 
-//builder.Host.UseSerilog();
+builder.Services.AddSignalR();
+builder.Host.UseSerilog();
 builder.Logging.AddConsole();
 
 builder.Services.AddInfrastructure(builder.Configuration);
@@ -125,10 +125,10 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate(); // <-- автоматически применяет миграции
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+//    db.Database.Migrate(); // <-- автоматически применяет миграции
+//}
 
 app.Run();

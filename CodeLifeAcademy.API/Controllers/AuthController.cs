@@ -25,12 +25,13 @@ public class AuthController : ControllerBase
     [HttpPost("register")]
     public async Task<ActionResult<User>> Register(RegisterUserDto request)
     {
-        var user = await _authService.RegisterAsync(request);
-        if (user is null)
+        var userId = await _authService.RegisterAsync(request);
+
+        if (userId is null)
         {
             return BadRequest("Ошибка регистрации");
         }
-        return Ok(user);
+        return Ok(userId);
     }
 
     [HttpPost("login")]

@@ -1,0 +1,540 @@
+2025-05-08 15:09:06.435 +03:00 [INF] User profile is available. Using 'C:\Users\Zver\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-08 15:09:06.955 +03:00 [INF] Now listening on: https://localhost:7271
+2025-05-08 15:09:06.957 +03:00 [INF] Now listening on: http://localhost:5065
+2025-05-08 15:09:07.034 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-08 15:09:07.040 +03:00 [INF] Hosting environment: Development
+2025-05-08 15:09:07.041 +03:00 [INF] Content root path: C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.API
+2025-05-08 15:09:07.057 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/hubs/notification/negotiate?negotiateVersion=1 - null 0
+2025-05-08 15:09:07.120 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:07.122 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:07.370 +03:00 [INF] Executing endpoint '/hubs/notification/negotiate'
+2025-05-08 15:09:07.396 +03:00 [INF] Executed endpoint '/hubs/notification/negotiate'
+2025-05-08 15:09:07.400 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/hubs/notification/negotiate?negotiateVersion=1 - 200 316 application/json 359.6524ms
+2025-05-08 15:09:07.414 +03:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7271/hubs/notification?id=9mm2GA7-M8lSmffd7aCfOA - null null
+2025-05-08 15:09:07.417 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:07.418 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:07.424 +03:00 [INF] Executing endpoint '/hubs/notification'
+2025-05-08 15:09:07.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-08 15:09:07.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-05-08 15:09:07.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-05-08 15:09:07.622 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 38.143ms
+2025-05-08 15:09:07.659 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-05-08 15:09:07.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 80.6619ms
+2025-05-08 15:09:07.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-05-08 15:09:07.692 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:07.693 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:07.698 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-05-08 15:09:07.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 14.7969ms
+2025-05-08 15:09:07.708 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-05-08 15:09:07.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.0868ms
+2025-05-08 15:09:07.746 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-7ro7ay7f2v.gz'
+2025-05-08 15:09:07.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 200 14077 application/json 44.2089ms
+2025-05-08 15:09:07.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-05-08 15:09:07.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-05-08 15:09:07.773 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:07.778 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:07.781 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:07.784 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:07.786 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-05-08 15:09:07.788 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-05-08 15:09:07.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 21.8445ms
+2025-05-08 15:09:07.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 27.3075ms
+2025-05-08 15:09:07.812 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.t5kafi6o2u.pdb - null null
+2025-05-08 15:09:07.851 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.t5kafi6o2u.pdb.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-t5kafi6o2u.gz'
+2025-05-08 15:09:07.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.t5kafi6o2u.pdb.gz - 200 74982 application/octet-stream 43.255ms
+2025-05-08 15:09:07.892 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.6r2set0vw9.wasm - null null
+2025-05-08 15:09:07.913 +03:00 [INF] Sending file. Request path: '/_framework/CodeLifeAcademy.Client.6r2set0vw9.wasm.gz'. Physical path: 'C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-6r2set0vw9.gz'
+2025-05-08 15:09:07.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/CodeLifeAcademy.Client.6r2set0vw9.wasm.gz - 200 37986 application/wasm 22.5792ms
+2025-05-08 15:09:08.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-05-08 15:09:08.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.649ms
+2025-05-08 15:09:08.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-05-08 15:09:08.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 2.8627ms
+2025-05-08 15:09:08.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users/userinfo - null null
+2025-05-08 15:09:08.536 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API)'
+2025-05-08 15:09:08.790 +03:00 [INF] Route matched with {action = "GetUserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserInfo() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:09:08.937 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CodeLifeAcademy.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-08 15:09:08.951 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API) in 155.3081ms
+2025-05-08 15:09:08.953 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API)'
+2025-05-08 15:09:08.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users/userinfo - 200 null application/json; charset=utf-8 435.265ms
+2025-05-08 15:09:09.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:09:09.024 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:09:09.030 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:09:09.043 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:09:10.284 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:09:10.407 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:09:10.411 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:09:10.423 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 1389.992ms
+2025-05-08 15:09:10.425 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:09:10.432 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 1411.6362ms
+2025-05-08 15:09:30.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/topics - null null
+2025-05-08 15:09:30.343 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.349 +03:00 [INF] Route matched with {action = "GetTopics", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Topic]]] GetTopics() on controller CodeLifeAcademy.API.Controllers.TopicsController (CodeLifeAcademy.API).
+2025-05-08 15:09:30.392 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/hubs/notification/negotiate?negotiateVersion=1 - null 0
+2025-05-08 15:09:30.395 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:30.396 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:30.397 +03:00 [INF] Executing endpoint '/hubs/notification/negotiate'
+2025-05-08 15:09:30.399 +03:00 [INF] Executed endpoint '/hubs/notification/negotiate'
+2025-05-08 15:09:30.404 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/hubs/notification/negotiate?negotiateVersion=1 - 200 316 application/json 12.0816ms
+2025-05-08 15:09:30.434 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Topics" AS t
+ORDER BY t."Order"
+2025-05-08 15:09:30.438 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Topic, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:09:30.440 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API) in 87.8926ms
+2025-05-08 15:09:30.442 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.443 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/topics - 200 null application/json; charset=utf-8 103.9163ms
+2025-05-08 15:09:30.449 +03:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7271/hubs/notification?id=SbRMATl9Uil3HOqUy83Xhg - null null
+2025-05-08 15:09:30.452 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:09:30.453 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:09:30.455 +03:00 [INF] Executing endpoint '/hubs/notification'
+2025-05-08 15:09:30.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:09:30.469 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.473 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:09:30.499 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:09:30.512 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:09:30.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:09:30.519 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 42.3084ms
+2025-05-08 15:09:30.521 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.523 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.524 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:09:30.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 60.025ms
+2025-05-08 15:09:30.532 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:09:30.535 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:09:30.539 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 11.1582ms
+2025-05-08 15:09:30.540 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:09:30.541 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.543 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 26.8139ms
+2025-05-08 15:09:30.546 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:09:30.557 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:09:30.560 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:09:30.563 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 7.8216ms
+2025-05-08 15:09:30.565 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:09:30.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 25.5348ms
+2025-05-08 15:10:39.511 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:10:39.514 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:10:39.516 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:10:39.522 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:10:39.530 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:10:39.532 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 12.9052ms
+2025-05-08 15:10:39.534 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:10:39.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 26.6178ms
+2025-05-08 15:10:39.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions/01963977-ad5d-71f0-94ec-d77d5100fbb9 - null null
+2025-05-08 15:10:39.556 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLession (CodeLifeAcademy.API)'
+2025-05-08 15:10:39.564 +03:00 [INF] Route matched with {action = "GetLession", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CodeLifeAcademy.Core.Entities.Lession]] GetLession(System.Guid) on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:10:39.613 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+WHERE l."Id" = @__p_0
+LIMIT 1
+2025-05-08 15:10:39.618 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-08 15:10:39.622 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLession (CodeLifeAcademy.API) in 54.5172ms
+2025-05-08 15:10:39.624 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLession (CodeLifeAcademy.API)'
+2025-05-08 15:10:39.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions/01963977-ad5d-71f0-94ec-d77d5100fbb9 - 200 null application/json; charset=utf-8 72.4931ms
+2025-05-08 15:10:39.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:10:39.633 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:10:39.634 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:10:39.638 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:10:39.641 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:10:39.643 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 6.3794ms
+2025-05-08 15:10:39.647 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:10:39.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 17.2945ms
+2025-05-08 15:10:41.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions/019639b3-7b2f-70c1-b841-4a4efa95b087 - null null
+2025-05-08 15:10:41.571 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLession (CodeLifeAcademy.API)'
+2025-05-08 15:10:41.572 +03:00 [INF] Route matched with {action = "GetLession", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CodeLifeAcademy.Core.Entities.Lession]] GetLession(System.Guid) on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:10:41.579 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+WHERE l."Id" = @__p_0
+LIMIT 1
+2025-05-08 15:10:41.582 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-08 15:10:41.585 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLession (CodeLifeAcademy.API) in 10.1849ms
+2025-05-08 15:10:41.588 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLession (CodeLifeAcademy.API)'
+2025-05-08 15:10:41.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions/019639b3-7b2f-70c1-b841-4a4efa95b087 - 200 null application/json; charset=utf-8 21.8311ms
+2025-05-08 15:10:41.599 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:10:41.604 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:10:41.604 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:10:41.610 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:10:41.613 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:10:41.616 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 7.5311ms
+2025-05-08 15:10:41.620 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:10:41.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 21.9836ms
+2025-05-08 15:10:45.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js.map - null null
+2025-05-08 15:10:45.399 +03:00 [INF] The file /_framework/dotnet.js.map.gz was not modified
+2025-05-08 15:10:45.400 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.map.gz - 304 null text/plain 3.5519ms
+2025-05-08 15:10:45.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.js.map - null null
+2025-05-08 15:10:45.406 +03:00 [INF] The file /_framework/dotnet.runtime.js.map.gz was not modified
+2025-05-08 15:10:45.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.js.map.gz - 304 null text/plain 6.4981ms
+2025-05-08 15:14:17.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:14:17.845 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:17.847 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:14:17.851 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:14:18.006 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:14:18.010 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:14:18.010 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:18.012 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 162.3193ms
+2025-05-08 15:14:18.014 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:18.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 174.4773ms
+2025-05-08 15:14:20.843 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:14:20.847 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:20.848 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:14:20.852 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:14:20.854 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:14:20.859 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:14:20.860 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:20.862 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 11.3109ms
+2025-05-08 15:14:20.865 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:20.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 22.7869ms
+2025-05-08 15:14:22.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/topics - null null
+2025-05-08 15:14:22.186 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.187 +03:00 [INF] Route matched with {action = "GetTopics", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Topic]]] GetTopics() on controller CodeLifeAcademy.API.Controllers.TopicsController (CodeLifeAcademy.API).
+2025-05-08 15:14:22.193 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Topics" AS t
+ORDER BY t."Order"
+2025-05-08 15:14:22.196 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Topic, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:22.199 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API) in 8.4391ms
+2025-05-08 15:14:22.200 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/topics - 200 null application/json; charset=utf-8 18.1795ms
+2025-05-08 15:14:22.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:14:22.209 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.210 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:14:22.218 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:14:22.220 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:22.222 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 6.7695ms
+2025-05-08 15:14:22.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:14:22.224 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.226 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 20.3759ms
+2025-05-08 15:14:22.233 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:14:22.240 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:14:22.243 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:22.247 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 8.6259ms
+2025-05-08 15:14:22.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:14:22.249 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.252 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 30.9157ms
+2025-05-08 15:14:22.256 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:14:22.267 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:14:22.269 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:22.271 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 5.3759ms
+2025-05-08 15:14:22.272 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:22.274 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 25.6696ms
+2025-05-08 15:14:29.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/adminPanel - null null
+2025-05-08 15:14:30.040 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-05-08 15:14:30.042 +03:00 [INF] The file /index.html was not modified
+2025-05-08 15:14:30.043 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-05-08 15:14:30.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 62.0917ms
+2025-05-08 15:14:30.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-05-08 15:14:30.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-05-08 15:14:30.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-08 15:14:30.103 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-05-08 15:14:30.104 +03:00 [INF] Executed endpoint '/hubs/notification'
+2025-05-08 15:14:30.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 45.3808ms
+2025-05-08 15:14:30.119 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 56.9751ms
+2025-05-08 15:14:30.119 +03:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7271/hubs/notification?id=SbRMATl9Uil3HOqUy83Xhg - 200 null null 299670.5137ms
+2025-05-08 15:14:30.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.8372ms
+2025-05-08 15:14:30.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-05-08 15:14:30.140 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:30.141 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:30.143 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-05-08 15:14:30.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 19.2727ms
+2025-05-08 15:14:30.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-05-08 15:14:30.158 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-05-08 15:14:30.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 4.7112ms
+2025-05-08 15:14:30.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-05-08 15:14:30.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-05-08 15:14:30.170 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:30.173 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:30.176 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:30.178 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:30.181 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-05-08 15:14:30.182 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-05-08 15:14:30.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 17.2948ms
+2025-05-08 15:14:30.186 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 19.1295ms
+2025-05-08 15:14:30.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-05-08 15:14:30.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.1671ms
+2025-05-08 15:14:30.580 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-05-08 15:14:30.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 1.7697ms
+2025-05-08 15:14:30.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users/userinfo - null null
+2025-05-08 15:14:30.740 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API)'
+2025-05-08 15:14:30.741 +03:00 [INF] Route matched with {action = "GetUserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserInfo() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:14:30.744 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CodeLifeAcademy.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-08 15:14:30.746 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API) in 2.7271ms
+2025-05-08 15:14:30.747 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API)'
+2025-05-08 15:14:30.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users/userinfo - 200 null application/json; charset=utf-8 11.4425ms
+2025-05-08 15:14:33.504 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/api/auth/login - application/json; charset=utf-8 43
+2025-05-08 15:14:33.506 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:33.507 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:33.509 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.AuthController.Login (CodeLifeAcademy.API)'
+2025-05-08 15:14:33.514 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(CodeLifeAcademy.Application.DTOs.LoginUserDto) on controller CodeLifeAcademy.API.Controllers.AuthController (CodeLifeAcademy.API).
+2025-05-08 15:14:33.569 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_Username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u1."Id", u1."CreatedAt", u1."Email", u1."PasswordHash", u1."Username", s."UserId", s."RoleId", s."Id", s."Name"
+FROM (
+    SELECT u."Id", u."CreatedAt", u."Email", u."PasswordHash", u."Username"
+    FROM "Users" AS u
+    WHERE u."Username" = @__request_Username_0
+    LIMIT 1
+) AS u1
+LEFT JOIN (
+    SELECT u0."UserId", u0."RoleId", r."Id", r."Name"
+    FROM "UserRoles" AS u0
+    INNER JOIN "Roles" AS r ON u0."RoleId" = r."Id"
+) AS s ON u1."Id" = s."UserId"
+ORDER BY u1."Id", s."UserId", s."RoleId"
+2025-05-08 15:14:33.697 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Id", r."CreatedAt", r."ExpiresAt", r."IsRevoked", r."Token", r."UserId"
+FROM "RefreshTokens" AS r
+WHERE r."UserId" = @__user_Id_0
+LIMIT 1
+2025-05-08 15:14:33.837 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "RefreshTokens"
+WHERE "Id" = @p0;
+INSERT INTO "RefreshTokens" ("Id", "CreatedAt", "ExpiresAt", "IsRevoked", "Token", "UserId")
+VALUES (@p1, @p2, @p3, @p4, @p5, @p6);
+2025-05-08 15:14:33.888 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-08 15:14:33.890 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.AuthController.Login (CodeLifeAcademy.API) in 373.0139ms
+2025-05-08 15:14:33.891 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.AuthController.Login (CodeLifeAcademy.API)'
+2025-05-08 15:14:33.893 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/api/auth/login - 200 null text/plain; charset=utf-8 389.8818ms
+2025-05-08 15:14:33.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:14:33.908 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:33.909 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:14:33.914 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:14:33.915 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:14:33.919 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:14:33.919 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:33.923 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 9.6419ms
+2025-05-08 15:14:33.925 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:33.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 20.9832ms
+2025-05-08 15:14:35.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/adminPanel - null null
+2025-05-08 15:14:35.256 +03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-05-08 15:14:35.257 +03:00 [INF] The file /index.html was not modified
+2025-05-08 15:14:35.259 +03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-05-08 15:14:35.260 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/index.html - 304 null text/html 8.9977ms
+2025-05-08 15:14:35.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js - null null
+2025-05-08 15:14:35.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-08 15:14:35.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_vs/browserLink - null null
+2025-05-08 15:14:35.282 +03:00 [INF] The file /_framework/blazor.webassembly.js.gz was not modified
+2025-05-08 15:14:35.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 4.768ms
+2025-05-08 15:14:35.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.webassembly.js.gz - 304 null text/javascript 8.7785ms
+2025-05-08 15:14:35.291 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.1507ms
+2025-05-08 15:14:35.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.js - null null
+2025-05-08 15:14:35.306 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:35.308 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:35.310 +03:00 [INF] The file /_framework/dotnet.js.gz was not modified
+2025-05-08 15:14:35.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.js.gz - 304 null text/javascript 18.2454ms
+2025-05-08 15:14:35.317 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json - null null
+2025-05-08 15:14:35.319 +03:00 [INF] The file /_framework/blazor.boot.json.gz was not modified
+2025-05-08 15:14:35.320 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor.boot.json.gz - 304 null application/json 3.4508ms
+2025-05-08 15:14:35.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js - null null
+2025-05-08 15:14:35.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js - null null
+2025-05-08 15:14:35.331 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:35.334 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:35.335 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:35.336 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:35.341 +03:00 [INF] The file /_framework/dotnet.runtime.o8gq1i8bk6.js.gz was not modified
+2025-05-08 15:14:35.342 +03:00 [INF] The file /_framework/dotnet.native.hmanx9razn.js.gz was not modified
+2025-05-08 15:14:35.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.runtime.o8gq1i8bk6.js.gz - 304 null text/javascript 19.2301ms
+2025-05-08 15:14:35.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/dotnet.native.hmanx9razn.js.gz - 304 null text/javascript 21.0816ms
+2025-05-08 15:14:35.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - null null
+2025-05-08 15:14:35.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload.js - 200 602 application/javascript; charset=utf-8 2.0013ms
+2025-05-08 15:14:35.661 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - null null
+2025-05-08 15:14:35.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/_framework/blazor-hotreload - 204 null null 2.0302ms
+2025-05-08 15:14:35.811 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users/userinfo - null null
+2025-05-08 15:14:35.814 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API)'
+2025-05-08 15:14:35.815 +03:00 [INF] Route matched with {action = "GetUserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUserInfo() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:14:35.818 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CodeLifeAcademy.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-08 15:14:35.820 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API) in 2.8605ms
+2025-05-08 15:14:35.822 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUserInfo (CodeLifeAcademy.API)'
+2025-05-08 15:14:35.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users/userinfo - 200 null application/json; charset=utf-8 14.6683ms
+2025-05-08 15:14:36.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users - null null
+2025-05-08 15:14:36.023 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUsers (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.027 +03:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.User]]] GetUsers() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:14:36.049 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."PasswordHash", u."Username", s."UserId", s."RoleId", s."Id", s."Name"
+FROM "Users" AS u
+LEFT JOIN (
+    SELECT u0."UserId", u0."RoleId", r."Id", r."Name"
+    FROM "UserRoles" AS u0
+    INNER JOIN "Roles" AS r ON u0."RoleId" = r."Id"
+) AS s ON u."Id" = s."UserId"
+ORDER BY u."Id", s."UserId", s."RoleId"
+2025-05-08 15:14:36.055 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.User, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:36.067 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetUsers (CodeLifeAcademy.API) in 37.2594ms
+2025-05-08 15:14:36.069 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUsers (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users - 200 null application/json; charset=utf-8 49.8508ms
+2025-05-08 15:14:36.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users/roles - null null
+2025-05-08 15:14:36.131 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetRoles (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.135 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Role]]] GetRoles() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:14:36.143 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Id", r."Name"
+FROM "Roles" AS r
+2025-05-08 15:14:36.146 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Role, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:36.147 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetRoles (CodeLifeAcademy.API) in 10.2321ms
+2025-05-08 15:14:36.150 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetRoles (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.152 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users/roles - 200 null application/json; charset=utf-8 22.7975ms
+2025-05-08 15:14:36.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:14:36.163 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.164 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:14:36.169 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:14:36.170 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:14:36.173 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:14:36.174 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:36.176 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 7.8253ms
+2025-05-08 15:14:36.178 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 19.4271ms
+2025-05-08 15:14:36.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/topics - null null
+2025-05-08 15:14:36.233 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.234 +03:00 [INF] Route matched with {action = "GetTopics", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Topic]]] GetTopics() on controller CodeLifeAcademy.API.Controllers.TopicsController (CodeLifeAcademy.API).
+2025-05-08 15:14:36.241 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Topics" AS t
+ORDER BY t."Order"
+2025-05-08 15:14:36.246 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Topic, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:36.249 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API) in 9.6241ms
+2025-05-08 15:14:36.251 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.252 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/topics - 200 null application/json; charset=utf-8 22.7315ms
+2025-05-08 15:14:36.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:14:36.264 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.265 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:14:36.269 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:14:36.272 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:36.274 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 5.622ms
+2025-05-08 15:14:36.277 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:36.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 16.9405ms
+2025-05-08 15:14:36.348 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7271/hubs/notification/negotiate?negotiateVersion=1 - null 0
+2025-05-08 15:14:36.350 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:36.351 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:36.353 +03:00 [INF] Executing endpoint '/hubs/notification/negotiate'
+2025-05-08 15:14:36.356 +03:00 [INF] Executed endpoint '/hubs/notification/negotiate'
+2025-05-08 15:14:36.357 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7271/hubs/notification/negotiate?negotiateVersion=1 - 200 316 application/json 9.0854ms
+2025-05-08 15:14:36.376 +03:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7271/hubs/notification?id=LlBACw95vSWmQmp5J8UauQ - null null
+2025-05-08 15:14:36.378 +03:00 [INF] CORS policy execution failed.
+2025-05-08 15:14:36.379 +03:00 [INF] Request origin https://localhost:7271 does not have permission to access the resource.
+2025-05-08 15:14:36.381 +03:00 [INF] Executing endpoint '/hubs/notification'
+2025-05-08 15:14:38.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:14:38.687 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:38.689 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:14:38.693 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:14:38.695 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:14:38.699 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:14:38.699 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:38.701 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 8.4679ms
+2025-05-08 15:14:38.703 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:38.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 20.6058ms
+2025-05-08 15:14:39.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users - null null
+2025-05-08 15:14:39.308 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUsers (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.309 +03:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.User]]] GetUsers() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:14:39.314 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."PasswordHash", u."Username", s."UserId", s."RoleId", s."Id", s."Name"
+FROM "Users" AS u
+LEFT JOIN (
+    SELECT u0."UserId", u0."RoleId", r."Id", r."Name"
+    FROM "UserRoles" AS u0
+    INNER JOIN "Roles" AS r ON u0."RoleId" = r."Id"
+) AS s ON u."Id" = s."UserId"
+ORDER BY u."Id", s."UserId", s."RoleId"
+2025-05-08 15:14:39.319 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.User, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:39.321 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetUsers (CodeLifeAcademy.API) in 8.1737ms
+2025-05-08 15:14:39.323 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetUsers (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users - 200 null application/json; charset=utf-8 18.7147ms
+2025-05-08 15:14:39.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/users/roles - null null
+2025-05-08 15:14:39.335 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetRoles (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.336 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Role]]] GetRoles() on controller CodeLifeAcademy.API.Controllers.UsersController (CodeLifeAcademy.API).
+2025-05-08 15:14:39.340 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Id", r."Name"
+FROM "Roles" AS r
+2025-05-08 15:14:39.343 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Role, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:39.344 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.UsersController.GetRoles (CodeLifeAcademy.API) in 5.3417ms
+2025-05-08 15:14:39.350 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.UsersController.GetRoles (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/users/roles - 200 null application/json; charset=utf-8 18.5546ms
+2025-05-08 15:14:39.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/courses - null null
+2025-05-08 15:14:39.356 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.358 +03:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Course]]] GetAllCourses() on controller CodeLifeAcademy.API.Controllers.CoursesController (CodeLifeAcademy.API).
+2025-05-08 15:14:39.361 +03:00 [INF] Получение всех курсов начато
+2025-05-08 15:14:39.365 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Description", c."Image", c."Order", c."Progress", c."RowVersion", c."TimeInMinutes", c."Title", t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Courses" AS c
+LEFT JOIN "Topics" AS t ON c."Id" = t."CourseId"
+ORDER BY c."Id"
+2025-05-08 15:14:39.368 +03:00 [INF] Получено 2 курсов
+2025-05-08 15:14:39.369 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Course, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:39.371 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API) in 10.2546ms
+2025-05-08 15:14:39.373 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.CoursesController.GetAllCourses (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/courses - 200 null application/json; charset=utf-8 20.284ms
+2025-05-08 15:14:39.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/topics - null null
+2025-05-08 15:14:39.382 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.383 +03:00 [INF] Route matched with {action = "GetTopics", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Topic]]] GetTopics() on controller CodeLifeAcademy.API.Controllers.TopicsController (CodeLifeAcademy.API).
+2025-05-08 15:14:39.387 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CourseId", t."Description", t."Order", t."RowVersion", t."Title"
+FROM "Topics" AS t
+ORDER BY t."Order"
+2025-05-08 15:14:39.389 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Topic, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:39.391 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API) in 5.6375ms
+2025-05-08 15:14:39.395 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.TopicsController.GetTopics (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/topics - 200 null application/json; charset=utf-8 17.1891ms
+2025-05-08 15:14:39.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7271/lessions - null null
+2025-05-08 15:14:39.402 +03:00 [INF] Executing endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.403 +03:00 [INF] Route matched with {action = "GetLessions", controller = "Lessions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CodeLifeAcademy.Core.Entities.Lession]]] GetLessions() on controller CodeLifeAcademy.API.Controllers.LessionsController (CodeLifeAcademy.API).
+2025-05-08 15:14:39.407 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."Content", l."Order", l."RowVersion", l."Title", l."TopicId"
+FROM "Lessions" AS l
+ORDER BY l."Order"
+2025-05-08 15:14:39.412 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CodeLifeAcademy.Core.Entities.Lession, CodeLifeAcademy.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-08 15:14:39.413 +03:00 [INF] Executed action CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API) in 7.3189ms
+2025-05-08 15:14:39.416 +03:00 [INF] Executed endpoint 'CodeLifeAcademy.API.Controllers.LessionsController.GetLessions (CodeLifeAcademy.API)'
+2025-05-08 15:14:39.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7271/lessions - 200 null application/json; charset=utf-8 16.4843ms

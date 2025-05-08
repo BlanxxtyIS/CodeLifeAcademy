@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zthOQ2eLdRykKRmJz9avLIC7hsOiPBIXMvyJX2mSdp0=",
+  "Hash": "iP5KeIwhsGnrHwtOwmKO/klE3xu35i+eOt203bH6CXE=",
   "Source": "CodeLifeAcademy.API",
   "BasePath": "_content/CodeLifeAcademy.API",
   "Mode": "Default",
@@ -43,8 +43,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "qj4hfvo19o",
-      "Integrity": "usOYNDPshM3CKgS6pgGcGDzWngGicSXUMyoyjZ3Bdy4=",
+      "Fingerprint": "7ro7ay7f2v",
+      "Integrity": "7USTvza7T0G4YMBmuZnycK8+miNf5+nNiawf9qS8M7s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -85,8 +85,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "lbg1twiexb",
-      "Integrity": "H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g=",
+      "Fingerprint": "hqid9amr3x",
+      "Integrity": "GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.pdb"
@@ -106,8 +106,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "4lshq4wcz7",
-      "Integrity": "+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo=",
+      "Fingerprint": "zbp8djr3k4",
+      "Integrity": "P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.wasm"
@@ -127,8 +127,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "3tb64q6fuu",
-      "Integrity": "R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg=",
+      "Fingerprint": "t5kafi6o2u",
+      "Integrity": "byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.pdb"
@@ -148,8 +148,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "0vpyew0cir",
-      "Integrity": "bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U=",
+      "Fingerprint": "6r2set0vw9",
+      "Integrity": "DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.wasm"
@@ -169,8 +169,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "thykswe0fo",
-      "Integrity": "Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s=",
+      "Fingerprint": "w0fp89uwei",
+      "Integrity": "UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.pdb"
@@ -190,8 +190,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "q0gagss0s4",
-      "Integrity": "ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs=",
+      "Fingerprint": "znksle99z2",
+      "Integrity": "Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.wasm"
@@ -5279,12 +5279,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2f99nbl6yg-vgj4j8dch1.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-3tb64q6fuu.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-t5kafi6o2u.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CodeLifeAcademy.Client#[.{fingerprint=3tb64q6fuu}]!.pdb.gz",
+      "RelativePath": "_framework/CodeLifeAcademy.Client#[.{fingerprint=t5kafi6o2u}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5293,11 +5293,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6s1eywjp2q",
-      "Integrity": "hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM=",
+      "Fingerprint": "k9p6xbuxr4",
+      "Integrity": "aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-3tb64q6fuu.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-t5kafi6o2u.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2u2t0qec7q-37tfw0ft22.gz",
@@ -5321,7 +5321,7 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2u2t0qec7q-37tfw0ft22.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-qj4hfvo19o.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-7ro7ay7f2v.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -5335,11 +5335,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q9bfypi5p5",
-      "Integrity": "zqzvtIbboRMQOr8WA14nlhgAeDeM3U4DnzogStG46ik=",
+      "Fingerprint": "35tq513yyx",
+      "Integrity": "+XA6qKwqpgeV6PDf1624J3cRcQC5+FHfRtT/KY73gIQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-qj4hfvo19o.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-7ro7ay7f2v.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\3e3d0vep6b-9z7i1rzsd8.gz",
@@ -5573,12 +5573,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4kg4wdt2wc-avph1mzt7n.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-lbg1twiexb.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-hqid9amr3x.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CodeLifeAcademy.Application#[.{fingerprint=lbg1twiexb}]!.pdb.gz",
+      "RelativePath": "_framework/CodeLifeAcademy.Application#[.{fingerprint=hqid9amr3x}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5587,11 +5587,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3opdfp3jem",
-      "Integrity": "MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU=",
+      "Fingerprint": "rrpiv37f7a",
+      "Integrity": "9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-lbg1twiexb.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-hqid9amr3x.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4n3lwahclj-b2htf2lv6y.gz",
@@ -6329,12 +6329,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\8xto20maq1-e6hj7jk61o.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-4lshq4wcz7.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-zbp8djr3k4.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CodeLifeAcademy.Application#[.{fingerprint=4lshq4wcz7}]!.wasm.gz",
+      "RelativePath": "_framework/CodeLifeAcademy.Application#[.{fingerprint=zbp8djr3k4}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6343,11 +6343,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "v2u25591q7",
-      "Integrity": "xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I=",
+      "Fingerprint": "owc0n23yc0",
+      "Integrity": "qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-4lshq4wcz7.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-zbp8djr3k4.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\9hm16nt3nn-06098lyss8.gz",
@@ -7757,12 +7757,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j15otvuoo1-rb3sudfxx6.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-thykswe0fo.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-w0fp89uwei.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CodeLifeAcademy.Core#[.{fingerprint=thykswe0fo}]!.pdb.gz",
+      "RelativePath": "_framework/CodeLifeAcademy.Core#[.{fingerprint=w0fp89uwei}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7771,11 +7771,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "im4znhx0no",
-      "Integrity": "1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU=",
+      "Fingerprint": "8pc4wbu77j",
+      "Integrity": "tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-thykswe0fo.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-w0fp89uwei.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j31bt58r8b-aexeepp0ev.gz",
@@ -8366,12 +8366,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\lz34bxkr2o-qc4oop4dbt.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-q0gagss0s4.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-znksle99z2.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CodeLifeAcademy.Core#[.{fingerprint=q0gagss0s4}]!.wasm.gz",
+      "RelativePath": "_framework/CodeLifeAcademy.Core#[.{fingerprint=znksle99z2}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8380,11 +8380,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lwa7k9wm71",
-      "Integrity": "9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8=",
+      "Fingerprint": "q4a7z72kfz",
+      "Integrity": "9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-q0gagss0s4.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-znksle99z2.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\mb1lmd942m-kgx44iwuj9.gz",
@@ -10529,12 +10529,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y98qufjlii-4ewk3ipqll.gz"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-0vpyew0cir.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-6r2set0vw9.gz",
       "SourceId": "CodeLifeAcademy.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CodeLifeAcademy.Client#[.{fingerprint=0vpyew0cir}]!.wasm.gz",
+      "RelativePath": "_framework/CodeLifeAcademy.Client#[.{fingerprint=6r2set0vw9}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -10543,11 +10543,11 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b67p1ug2oy",
-      "Integrity": "bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs=",
+      "Fingerprint": "hbh9h4bmmd",
+      "Integrity": "7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-0vpyew0cir.gz"
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-6r2set0vw9.gz"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\ya4jhvkgrx-1p5zced1w3.gz",
@@ -12107,28 +12107,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"usOYNDPshM3CKgS6pgGcGDzWngGicSXUMyoyjZ3Bdy4=\""
+          "Value": "\"7USTvza7T0G4YMBmuZnycK8+miNf5+nNiawf9qS8M7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-usOYNDPshM3CKgS6pgGcGDzWngGicSXUMyoyjZ3Bdy4="
+          "Value": "sha256-7USTvza7T0G4YMBmuZnycK8+miNf5+nNiawf9qS8M7s="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-qj4hfvo19o.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-7ro7ay7f2v.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000071027772"
+          "Quality": "0.000071032817"
         }
       ],
       "ResponseHeaders": [
@@ -12146,15 +12146,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14078"
+          "Value": "14077"
         },
         {
           "Name": "ETag",
-          "Value": "\"zqzvtIbboRMQOr8WA14nlhgAeDeM3U4DnzogStG46ik=\""
+          "Value": "\"+XA6qKwqpgeV6PDf1624J3cRcQC5+FHfRtT/KY73gIQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:04:12 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12166,19 +12166,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"usOYNDPshM3CKgS6pgGcGDzWngGicSXUMyoyjZ3Bdy4=\""
+          "Value": "W/\"7USTvza7T0G4YMBmuZnycK8+miNf5+nNiawf9qS8M7s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-usOYNDPshM3CKgS6pgGcGDzWngGicSXUMyoyjZ3Bdy4="
+          "Value": "sha256-7USTvza7T0G4YMBmuZnycK8+miNf5+nNiawf9qS8M7s="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-qj4hfvo19o.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2vl2b6nf4q-7ro7ay7f2v.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12195,7 +12195,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14078"
+          "Value": "14077"
         },
         {
           "Name": "Content-Type",
@@ -12203,11 +12203,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zqzvtIbboRMQOr8WA14nlhgAeDeM3U4DnzogStG46ik=\""
+          "Value": "\"+XA6qKwqpgeV6PDf1624J3cRcQC5+FHfRtT/KY73gIQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:04:12 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12217,7 +12217,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zqzvtIbboRMQOr8WA14nlhgAeDeM3U4DnzogStG46ik="
+          "Value": "sha256-+XA6qKwqpgeV6PDf1624J3cRcQC5+FHfRtT/KY73gIQ="
         }
       ]
     },
@@ -12359,168 +12359,7 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Application.4lshq4wcz7.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13589"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4lshq4wcz7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Application.4lshq4wcz7.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-4lshq4wcz7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000186776242"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5353"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4lshq4wcz7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Application.4lshq4wcz7.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-4lshq4wcz7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5353"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4lshq4wcz7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Application.wasm.gz"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Application.lbg1twiexb.pdb",
+      "Route": "_framework/CodeLifeAcademy.Application.hqid9amr3x.pdb",
       "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12542,21 +12381,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g=\""
+          "Value": "\"GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:32 GMT"
+          "Value": "Thu, 08 May 2025 11:22:03 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lbg1twiexb"
+          "Value": "hqid9amr3x"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g="
+          "Value": "sha256-GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30="
         },
         {
           "Name": "label",
@@ -12565,13 +12404,13 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Application.lbg1twiexb.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-lbg1twiexb.gz",
+      "Route": "_framework/CodeLifeAcademy.Application.hqid9amr3x.pdb",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-hqid9amr3x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124812781"
+          "Quality": "0.000124875125"
         }
       ],
       "ResponseHeaders": [
@@ -12589,15 +12428,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8011"
+          "Value": "8007"
         },
         {
           "Name": "ETag",
-          "Value": "\"MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU=\""
+          "Value": "\"9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12609,17 +12448,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g=\""
+          "Value": "W/\"GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lbg1twiexb"
+          "Value": "hqid9amr3x"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g="
+          "Value": "sha256-GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30="
         },
         {
           "Name": "label",
@@ -12628,8 +12467,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Application.lbg1twiexb.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-lbg1twiexb.gz",
+      "Route": "_framework/CodeLifeAcademy.Application.hqid9amr3x.pdb.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-hqid9amr3x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12646,7 +12485,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8011"
+          "Value": "8007"
         },
         {
           "Name": "Content-Type",
@@ -12654,11 +12493,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU=\""
+          "Value": "\"9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12668,11 +12507,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lbg1twiexb"
+          "Value": "hqid9amr3x"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU="
+          "Value": "sha256-9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM="
         },
         {
           "Name": "label",
@@ -12703,28 +12542,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g=\""
+          "Value": "\"GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:32 GMT"
+          "Value": "Thu, 08 May 2025 11:22:03 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g="
+          "Value": "sha256-GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-lbg1twiexb.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-hqid9amr3x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124812781"
+          "Quality": "0.000124875125"
         }
       ],
       "ResponseHeaders": [
@@ -12742,15 +12581,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8011"
+          "Value": "8007"
         },
         {
           "Name": "ETag",
-          "Value": "\"MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU=\""
+          "Value": "\"9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12762,19 +12601,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g=\""
+          "Value": "W/\"GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H5pv2zXzeQ2FK6crENe8KQPylzQxki6jwgLrD/Cst/g="
+          "Value": "sha256-GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-lbg1twiexb.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\4lvf2uyhz6-hqid9amr3x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12791,7 +12630,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8011"
+          "Value": "8007"
         },
         {
           "Name": "Content-Type",
@@ -12799,11 +12638,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU=\""
+          "Value": "\"9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12813,7 +12652,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MyZWm2Ojm6MssZ92XF8ZeYR0Wj/cbTISdLj9SrDwwfU="
+          "Value": "sha256-9+110OcHq0VLlSUoCVhDYxMqZMVLVIAXSfBKs2U9DNM="
         }
       ]
     },
@@ -12840,28 +12679,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo=\""
+          "Value": "\"P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo="
+          "Value": "sha256-P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-4lshq4wcz7.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-zbp8djr3k4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000186776242"
+          "Quality": "0.000187230856"
         }
       ],
       "ResponseHeaders": [
@@ -12879,15 +12718,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5353"
+          "Value": "5340"
         },
         {
           "Name": "ETag",
-          "Value": "\"xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I=\""
+          "Value": "\"qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12899,19 +12738,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo=\""
+          "Value": "W/\"P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+JQNeZR4kzUvkLd1Gi3OvzBtGNSvkKKzOW29mEPRmWo="
+          "Value": "sha256-P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Application.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-4lshq4wcz7.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-zbp8djr3k4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12928,7 +12767,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5353"
+          "Value": "5340"
         },
         {
           "Name": "Content-Type",
@@ -12936,11 +12775,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I=\""
+          "Value": "\"qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12950,12 +12789,173 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xy2Tvy1ZhpRNPJG7CWioJL8N5PmZSjvicSqGwdIbn6I="
+          "Value": "sha256-qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8="
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.0vpyew0cir.wasm",
+      "Route": "_framework/CodeLifeAcademy.Application.zbp8djr3k4.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Application.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 11:22:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zbp8djr3k4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Application.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Application.zbp8djr3k4.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-zbp8djr3k4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000187230856"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zbp8djr3k4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Application.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Application.zbp8djr3k4.wasm.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\97ivewwo7c-zbp8djr3k4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zbp8djr3k4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qE/PaJxsG66glMK0vNeuHCzH2FAsTe6UAyevlR0mvA8="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Application.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.6r2set0vw9.wasm",
       "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12969,7 +12969,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "104725"
+          "Value": "105237"
         },
         {
           "Name": "Content-Type",
@@ -12977,21 +12977,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U=\""
+          "Value": "\"DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:56 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0vpyew0cir"
+          "Value": "6r2set0vw9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U="
+          "Value": "sha256-DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4="
         },
         {
           "Name": "label",
@@ -13000,13 +13000,13 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.0vpyew0cir.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-0vpyew0cir.gz",
+      "Route": "_framework/CodeLifeAcademy.Client.6r2set0vw9.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-6r2set0vw9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000026398458"
+          "Quality": "0.000026324795"
         }
       ],
       "ResponseHeaders": [
@@ -13024,15 +13024,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37880"
+          "Value": "37986"
         },
         {
           "Name": "ETag",
-          "Value": "\"bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs=\""
+          "Value": "\"7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         },
         {
           "Name": "Vary",
@@ -13044,17 +13044,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U=\""
+          "Value": "W/\"DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0vpyew0cir"
+          "Value": "6r2set0vw9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U="
+          "Value": "sha256-DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4="
         },
         {
           "Name": "label",
@@ -13063,8 +13063,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.0vpyew0cir.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-0vpyew0cir.gz",
+      "Route": "_framework/CodeLifeAcademy.Client.6r2set0vw9.wasm.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-6r2set0vw9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13081,7 +13081,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37880"
+          "Value": "37986"
         },
         {
           "Name": "Content-Type",
@@ -13089,11 +13089,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs=\""
+          "Value": "\"7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         },
         {
           "Name": "Vary",
@@ -13103,11 +13103,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0vpyew0cir"
+          "Value": "6r2set0vw9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs="
+          "Value": "sha256-7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU="
         },
         {
           "Name": "label",
@@ -13116,167 +13116,6 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Client.3tb64q6fuu.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "96064"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3tb64q6fuu"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Client.3tb64q6fuu.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-3tb64q6fuu.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000013362196"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "74837"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3tb64q6fuu"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Client.3tb64q6fuu.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-3tb64q6fuu.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "74837"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3tb64q6fuu"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Client.pdb.gz"
-        }
-      ]
-    },
-    {
       "Route": "_framework/CodeLifeAcademy.Client.pdb",
       "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.pdb",
       "Selectors": [],
@@ -13291,7 +13130,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "96064"
+          "Value": "96252"
         },
         {
           "Name": "Content-Type",
@@ -13299,28 +13138,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg=\""
+          "Value": "\"byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:56 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg="
+          "Value": "sha256-byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-3tb64q6fuu.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-t5kafi6o2u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000013362196"
+          "Quality": "0.000013336356"
         }
       ],
       "ResponseHeaders": [
@@ -13338,15 +13177,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "74837"
+          "Value": "74982"
         },
         {
           "Name": "ETag",
-          "Value": "\"hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM=\""
+          "Value": "\"aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         },
         {
           "Name": "Vary",
@@ -13358,19 +13197,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg=\""
+          "Value": "W/\"byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R82FCeQdFQ1fxb8vDsSnJLTchtVq4GCBYND783GO0Xg="
+          "Value": "sha256-byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-3tb64q6fuu.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-t5kafi6o2u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13387,7 +13226,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "74837"
+          "Value": "74982"
         },
         {
           "Name": "Content-Type",
@@ -13395,11 +13234,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM=\""
+          "Value": "\"aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         },
         {
           "Name": "Vary",
@@ -13409,7 +13248,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hlJS2/mKkr9DZYVJc6yAmOa0dq0W4YNcz0T5og7W/xM="
+          "Value": "sha256-aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.t5kafi6o2u.pdb",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 12:08:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5kafi6o2u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Client.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.t5kafi6o2u.pdb",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-t5kafi6o2u.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013336356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74982"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5kafi6o2u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Client.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Client.t5kafi6o2u.pdb.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\2jarlgbr1y-t5kafi6o2u.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5kafi6o2u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aLJMQ02eWhchRTILZP0WN3t5tMd4Tr3OJRMt+OCPUK8="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Client.pdb.gz"
         }
       ]
     },
@@ -13428,7 +13428,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "104725"
+          "Value": "105237"
         },
         {
           "Name": "Content-Type",
@@ -13436,28 +13436,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U=\""
+          "Value": "\"DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:56 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U="
+          "Value": "sha256-DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-0vpyew0cir.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-6r2set0vw9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000026398458"
+          "Quality": "0.000026324795"
         }
       ],
       "ResponseHeaders": [
@@ -13475,15 +13475,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37880"
+          "Value": "37986"
         },
         {
           "Name": "ETag",
-          "Value": "\"bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs=\""
+          "Value": "\"7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         },
         {
           "Name": "Vary",
@@ -13495,19 +13495,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U=\""
+          "Value": "W/\"DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bAV9MFvNUlscSmPGYGYkrFmqxBDQgoJb/TZNH/WIc9U="
+          "Value": "sha256-DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-0vpyew0cir.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\y999ct5cwl-6r2set0vw9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13524,7 +13524,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37880"
+          "Value": "37986"
         },
         {
           "Name": "Content-Type",
@@ -13532,11 +13532,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs=\""
+          "Value": "\"7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 10:06:57 GMT"
+          "Value": "Thu, 08 May 2025 12:08:57 GMT"
         },
         {
           "Name": "Vary",
@@ -13546,7 +13546,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bbZ35t5nQTrPXCjaxdJTOsBILwGEX3N/hnRwlrkcIqs="
+          "Value": "sha256-7TAO8rQKkAdB9Z7G+koCmcmiRQ81YAwuP9fUd2QfkRU="
         }
       ]
     },
@@ -13573,28 +13573,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s=\""
+          "Value": "\"UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:32 GMT"
+          "Value": "Thu, 08 May 2025 11:22:03 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s="
+          "Value": "sha256-UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-thykswe0fo.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-w0fp89uwei.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000129988301"
+          "Quality": "0.000130039012"
         }
       ],
       "ResponseHeaders": [
@@ -13612,15 +13612,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7692"
+          "Value": "7689"
         },
         {
           "Name": "ETag",
-          "Value": "\"1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU=\""
+          "Value": "\"tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -13632,19 +13632,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s=\""
+          "Value": "W/\"UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s="
+          "Value": "sha256-UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-thykswe0fo.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-w0fp89uwei.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13661,7 +13661,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7692"
+          "Value": "7689"
         },
         {
           "Name": "Content-Type",
@@ -13669,11 +13669,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU=\""
+          "Value": "\"tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -13683,173 +13683,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU="
+          "Value": "sha256-tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0="
         }
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.q0gagss0s4.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12053"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q0gagss0s4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Core.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Core.q0gagss0s4.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-q0gagss0s4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000203500204"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4913"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q0gagss0s4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Core.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Core.q0gagss0s4.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-q0gagss0s4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4913"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q0gagss0s4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/CodeLifeAcademy.Core.wasm.gz"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CodeLifeAcademy.Core.thykswe0fo.pdb",
+      "Route": "_framework/CodeLifeAcademy.Core.w0fp89uwei.pdb",
       "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13871,21 +13710,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s=\""
+          "Value": "\"UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:32 GMT"
+          "Value": "Thu, 08 May 2025 11:22:03 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "thykswe0fo"
+          "Value": "w0fp89uwei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s="
+          "Value": "sha256-UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4="
         },
         {
           "Name": "label",
@@ -13894,13 +13733,13 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.thykswe0fo.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-thykswe0fo.gz",
+      "Route": "_framework/CodeLifeAcademy.Core.w0fp89uwei.pdb",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-w0fp89uwei.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000129988301"
+          "Quality": "0.000130039012"
         }
       ],
       "ResponseHeaders": [
@@ -13918,15 +13757,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7692"
+          "Value": "7689"
         },
         {
           "Name": "ETag",
-          "Value": "\"1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU=\""
+          "Value": "\"tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -13938,17 +13777,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s=\""
+          "Value": "W/\"UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "thykswe0fo"
+          "Value": "w0fp89uwei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xxg9DF9VHADf2Sisu4IvLupvqzxk7H/Knoi9Qo5mG/s="
+          "Value": "sha256-UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4="
         },
         {
           "Name": "label",
@@ -13957,8 +13796,8 @@
       ]
     },
     {
-      "Route": "_framework/CodeLifeAcademy.Core.thykswe0fo.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-thykswe0fo.gz",
+      "Route": "_framework/CodeLifeAcademy.Core.w0fp89uwei.pdb.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\j2cb18rykh-w0fp89uwei.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13975,7 +13814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7692"
+          "Value": "7689"
         },
         {
           "Name": "Content-Type",
@@ -13983,11 +13822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU=\""
+          "Value": "\"tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -13997,11 +13836,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "thykswe0fo"
+          "Value": "w0fp89uwei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1pJcFcsHn0fwEBYcnC0ds9Eu6iU576AQionzQfHsGcU="
+          "Value": "sha256-tBrZ4RXFIq68HxNPhWmW38QQeqKvNWRC3BC8dfHiMl0="
         },
         {
           "Name": "label",
@@ -14032,28 +13871,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs=\""
+          "Value": "\"Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs="
+          "Value": "sha256-Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-q0gagss0s4.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-znksle99z2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000203500204"
+          "Quality": "0.000203873598"
         }
       ],
       "ResponseHeaders": [
@@ -14071,15 +13910,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4913"
+          "Value": "4904"
         },
         {
           "Name": "ETag",
-          "Value": "\"9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8=\""
+          "Value": "\"9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -14091,19 +13930,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs=\""
+          "Value": "W/\"Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZtASIWFatO7Lt1TY2ywILC5e/hbZw1fThRt9i14Gbrs="
+          "Value": "sha256-Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM="
         }
       ]
     },
     {
       "Route": "_framework/CodeLifeAcademy.Core.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-q0gagss0s4.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-znksle99z2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14120,7 +13959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4913"
+          "Value": "4904"
         },
         {
           "Name": "Content-Type",
@@ -14128,11 +13967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8=\""
+          "Value": "\"9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -14142,7 +13981,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9Qrc0oP7YN0pFfXdaNs8llIR7Ij/f+FlnlE6CoF71d8="
+          "Value": "sha256-9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Core.znksle99z2.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CodeLifeAcademy.Core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 11:22:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znksle99z2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Core.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Core.znksle99z2.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-znksle99z2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000203873598"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4904"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znksle99z2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Core.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CodeLifeAcademy.Core.znksle99z2.wasm.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\CodeLifeAcademy\\CodeLifeAcademy.Client\\obj\\Debug\\net9.0\\compressed\\m9k12dbkc8-znksle99z2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znksle99z2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9jHZkEQp4ITDxPUnZMKr8TJNdnd+HShGzh3AQiwXDAI="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/CodeLifeAcademy.Core.wasm.gz"
         }
       ]
     },
@@ -17153,7 +17153,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -17204,7 +17204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17265,7 +17265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17314,7 +17314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -17357,7 +17357,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17410,7 +17410,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17451,7 +17451,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -17502,7 +17502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17563,7 +17563,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17612,7 +17612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -17655,7 +17655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -17708,7 +17708,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -18047,7 +18047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -18098,7 +18098,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -18159,7 +18159,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -18208,7 +18208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -18251,7 +18251,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -18304,7 +18304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -18941,7 +18941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -18992,7 +18992,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19053,7 +19053,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19102,7 +19102,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -19145,7 +19145,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19198,7 +19198,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19239,7 +19239,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -19290,7 +19290,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19351,7 +19351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19400,7 +19400,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -19443,7 +19443,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19496,7 +19496,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19537,7 +19537,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -19588,7 +19588,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19649,7 +19649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19698,7 +19698,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -19741,7 +19741,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19794,7 +19794,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19835,7 +19835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -19886,7 +19886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19947,7 +19947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -19996,7 +19996,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20047,7 +20047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20108,7 +20108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20157,7 +20157,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20200,7 +20200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20253,7 +20253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20294,7 +20294,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20337,7 +20337,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20390,7 +20390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20729,7 +20729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20780,7 +20780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20841,7 +20841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20890,7 +20890,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20933,7 +20933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -20986,7 +20986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21027,7 +21027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -21078,7 +21078,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21139,7 +21139,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21188,7 +21188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -21231,7 +21231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21284,7 +21284,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21623,7 +21623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -21674,7 +21674,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21735,7 +21735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21784,7 +21784,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -21827,7 +21827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21880,7 +21880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -21921,7 +21921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -21972,7 +21972,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22033,7 +22033,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22082,7 +22082,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -22125,7 +22125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22178,7 +22178,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22219,7 +22219,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -22270,7 +22270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22331,7 +22331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22380,7 +22380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -22423,7 +22423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22476,7 +22476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22517,7 +22517,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -22568,7 +22568,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22629,7 +22629,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22678,7 +22678,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -22721,7 +22721,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22774,7 +22774,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22815,7 +22815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -22866,7 +22866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22927,7 +22927,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -22976,7 +22976,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -23019,7 +23019,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -23072,7 +23072,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -24901,7 +24901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -24952,7 +24952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25013,7 +25013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25062,7 +25062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25105,7 +25105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25158,7 +25158,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25199,7 +25199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25250,7 +25250,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25311,7 +25311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25360,7 +25360,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25403,7 +25403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25456,7 +25456,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25497,7 +25497,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25548,7 +25548,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25609,7 +25609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25658,7 +25658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25701,7 +25701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25754,7 +25754,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25795,7 +25795,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25846,7 +25846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25907,7 +25907,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -25956,7 +25956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -25999,7 +25999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -26052,7 +26052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -26093,7 +26093,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -26144,7 +26144,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -26205,7 +26205,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -26254,7 +26254,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -26297,7 +26297,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -26350,7 +26350,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27285,7 +27285,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27336,7 +27336,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27397,7 +27397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27446,7 +27446,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27489,7 +27489,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27542,7 +27542,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27583,7 +27583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27634,7 +27634,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27695,7 +27695,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27744,7 +27744,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27787,7 +27787,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27840,7 +27840,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27881,7 +27881,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27932,7 +27932,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -27993,7 +27993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28042,7 +28042,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28093,7 +28093,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28154,7 +28154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28203,7 +28203,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28246,7 +28246,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28299,7 +28299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28340,7 +28340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28383,7 +28383,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28436,7 +28436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28477,7 +28477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28528,7 +28528,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28589,7 +28589,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28638,7 +28638,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28681,7 +28681,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28734,7 +28734,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28775,7 +28775,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28826,7 +28826,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28887,7 +28887,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -28936,7 +28936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -28979,7 +28979,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -29032,7 +29032,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -29073,7 +29073,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -29124,7 +29124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -29185,7 +29185,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -29234,7 +29234,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -29277,7 +29277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -29330,7 +29330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -52639,7 +52639,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -52690,7 +52690,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -52751,7 +52751,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -52800,7 +52800,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -52843,7 +52843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -52896,7 +52896,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -68296,7 +68296,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -68347,7 +68347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -68408,7 +68408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -68457,7 +68457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -68500,7 +68500,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -68553,7 +68553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -69327,7 +69327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -69378,7 +69378,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -69439,7 +69439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -69488,7 +69488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:03 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -69531,7 +69531,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -69584,7 +69584,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 07:47:07 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -73201,7 +73201,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -73252,7 +73252,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -73313,7 +73313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -73362,7 +73362,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:35 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -73405,7 +73405,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -73458,7 +73458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:37 GMT"
+          "Value": "Thu, 08 May 2025 11:22:08 GMT"
         },
         {
           "Name": "Vary",
@@ -80931,7 +80931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -80988,7 +80988,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81037,7 +81037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81092,7 +81092,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81141,7 +81141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81182,7 +81182,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 07:58:36 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81229,7 +81229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 10:20:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81286,7 +81286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 10:20:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81335,7 +81335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 10:20:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81390,7 +81390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 10:20:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81439,7 +81439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 10:20:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81480,7 +81480,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 10:20:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81527,7 +81527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81584,7 +81584,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81633,7 +81633,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81688,7 +81688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81737,7 +81737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81778,7 +81778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81825,7 +81825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81882,7 +81882,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -81931,7 +81931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -81986,7 +81986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -82035,7 +82035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82076,7 +82076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -82123,7 +82123,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -82180,7 +82180,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82229,7 +82229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -82284,7 +82284,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -82333,7 +82333,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82374,7 +82374,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Sep 2021 03:30:14 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         },
         {
           "Name": "Vary",
@@ -82415,7 +82415,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 12:57:28 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82452,7 +82452,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 12:57:28 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82497,7 +82497,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 12:57:59 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82542,7 +82542,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 12:57:59 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82579,7 +82579,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:32:17 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82616,7 +82616,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:32:17 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82661,7 +82661,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 07:28:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82706,7 +82706,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 07:28:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82907,7 +82907,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:38:30 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82952,7 +82952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:38:30 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -82989,7 +82989,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:40:05 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -83034,7 +83034,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:40:05 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -83071,7 +83071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:40:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -83116,7 +83116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:40:18 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -83153,7 +83153,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:33:27 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -83198,7 +83198,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:33:27 GMT"
+          "Value": "Tue, 06 May 2025 10:21:42 GMT"
         }
       ],
       "EndpointProperties": [

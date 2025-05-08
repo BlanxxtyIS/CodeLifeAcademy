@@ -25,11 +25,18 @@ public class LessionsController: ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Lession>>> GetLessions()
     {
-        var lessons = await _context.Lessions
-            .OrderBy(l => l.Order)
-            .ToListAsync();
+        try
+        {
+            var lessons = await _context.Lessions
+                .OrderBy(l => l.Order)
+                .ToListAsync();
 
-        return Ok(lessons);
+            return Ok(lessons);
+        } 
+        catch (Exception ex)
+        {
+            return StatusCode(500, "Ошибка при обращении к серверу");
+        }
     }
 
     [HttpGet("{id}")]

@@ -7,26 +7,30 @@
 <div class="content">
     <h3>Курсы</h3>
 
-    @if (_courses is null)
-    {
-        <p>Загрузка страницы...</p>
-    }
-    else if (!_courses.Any()) {
-        <p>Курсы не найдены</p>
+    @if (_errorMessage is not null) {
+        <p>@_errorMessage</p>
+    } else if (_courses is null) {
+        <p>Загрузка страницы</p>
     }
     else {
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+        <p>Курсы не найдены</p>
+    }
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+        @if (_courses is not null)
+        {
             @foreach (var course in _courses)
             {
                 <CourseCard Course="course" OnSelected="HandleCourseSelected" />
             }
-        </div>
-    }
+        }
+    </div>
 </div>
 
 
 @code {
     private IEnumerable<Course>? _courses;
+    private string? _errorMessage;
 
     protected override async Task OnInitializedAsync()
     {
@@ -36,7 +40,10 @@
         }
         catch (HttpRequestException ex)
         {
-            Console.WriteLine($"Ошибка при загрузке курсов {ex.Message}");
+            _errorMessage = "Ошибка при загрузке курсов. Пожалуйста, обратитесь к администратору и попробуйте позже.";
+        }
+        catch (Exception ex) {
+            _errorMessage = "Неизвестная ошибка. Обратитесь к администратору.";
         }
     }
 

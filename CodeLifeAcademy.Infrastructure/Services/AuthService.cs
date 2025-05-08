@@ -38,7 +38,7 @@ public class AuthService : IAuthService
         // Проверяем уникальность email и username.
         if (await _context.Users
             .AnyAsync(u => u.Username == request.Username || 
-            u.Email == request.Email))
+             u.Email == request.Email))
         {
             return null;
         }
