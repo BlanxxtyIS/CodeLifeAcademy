@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# 2. Копируем и восстанавливаем зависимости
+# 2. Копируем csproj и sln (оптимизация кэша)
 COPY . .
 RUN dotnet restore
 
@@ -14,7 +14,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# 5. Открываем порт (на всякий)
+# 5. Открываем порт
 EXPOSE 80
 
 # 6. Точка входа
