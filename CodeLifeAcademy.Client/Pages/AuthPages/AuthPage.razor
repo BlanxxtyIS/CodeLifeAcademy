@@ -4,25 +4,73 @@
 
 <PageTitle>Авторизация</PageTitle>
 
-<h3>Авторизация</h3>
+<h3>@_title</h3>
 
-<fieldset>
-    <legend>Вход в систему</legend>
-    <label>Username:<br />
-        <input type="text" name="email" @bind="_username"/>
-    </label>
-    <br />
+<label>
+    <input type="checkbox" @bind="AuthenticationOrRegister" />
+    @_buttonText
+</label>
 
-    <label>Пароль:<br/>
-        <input type="password" name="password" @bind="_password"/>
-    </label>
+@if (_authenticationOrRegister) {
+    <fieldset>
+        <legend>Регистрация</legend>
+        <label>
+            Username:<br />
+            <input type="text" name="Username" @bind=_username />
+        </label>
+        <br />
 
-    <p>@_errorText</p>
+        <label>
+            Email:<br />
+            <input type="text" name="Email" @bind=_email />
+        </label>
+        <br />
 
-    <button type="submit" @onclick=@(async() => Enter())>Войти</button>
-</fieldset>
+        <label>
+            Password:<br />
+            <input type="password" name="Password" @bind=_password />
+        </label>
+        <br />
 
+        <p>@_errorText</p>
+
+        <button type="submit" @onclick=@(async() => Register())>Регистрация</button>
+    </fieldset>
+} else {
+    <fieldset>
+        <legend>Вход в систему</legend>
+        <label>
+            Username:<br />
+            <input type="text" name="email" @bind="_username" />
+        </label>
+        <br />
+
+        <label>
+            Пароль:<br />
+            <input type="password" name="password" @bind="_password" />
+        </label>
+
+        <p>@_errorText</p>
+
+        <button type="submit" @onclick=@(async() => Enter())>Войти</button>
+    </fieldset>
+}
 @code {
+    private string _buttonText = "Регистрация";
+    private string _title = "Вход в систему";
+    private bool _authenticationOrRegister;
+    private bool AuthenticationOrRegister
+    {
+        get => _authenticationOrRegister;
+        set
+        {
+            _authenticationOrRegister = value;
+            _title = value ? "Регистрация" : "Вход в систему";
+            _buttonText = value ? "Вход в систему" : "Регистрация";
+            _errorText = null;
+        }
+    }
+    private string? _email;
     private string? _username;
     private string? _password;
     private string? _errorText;
@@ -52,6 +100,42 @@
             {
                 var message = await response.Content.ReadAsStringAsync();
                 _errorText = $"Ошибка регистрации: {message}";
+            }
+        }
+        catch (Exception ex)
+        {
+            _errorText = $"Ошибка: {ex.Message}";
+        }
+    }
+
+    private async Task Register()
+    {
+        if (string.IsNullOrEmpty(_username) || string.IsNullOrEmpty(_email) ||
+            string.IsNullOrEmpty(_password))
+        {
+            _errorText = "Заполните все поля!";
+            return;
+        }
+
+        var registerUser = new RegisterUserDto
+            {
+                Username = _username,
+                Email = _email,
+                Password = _password
+            };
+
+        try
+        {
+            var response = await _http.PostAsJsonAsync("/api/auth/register", registerUser);
+
+            if (response.IsSuccessStatusCode)
+            {
+                _errorText = null;
+                _navManager.NavigateTo("/authentication");
+            }
+            else
+            {
+                _errorText = $"Ошибка регистрации: {response.StatusCode}";
             }
         }
         catch (Exception ex)

@@ -1,23 +1,11 @@
-﻿<div>
-    <img src="@Course.Image" alt="@Course.Title" width="700" height="100"/>
-    <div>
-        <h5>@Course.Title</h5>
-        <h6>
-            <span></span>
-        </h6>
-        <div>
-            <span>
-                <span></span>
-                @Course.TimeFormatted
-            </span>
-            <span>
-                <span></span>
-                @Course.Progress %
-            </span>
-        </div>
-        <button class="button-question" @onclick="@(async () => await OnSelected.InvokeAsync())">
-        </button>
+﻿<div class="card">
+    <div class="card-details">
+        <h3>@Course.Title</h3>
+        <p>@Course.Description</p>
     </div>
+    <button class="card-button" @onclick="@(async () => await OnSelected.InvokeAsync())">
+        Изучить
+    </button>
 </div>
 
 @code {

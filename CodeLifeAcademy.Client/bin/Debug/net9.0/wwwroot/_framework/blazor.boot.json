@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CodeLifeAcademy.Client",
   "resources": {
-    "hash": "sha256-uAMYVJ35gqMaoOSDK3J374zKIwl0WdCw/coTmt+SvDU=",
+    "hash": "sha256-YkEi2WF56oFQ4MHUI1ElLZhiHRX295P7HuQoVw76PVY=",
     "fingerprinting": {
       "FluentValidation.fvee6lf8f0.wasm": "FluentValidation.wasm",
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -24,9 +24,9 @@
       "Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm": "Microsoft.AspNetCore.SignalR.Client.Core.wasm",
       "Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm": "Microsoft.AspNetCore.SignalR.Common.wasm",
       "Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm": "Microsoft.AspNetCore.SignalR.Protocols.Json.wasm",
-      "Microsoft.Extensions.Configuration.ic45gpxjv4.wasm": "Microsoft.Extensions.Configuration.wasm",
-      "Microsoft.Extensions.Configuration.Abstractions.pvxa4wu5tg.wasm": "Microsoft.Extensions.Configuration.Abstractions.wasm",
-      "Microsoft.Extensions.Configuration.Binder.7aji9488co.wasm": "Microsoft.Extensions.Configuration.Binder.wasm",
+      "Microsoft.Extensions.Configuration.8aq32nyru9.wasm": "Microsoft.Extensions.Configuration.wasm",
+      "Microsoft.Extensions.Configuration.Abstractions.avw86po9nh.wasm": "Microsoft.Extensions.Configuration.Abstractions.wasm",
+      "Microsoft.Extensions.Configuration.Binder.ls8wraf4rs.wasm": "Microsoft.Extensions.Configuration.Binder.wasm",
       "Microsoft.Extensions.Configuration.FileExtensions.42czujeagm.wasm": "Microsoft.Extensions.Configuration.FileExtensions.wasm",
       "Microsoft.Extensions.Configuration.Json.5osbqvurog.wasm": "Microsoft.Extensions.Configuration.Json.wasm",
       "Microsoft.Extensions.DependencyInjection.hpstk8kub5.wasm": "Microsoft.Extensions.DependencyInjection.wasm",
@@ -34,7 +34,7 @@
       "Microsoft.Extensions.Diagnostics.uwkkfuzktm.wasm": "Microsoft.Extensions.Diagnostics.wasm",
       "Microsoft.Extensions.Diagnostics.Abstractions.c9bmyvcsky.wasm": "Microsoft.Extensions.Diagnostics.Abstractions.wasm",
       "Microsoft.Extensions.Features.qc4oop4dbt.wasm": "Microsoft.Extensions.Features.wasm",
-      "Microsoft.Extensions.FileProviders.Abstractions.4ewk3ipqll.wasm": "Microsoft.Extensions.FileProviders.Abstractions.wasm",
+      "Microsoft.Extensions.FileProviders.Abstractions.tkb8mck29g.wasm": "Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "Microsoft.Extensions.FileProviders.Physical.qnaw45f7ij.wasm": "Microsoft.Extensions.FileProviders.Physical.wasm",
       "Microsoft.Extensions.FileSystemGlobbing.q5if44af42.wasm": "Microsoft.Extensions.FileSystemGlobbing.wasm",
       "Microsoft.Extensions.Hosting.Abstractions.vaiwtrip20.wasm": "Microsoft.Extensions.Hosting.Abstractions.wasm",
@@ -225,12 +225,12 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "CodeLifeAcademy.Application.zbp8djr3k4.wasm": "CodeLifeAcademy.Application.wasm",
-      "CodeLifeAcademy.Core.znksle99z2.wasm": "CodeLifeAcademy.Core.wasm",
-      "CodeLifeAcademy.Application.hqid9amr3x.pdb": "CodeLifeAcademy.Application.pdb",
-      "CodeLifeAcademy.Core.w0fp89uwei.pdb": "CodeLifeAcademy.Core.pdb",
-      "CodeLifeAcademy.Client.6r2set0vw9.wasm": "CodeLifeAcademy.Client.wasm",
-      "CodeLifeAcademy.Client.t5kafi6o2u.pdb": "CodeLifeAcademy.Client.pdb"
+      "CodeLifeAcademy.Application.nebcg61inf.wasm": "CodeLifeAcademy.Application.wasm",
+      "CodeLifeAcademy.Core.gf83s48t61.wasm": "CodeLifeAcademy.Core.wasm",
+      "CodeLifeAcademy.Application.ju95y4ek78.pdb": "CodeLifeAcademy.Application.pdb",
+      "CodeLifeAcademy.Core.avr7gks0gp.pdb": "CodeLifeAcademy.Core.pdb",
+      "CodeLifeAcademy.Client.qzf1vyke7l.wasm": "CodeLifeAcademy.Client.wasm",
+      "CodeLifeAcademy.Client.n8o7270j8z.pdb": "CodeLifeAcademy.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -272,9 +272,9 @@
       "Microsoft.AspNetCore.SignalR.Client.Core.9nvj6skbhu.wasm": "sha256-CyPLwF65IsaNbt1VudE8ndMn0HvTG9TpVKlh1mXPaoc=",
       "Microsoft.AspNetCore.SignalR.Common.fu6pvv9aaf.wasm": "sha256-51ki+h0FEX5KFkjVF63cTl8Rz1/N8zonD9jkbhIU4eQ=",
       "Microsoft.AspNetCore.SignalR.Protocols.Json.dh0x4273ng.wasm": "sha256-sXyO5WCauHwBiyDSuzj9znmIIXVvgDspK/uicx7F4HI=",
-      "Microsoft.Extensions.Configuration.ic45gpxjv4.wasm": "sha256-vnaZO3xnaFa9759X1ZOnVpCWKAwE9Xs9dd2r08xExUc=",
-      "Microsoft.Extensions.Configuration.Abstractions.pvxa4wu5tg.wasm": "sha256-Be4qQkqKq9ZefQTu5oOnkHxOzbKy0D4XKHTLiRLKG5E=",
-      "Microsoft.Extensions.Configuration.Binder.7aji9488co.wasm": "sha256-4RQ7sYEkVFXEnO+v2ac+6ZYVKmCX/GMj2TMs42QvkbA=",
+      "Microsoft.Extensions.Configuration.8aq32nyru9.wasm": "sha256-MHoSC8gnZ0nA1bVW091JRZr/s2NYEDI8VN8URMn7l1A=",
+      "Microsoft.Extensions.Configuration.Abstractions.avw86po9nh.wasm": "sha256-mh2B1gZ/I/aYfwOasdEe8ZDqDumYuSAf16lKpo7O9Cc=",
+      "Microsoft.Extensions.Configuration.Binder.ls8wraf4rs.wasm": "sha256-e7iUAwUzfveYLikEwhIr5W4bq6oZF1dfz3PGtP2cZSQ=",
       "Microsoft.Extensions.Configuration.FileExtensions.42czujeagm.wasm": "sha256-zJFN2zPVrAdlNGE4KvSGiLAHA104ztoLn0uUA3H1qhE=",
       "Microsoft.Extensions.Configuration.Json.5osbqvurog.wasm": "sha256-5TvpNHL/IqovZnXYmUxCSVWMgft6GMyuSEDiinnaGUI=",
       "Microsoft.Extensions.DependencyInjection.hpstk8kub5.wasm": "sha256-a1XNvsqstcjxdiOZ9hMAVw1tDm61bzzn67tAES/BnT8=",
@@ -282,7 +282,7 @@
       "Microsoft.Extensions.Diagnostics.uwkkfuzktm.wasm": "sha256-IoLwBSPt+bWr4eGsg2DsqsYvvc8BzTBGq50pfg/u2KE=",
       "Microsoft.Extensions.Diagnostics.Abstractions.c9bmyvcsky.wasm": "sha256-gOAgDZqFIP4yzKNPRiHDHY+1bIVn6KmMs7z9TdlGA90=",
       "Microsoft.Extensions.Features.qc4oop4dbt.wasm": "sha256-9jcJ5YhHjWWROwOBppbPdES6uZyOR/uVA5jGZm3BsN4=",
-      "Microsoft.Extensions.FileProviders.Abstractions.4ewk3ipqll.wasm": "sha256-/FsPVHT/gqsYED9DQNPCtnqnJ6AEIo1Zo8wglXIiji0=",
+      "Microsoft.Extensions.FileProviders.Abstractions.tkb8mck29g.wasm": "sha256-nTJ88hYJ/ThYNnUC4LSoVq+84xHFBaK38rUvBgd2Qqw=",
       "Microsoft.Extensions.FileProviders.Physical.qnaw45f7ij.wasm": "sha256-CppJFrBtxPacr6ynl4+uMj6BHjjS6mGJH5dxN9PVxeY=",
       "Microsoft.Extensions.FileSystemGlobbing.q5if44af42.wasm": "sha256-rn1kOaNzJs0PQXRilQjYtvfwBN43zrliuDrnW/NL7n8=",
       "Microsoft.Extensions.Hosting.Abstractions.vaiwtrip20.wasm": "sha256-WfLcb1dE6bnKpg0BEYkeAVUzKbVVsOAPVubwf/fBqsY=",
@@ -464,14 +464,14 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "CodeLifeAcademy.Application.zbp8djr3k4.wasm": "sha256-P/vixzrUl+d4bpYVsGEBeGZkC4/x/QTcXNStC7Czo0I=",
-      "CodeLifeAcademy.Core.znksle99z2.wasm": "sha256-Yavp//jD1AWzQjdV3RZfni5+N3L7GjMzRPlqKrZiXoM=",
-      "CodeLifeAcademy.Client.6r2set0vw9.wasm": "sha256-DuFyo16DF2abSJZLnBMLGzpL7NOfAnAg1LuUuw5HkR4="
+      "CodeLifeAcademy.Application.nebcg61inf.wasm": "sha256-QcO64diFpX7yhx/ZYvgU3aaHs2BfamL6OO2bXDn0dhg=",
+      "CodeLifeAcademy.Core.gf83s48t61.wasm": "sha256-bDk6CO0ST/JtINccD+RehyvbQhDy3XH8J9gq1QlnR/Q=",
+      "CodeLifeAcademy.Client.qzf1vyke7l.wasm": "sha256-yvEagUwaPois2wKuKQsRXgu0U5aWT9ylZIpp/UiNnRo="
     },
     "pdb": {
-      "CodeLifeAcademy.Application.hqid9amr3x.pdb": "sha256-GdFNSSoZCos1LaCoStqYJggJIhK2+psQ190+eMaqe30=",
-      "CodeLifeAcademy.Core.w0fp89uwei.pdb": "sha256-UMRgn0Ufh+QEh+ppsf+3uj+38/kZhCv5ShaYA8zfxC4=",
-      "CodeLifeAcademy.Client.t5kafi6o2u.pdb": "sha256-byR+calDt0uUTltw9BmDKflzZpG2O9jTqIiP8EcDefU="
+      "CodeLifeAcademy.Application.ju95y4ek78.pdb": "sha256-5WwzQyHrWzDRgMrXqbKB1eu6OKY2PWghuM6CX7vYpew=",
+      "CodeLifeAcademy.Core.avr7gks0gp.pdb": "sha256-KtfhaAdLC+7H9Xb3T7+JIK6c0UftMk/tzQuXzZL3VA8=",
+      "CodeLifeAcademy.Client.n8o7270j8z.pdb": "sha256-iQvKshcw9ebIRmNprd1I60Z0YtdmUt0JZrpbM+ikgPk="
     }
   },
   "cacheBootResources": true,

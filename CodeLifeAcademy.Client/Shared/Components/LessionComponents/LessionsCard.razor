@@ -1,10 +1,13 @@
 ﻿@inject NavigationManager _navManager
 
 <div class="container-topic">
-    <div class="palette">
-        @foreach (var lession in Lessions) {
-            <div class="color">
-                <button class="button-question" @onclick="() => GoToLession(lession.Id)">@lession.Title</button>
+    <div class="lesson-row">
+        @foreach (var lession in Lessions)
+        {
+            <div>
+                <button class="button-question" @onclick="() => GoToLession(lession.Id)">
+                    @lession.Title
+                </button>
             </div>
         }
     </div>

@@ -28,6 +28,7 @@ public class TopicsController: ControllerBase
         try
         {
             var topics = await _context.Topics
+                .Include(t => t.Course)
                 .OrderBy(l => l.Order)
                 .ToListAsync();
 

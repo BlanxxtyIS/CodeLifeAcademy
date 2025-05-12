@@ -266,3 +266,70 @@ tr.hover {
     .topic-card:hover {
         transform: translateY(-3px);
     }
+
+
+/* Course Card */
+/* From Uiverse.io by alexruix */
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 10px;
+    background: #3C3A61;
+    position: relative;
+    padding: 0.9rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    text-overflow: ellipsis;
+    overflow: visible;
+}
+
+.card-details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    word-wrap: break-word;
+    max-height: 210px;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+}
+
+    /* Для Chrome, Safari и Edge */
+    .card-details::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+.card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #EDEDED;
+    color: #3C3A61;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+/*Hover*/
+.card:hover {
+    border-color: #B892FF;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+    .card:hover .card-button {
+        transform: translate(-50%, 50%);
+        opacity: 1;
+    }
+
+.lesson-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* расстояние между уроками */
+    flex-wrap: wrap; /* если хочешь перенос на новую строку */
+}

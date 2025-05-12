@@ -1,4 +1,4 @@
-﻿@page "/topicsPage"
+﻿@page "/topicsPage/{courseId:guid}"
 @inject HttpClient _http
 @inject NotificationService NotificationService
 
@@ -26,13 +26,17 @@
             }
         </Authorized>
         <NotAuthorized>
-            <p>Ну ка брысь!</p>
+            <p>Поажуйлста авторизуйтесь🔐</p>
         </NotAuthorized>
     </AuthorizeView>
 </div>
 
 @code {
+    [Parameter]
+    public Guid courseId { get; set; }
+
     private IEnumerable<Topic>? _topics;
+    private string? _courseTitle;
 
     protected override async Task OnInitializedAsync() {
         try {
@@ -52,6 +56,10 @@
         try
         {
             _topics = await _http.GetFromJsonAsync<IEnumerable<Topic>>("/topics");
+            Console.WriteLine($"МАРААААААААААТ - {_topics.Count()}");
+            _topics = _topics?.Where(t => t.CourseId == courseId).ToList();
+            Console.WriteLine($"22222МАРААААААТ - {_topics.Count()}");
+            _courseTitle = _topics?.FirstOrDefault()?.Course.Title;
         } catch {
             _topics = null;
         }

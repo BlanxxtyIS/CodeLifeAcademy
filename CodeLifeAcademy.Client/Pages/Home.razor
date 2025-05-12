@@ -12,17 +12,16 @@
     } else if (_courses is null) {
         <p>Загрузка страницы</p>
     }
-    else {
-        <p>Курсы не найдены</p>
-    }
 
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
         @if (_courses is not null)
         {
             @foreach (var course in _courses)
             {
-                <CourseCard Course="course" OnSelected="HandleCourseSelected" />
+                <CourseCard Course="course" OnSelected="() => HandleCourseSelected(course.Id)" />
             }
+        } else {
+            <p>Курсы не найдены</p>
         }
     </div>
 </div>
@@ -40,13 +39,13 @@
         }
         catch (HttpRequestException ex)
         {
-            _errorMessage = "Ошибка при загрузке курсов. Пожалуйста, обратитесь к администратору и попробуйте позже.";
+            _errorMessage = $"Ошибка при загрузке курсов. Пожалуйста, обратитесь к администратору и попробуйте позже: {ex}";
         }
         catch (Exception ex) {
-            _errorMessage = "Неизвестная ошибка. Обратитесь к администратору.";
+            _errorMessage = $"Неизвестная ошибка. Обратитесь к администратору: {ex}";
         }
     }
 
-    private void HandleCourseSelected() =>
-        _navManager.NavigateTo("/topicsPage");
+    private void HandleCourseSelected(Guid courseId) =>
+        _navManager.NavigateTo($"/topicsPage/{courseId}");
 }
