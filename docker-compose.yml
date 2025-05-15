@@ -4,11 +4,13 @@ services:
       context: .
       dockerfile: CodeLifeAcademy.API/Dockerfile
     expose:
-      - "80"
+      - "5000"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000     
       - VIRTUAL_HOST=codelifeacademy.ru,www.codelifeacademy.ru
       - LETSENCRYPT_HOST=codelifeacademy.ru,www.codelifeacademy.ru
+      - VIRTUAL_PORT=5000                 
     depends_on:
       - db
     networks:
