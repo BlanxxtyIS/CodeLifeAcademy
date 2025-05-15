@@ -2,8 +2,6 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\ww
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Application.ju95y4ek78.pdb
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Application.nebcg61inf.wasm
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.n8o7270j8z.pdb
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.qzf1vyke7l.wasm
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Core.avr7gks0gp.pdb
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Core.gf83s48t61.wasm
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js
@@ -246,7 +244,6 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\ww
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.w67sd2c79u.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Tasks.ol0drhql6s.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Linq.Parallel.vgj4j8dch1.wasm.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.n8o7270j8z.pdb.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.ServerSentEvents.9z7i1rzsd8.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Encoding.hzdpp8627g.wasm.gz
@@ -451,7 +448,6 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\ww
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.Contracts.quji8k4kvv.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.tkb8mck29g.wasm.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.qzf1vyke7l.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XmlSerializer.bq97vodilp.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Logging.4of5ydne24.wasm.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Principal.Windows.x9ozykue0h.wasm.gz
@@ -924,7 +920,6 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\sc
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\scopedcss\projectbundle\CodeLifeAcademy.Client.bundle.scp.css
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\blazor.build.boot-extension.json
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\blazor.boot.json
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\wbjtmleeoe-a898j0lm7q.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\yuryze7fte-ami9t9wh15.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\t82med0uo3-hbf3x6ybqu.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\ttk3afkjbf-1xgucktvmv.gz
@@ -1204,9 +1199,6 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\co
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\m9k12dbkc8-gf83s48t61.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\4lvf2uyhz6-ju95y4ek78.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\j2cb18rykh-avr7gks0gp.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-qzf1vyke7l.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-n8o7270j8z.gz
-C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-ac7xb0fzyf.gz
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1222,3 +1214,11 @@ C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\Co
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\refint\CodeLifeAcademy.Client.dll
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\CodeLifeAcademy.Client.pdb
 C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\ref\CodeLifeAcademy.Client.dll
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.sjtit5l8jd.pdb
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.mb529wvz4q.wasm
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.sjtit5l8jd.pdb.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\bin\Debug\net9.0\wwwroot\_framework\CodeLifeAcademy.Client.mb529wvz4q.wasm.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\wbjtmleeoe-7hj3mt18ln.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\y999ct5cwl-mb529wvz4q.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2jarlgbr1y-sjtit5l8jd.gz
+C:\Users\Zver\Desktop\CodeLifeAcademy\CodeLifeAcademy.Client\obj\Debug\net9.0\compressed\2vl2b6nf4q-xc5f8xlo85.gz
