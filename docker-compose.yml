@@ -7,9 +7,8 @@ services:
       - "80" 
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - VIRTUAL_HOST=codelifeacademy.ru
-      - LETSENCRYPT_HOST=codelifeacademy.ru
-      - LETSENCRYPT_EMAIL=mvtvr21@yandex.ru
+      - VIRTUAL_HOST=codelifeacademy.ru,www.codelifeacademy.ru
+      - LETSENCRYPT_HOST=codelifeacademy.ru,www.codelifeacademy.ru
     depends_on:
       - db
     networks:
