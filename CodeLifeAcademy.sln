@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLifeAcademy.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLifeAcademy.Client", "CodeLifeAcademy.Client\CodeLifeAcademy.Client.csproj", "{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{47F92266-36AF-475A-9B48-9050EAA30380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CDCCC2B-3DBB-48A3-B24A-A282A74557F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F92266-36AF-475A-9B48-9050EAA30380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F92266-36AF-475A-9B48-9050EAA30380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F92266-36AF-475A-9B48-9050EAA30380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F92266-36AF-475A-9B48-9050EAA30380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
